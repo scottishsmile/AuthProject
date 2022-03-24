@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "Admin Index Page";
+}
+
+<div class="index-text-center">
+    <h1 class="main-h1">Welcome</h1>
+    <p class="main-p">To The Control Centre</p>
+</div>
+<div class="MainGrid">
+    <div class="Green-item">@Html.ActionLink("Users Table", "GetAllPaged")</div>
+    <div class="Green-item">@Html.ActionLink("User Search", "UserSearch")</div>
+    <div class="Green-item">@Html.ActionLink("Add New User", "AddUser")</div>
+</div>
+<div class="MainGrid">
+    <div class="Red-item">...Test...</div>
+    <div class="Red-item">...Test...</div>
+    <div class="Red-item">...Test...</div>
+</div>
+

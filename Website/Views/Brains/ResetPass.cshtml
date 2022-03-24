@@ -1,0 +1,39 @@
+﻿@model Website.Models.ResetPassModel
+
+@{
+    Layout = null;
+    ViewData["Title"] = "ResetPass";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"]</title>
+        <link rel="stylesheet" href="~/css/site.css" />
+    </head>
+    <body>
+        <div id="resetpassform" class="form" runat="server">
+            <div class="text-center">
+                <h1 class="main-h1">Change Your Password</h1>
+                <p>Your password MUST be at least 8 characters</p>
+                <p>It must include Uppercase, lowercase, a number and a special character.</p>
+            </div>
+            <form asp-controller="Brains" asp-action="ResetPassButton" method="post">
+                @Html.AntiForgeryToken()
+                <ul>
+                    <li>Password: <input asp-for="NewPassword1" type="password" placeholder="Password" value="" /></li>
+                    <li>Confirm Password: <input asp-for="NewPassword2" type="password" placeholder="Type it again" value="" /></li>
+                    @Html.Hidden("FormId", Model.Id)
+                    @Html.Hidden("FormToken", Model.Token)
+                </ul>
+                <button class="btn" type="submit">Update</button>
+            </form>
+        </div>
+        <div id="errormsg" class="errormsg">
+            <p>@ViewBag.errorMsg</p>
+            <p>@TempData["errorMsg"]</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+﻿@model Website.Dtos.Users.GetPagedUserDto
+
+@{
+    ViewData["Title"] = "User List";
+}
+
+<div class="table-wrapper">
+    <div class="text-center">
+        <h1 class="main-h1">All Users:</h1>
+    </div>
+
+    @using (Html.BeginForm("GetAllPaged", "Brains", FormMethod.Post))
+    {
+        <table class="fl-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Email</th>
+                    <th>Username</th>
+                    <th>Role</th>
+                    <th>Account Locked</th>
+                    <th>Last Locked</th>
+                    <th>Email Verified</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Users)
+                {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Username)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Role)</td>
+                    @if (item.AccountLocked == true)
+                    {
+                        <td>Yes</td>
+                    }
+                    else
+                    {
+                        <td>No</td>
+                    }
+                    <td>@Html.DisplayFor(modelItem => item.DateLocked)</td>
+                    @if (item.EmailVerified == true)
+                    {
+                        <td>Yes</td>
+                    }
+                    else
+                    {
+                        <td>No</td>
+                    }
+                    <td>@Html.ActionLink("Edit", "EditUser", new { id = item.Id }) | @Html.ActionLink("Delete", "DeleteUser", new { id = item.Id })</td>
+                </tr>
+                }
+                <tr>
+                    <td>
+                        <!-- Error Message -->
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    </td>
+                </tr>
+            <tbody>
+        </table>
+        <br />
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                @for (int i = 1; i <= Model.PageCount; i++)
+                {
+                    <td>
+                        @if (i != Model.CurrentPageIndex)
+                        {
+                            <a href="javascript:PagerClick(@i);">@i</a>
+                        }
+                        else
+                        {
+                            <span class="table-pages">@i </span>
+                        }
+                    </td>
+                }
+            </tr>
+        </table>
+        <input type="hidden" id="hfCurrentPageIndex" name="currentPageIndex" />
+    }
+    <br />
+    <a href='@Url.Action("Index","Brains" )' class="btn btn-css btn-getall"> < Back </a>
+</div>
+<script type="text/javascript">
+        function PagerClick(index) {
+            document.getElementById("hfCurrentPageIndex").value = index;
+            document.forms[0].submit();
+        }
+</script>

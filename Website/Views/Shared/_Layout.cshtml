@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/navbar.css" />
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="logo"><em>Admin</em> Panel</li>
+            <li class="item">@Html.ActionLink("Home", "Index")</li>
+            <li class="item">
+                <div class="dropdown">
+                    <span class="span-purple">Users</span>
+                    <div class="dropdown-content dropdown-purple">
+                        <p>@Html.ActionLink("Users Table", "GetAllPaged")</p>
+                        <p>@Html.ActionLink("User Search", "UserSearch")</p>
+                        <p>@Html.ActionLink("Add New User", "AddUser")</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item">
+                <div class="dropdown">
+                    <span class="span-yellow">TestMenu</span>
+                    <div class="dropdown-content dropdown-yellow">
+                        <a href="#"><p>Test 1</p></a>
+                        <a href="#"><p>Test 2</p></a>
+                        <a href="#"><p>Test 3</p></a>
+                    </div>
+                </div>
+            </li>
+            <li class="item button secondary">@Html.ActionLink("Log Out", "LogOutButton")</li>
+            <li class="toggle"><a href="#" id="toggleme"><img src='~/images/hamburger.png' /></a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        @RenderBody()
+    </div>
+</body>
+<footer class="border-top footer text-muted">
+    <script src="~/js/navbar.js" type="text/javascript"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</footer>
+</html>

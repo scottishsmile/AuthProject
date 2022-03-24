@@ -1,0 +1,66 @@
+﻿@model Website.Models.SearchFormModel
+
+@{
+    ViewData["Title"] = "User Search";
+}
+
+<div class="text-center">
+    <h1 class="main-h1">User Search</h1>
+</div>
+
+<div class="form searchbox">
+    <form asp-controller="Brains" asp-action="SearchByIdButton" method="post">
+        @Html.AntiForgeryToken()
+        <div class="searchbox-item"><label>ID: </label> <input asp-for="SearchId" type="number" placeholder="Id" required /></div>
+        <div class="searchbox-item"><button class="btn" type="submit">Search</button></div>
+    </form>
+</div>
+
+<div class="form searchbox">
+    <form asp-controller="Brains" asp-action="SearchByUsernameButton" method="post">
+        @Html.AntiForgeryToken()
+        <ul>
+            <li><label>Username: </label> <input asp-for="SearchUsername" type="text" placeholder="Username" required /></li>
+        </ul>
+        <button class="btn" type="submit">Search</button>
+    </form>
+</div>
+
+<div class="errormsg">
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+</div>
+
+<div id="editform" class="form" runat="server">
+    <div class="text-center">
+        <br />
+        <h1>Edit User</h1>
+    </div>
+    <form asp-controller="Brains" asp-action="SearchUpdateButton" method="post">
+        @Html.AntiForgeryToken()
+        <ul>
+            <li>ID: <input asp-for="Id" type="number" placeholder="Search To Load..." required value='@ViewData["Id"]' readonly="readonly" /></li>
+            <li>Email: <input asp-for="Email" type="text" required value='@ViewData["Email"]' /></li>
+            <li>Email verified: @Html.CheckBoxFor(model => model.EmailVerified)</li>
+            <li>Username: <input asp-for="Username" type="text" required value='@ViewData["Username"]' /></li>
+            <li>Password (Leave blank to remain unchanged): <input asp-for="Password" type="text" value="" /></li>
+            <li>Current Role: @ViewData["Role"]</li>
+            <li>
+                New Role: <select class="form-dropdown" name="Role" asp-for="Role" type="text" required>
+                    <option value="basic" selected>basic</option>
+                    <option value="premium">premium</option>
+                </select>
+            </li>
+            <li>You can unlock the account, or lock it for 1 hour.</li>
+            <li>
+                Account Locked: @Html.CheckBoxFor(model => model.AccountLocked)
+            </li>
+        </ul>
+        <button class="btn" type="submit">Update</button>
+    </form>
+    <br />
+    <a href='@Url.Action("Index","Brains" )' class="btn btn-css"> < Back </a>
+</div>
+<p></p>
+<p></p>
+<p></p>
+

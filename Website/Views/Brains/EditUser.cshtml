@@ -1,0 +1,40 @@
+﻿
+@model Website.Models.EditFormModel
+
+@{
+    ViewData["Title"] = "Edit User";
+}
+
+
+<div id="editform" class="form" runat="server">
+    <div class="text-center">
+        <h1 class="main-h1">Edit User</h1>
+    </div>
+    <form asp-controller="Brains" asp-action="UpdateButton" method="post">
+        @Html.AntiForgeryToken()
+        <ul>
+            <li>ID: <input asp-for="Id" type="number" placeholder="Id" required value='@Model.Id' readonly="readonly" /></li>
+            <li>Email: <input asp-for="Email" type="text" placeholder="Email" required value='@Model.Email' /></li>
+            <li>Email verified: @Html.CheckBoxFor(model => model.EmailVerified)</li>
+            <li>Username: <input asp-for="Username" type="text" placeholder="Username" required value='@Model.Username' /></li>
+            <li>Password (Leave blank to remain unchanged): <input asp-for="Password" type="text" placeholder="Password" value="" /></li>
+            <li>Current Role: @Model.Role</li>
+            <li>
+                New Role: <select class="form-dropdown" name="Role" asp-for="Role" type="text" required>
+                    <option value="basic" selected>basic</option>
+                    <option value="premium">premium</option>
+                </select>
+            </li>
+            <li>You can unlock the account, or lock it for 1 hour.</li>
+            <li>
+                Account Locked: @Html.CheckBoxFor(model => model.AccountLocked)
+            </li>
+        </ul>
+        <button class="btn" type="submit">Update</button>
+    </form>
+    <br />
+    <a href='@Url.Action("GetAllPaged","Brains" )' class="btn btn-css"> < Back </a>
+</div>
+<div class="errormsg">
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+</div>

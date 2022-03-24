@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+    ViewData["Title"] = "Email Not Verified";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="main-h1">Email Address Not Verified!</h1>
+        <p class="main-p">Unfortunately, we couldn't verify that email address!</p>
+        <p class="main-p">Please try the link we sent in the email again, or re-register with a different email address.</p>
+        <p class="main-p"><a href="@TempData["login_again"]">Re-Try</a></p>
+    </div>
+    <div id="errormsg" class="errormsg">
+        <p>@ViewBag.errorMsg</p>
+        <p>@TempData["errorMsg"]</p>
+    </div>
+</body>
+</html>

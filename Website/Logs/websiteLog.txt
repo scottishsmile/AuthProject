@@ -1,0 +1,2065 @@
+03/24/2022 13:04:12 - Website App Starting Up...
+03/24/2022 13:04:13 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:04:13 - Starting create-react-app server on port 55729...
+03/24/2022 13:04:13 - Now listening on: "https://localhost:44378"
+03/24/2022 13:04:13 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:04:13 - Hosting environment: "Development"
+03/24/2022 13:04:13 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website"
+03/24/2022 13:04:14 - Request starting HTTP/2 GET https://localhost:44378/ - -
+03/24/2022 13:04:14 - Executing endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:04:14 - Route matched with "{action = \"Index\", controller = \"React\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.ReactController" ("Website").
+03/24/2022 13:04:15 - Executed action "Website.Controllers.ReactController.Index (Website)" in 468.8168ms
+03/24/2022 13:04:15 - Executed endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:04:15 - HTTP "GET" "/" responded 500 in 641.3773 ms
+System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at Website.Controllers.ReactController.Index() in C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website\Controllers\ReactController.cs:line 27
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+03/24/2022 13:04:15 - An unhandled exception has occurred while executing the request.
+System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at Website.Controllers.ReactController.Index() in C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website\Controllers\ReactController.cs:line 27
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+03/24/2022 13:04:15 - Request finished HTTP/2 GET https://localhost:44378/ - - - 500 - text/html;+charset=utf-8 896.0070ms
+03/24/2022 13:04:16 - > my-app@0.1.0 start
+
+03/24/2022 13:04:16 - > react-scripts start
+
+03/24/2022 13:04:19 - (node:18592) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:04:19 - (Use `node --trace-deprecation ...` to show where the warning was created)
+
+03/24/2022 13:04:19 - (node:18592) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:04:21 - Starting the development server...
+
+03/24/2022 13:04:26 - ^C^C
+03/24/2022 13:09:23 - Website App Starting Up...
+03/24/2022 13:09:24 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:09:24 - Starting create-react-app server on port 55751...
+03/24/2022 13:09:24 - Now listening on: "https://localhost:44378"
+03/24/2022 13:09:24 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:09:24 - Hosting environment: "Development"
+03/24/2022 13:09:24 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website"
+03/24/2022 13:09:25 - Request starting HTTP/2 GET https://localhost:44378/ - -
+03/24/2022 13:09:25 - Executing endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:09:25 - Route matched with "{action = \"Index\", controller = \"React\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.ReactController" ("Website").
+03/24/2022 13:09:25 - Executed action "Website.Controllers.ReactController.Index (Website)" in 150.5119ms
+03/24/2022 13:09:25 - Executed endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:09:25 - HTTP "GET" "/" responded 500 in 296.3115 ms
+System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at Website.Controllers.ReactController.Index() in C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website\Controllers\ReactController.cs:line 27
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+03/24/2022 13:09:26 - An unhandled exception has occurred while executing the request.
+System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at Website.Controllers.ReactController.Index() in C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website\Controllers\ReactController.cs:line 27
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+03/24/2022 13:09:26 - Request finished HTTP/2 GET https://localhost:44378/ - - - 500 - text/html;+charset=utf-8 468.9658ms
+03/24/2022 13:09:26 - > my-app@0.1.0 start
+
+03/24/2022 13:09:26 - > react-scripts start
+
+03/24/2022 13:09:29 - (node:12860) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:09:29 - (Use `node --trace-deprecation ...` to show where the warning was created)
+
+03/24/2022 13:09:29 - (node:12860) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:09:31 - Starting the development server...
+
+03/24/2022 13:09:42 - Compiled successfully!
+
+03/24/2022 13:09:42 - You can now view my-app in the browser.
+
+03/24/2022 13:09:42 -   Local:            http://localhost:55751
+
+03/24/2022 13:09:42 -   On Your Network:  http://172.24.128.1:55751
+
+03/24/2022 13:09:42 - Note that the development build is not optimized.
+
+03/24/2022 13:09:42 - To create a production build, use yarn build.
+
+03/24/2022 13:09:42 - asset static/js/bundle.js 2.71 MiB [emitted] (name: main) 1 related asset
+
+03/24/2022 13:09:42 - asset index.html 1.67 KiB [emitted]
+
+03/24/2022 13:09:42 - asset asset-manifest.json 190 bytes [emitted]
+
+03/24/2022 13:09:42 - runtime modules 28.1 KiB 13 modules
+
+03/24/2022 13:09:42 - modules by path ./node_modules/ 2.35 MiB 133 modules
+
+03/24/2022 13:09:42 - modules by path ./src/ 114 KiB
+
+03/24/2022 13:09:42 -   modules by path ./src/components/ 78.5 KiB
+
+03/24/2022 13:09:42 -     modules by path ./src/components/*.js 72 KiB 11 modules
+
+03/24/2022 13:09:42 -     + 2 modules
+
+03/24/2022 13:09:42 -   modules by path ./src/*.css 14.6 KiB
+
+03/24/2022 13:09:42 -     ./src/index.css 2.72 KiB [built] [code generated]
+
+03/24/2022 13:09:42 -     + 3 modules
+
+03/24/2022 13:09:42 -   modules by path ./src/*.js 14.5 KiB
+
+03/24/2022 13:09:42 -     ./src/index.js 2.36 KiB [built] [code generated]
+
+03/24/2022 13:09:42 -     + 2 modules
+
+03/24/2022 13:09:42 -   ./src/context/AuthProvider.js 2.64 KiB [built] [code generated]
+
+03/24/2022 13:09:42 -   ./src/hooks/useAuth.js 1.38 KiB [built] [code generated]
+
+03/24/2022 13:09:42 -   ./src/Validation/Validation.js 2.19 KiB [built] [code generated]
+
+03/24/2022 13:09:42 - webpack 5.68.0 compiled successfully in 12529 ms
+
+03/24/2022 13:10:17 - ^C^C
+03/24/2022 13:12:34 - Website App Starting Up...
+03/24/2022 13:12:35 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:12:35 - Starting create-react-app server on port 55828...
+03/24/2022 13:12:35 - Now listening on: "https://localhost:44378"
+03/24/2022 13:12:35 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:12:35 - Hosting environment: "Development"
+03/24/2022 13:12:35 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website"
+03/24/2022 13:12:36 - Request starting HTTP/2 GET https://localhost:44378/ - -
+03/24/2022 13:12:36 - Executing endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:12:36 - Route matched with "{action = \"Index\", controller = \"React\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.ReactController" ("Website").
+03/24/2022 13:12:36 - Executed action "Website.Controllers.ReactController.Index (Website)" in 154.1151ms
+03/24/2022 13:12:36 - Executed endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:12:36 - HTTP "GET" "/" responded 500 in 294.8087 ms
+System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at Website.Controllers.ReactController.Index() in C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website\Controllers\ReactController.cs:line 27
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+03/24/2022 13:12:36 - An unhandled exception has occurred while executing the request.
+System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at Website.Controllers.ReactController.Index() in C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website\Controllers\ReactController.cs:line 27
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+03/24/2022 13:12:36 - Request finished HTTP/2 GET https://localhost:44378/ - - - 500 - text/html;+charset=utf-8 464.1132ms
+03/24/2022 13:12:37 - > my-app@0.1.0 start
+
+03/24/2022 13:12:37 - > react-scripts start
+
+03/24/2022 13:12:40 - (node:13368) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:12:40 - (Use `node --trace-deprecation ...` to show where the warning was created)
+
+03/24/2022 13:12:40 - (node:13368) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:12:41 - Starting the development server...
+
+03/24/2022 13:12:42 - Compiled successfully!
+
+03/24/2022 13:12:42 - You can now view my-app in the browser.
+
+03/24/2022 13:12:42 -   Local:            http://localhost:55828
+
+03/24/2022 13:12:42 -   On Your Network:  http://172.24.128.1:55828
+
+03/24/2022 13:12:42 - Note that the development build is not optimized.
+
+03/24/2022 13:12:42 - To create a production build, use yarn build.
+
+03/24/2022 13:12:42 - asset static/js/bundle.js 2.71 MiB [emitted] (name: main) 1 related asset
+
+03/24/2022 13:12:42 - asset index.html 1.67 KiB [emitted]
+
+03/24/2022 13:12:42 - asset asset-manifest.json 190 bytes [emitted]
+
+03/24/2022 13:12:42 - cached modules 2.45 MiB [cached] 155 modules
+
+03/24/2022 13:12:42 - runtime modules 28.1 KiB 13 modules
+
+03/24/2022 13:12:42 - ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=55828&pathname=%2Fws&logging=none&reconnect=10 6.59 KiB [built] [code generated]
+
+03/24/2022 13:12:42 - webpack 5.68.0 compiled successfully in 2174 ms
+
+03/24/2022 13:13:09 - ^C^C
+03/24/2022 13:16:32 - Website App Starting Up...
+03/24/2022 13:16:33 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:16:33 - Starting create-react-app server on port 55849...
+03/24/2022 13:16:33 - Now listening on: "https://localhost:44378"
+03/24/2022 13:16:33 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:16:33 - Hosting environment: "Development"
+03/24/2022 13:16:33 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website"
+03/24/2022 13:16:34 - Request starting HTTP/2 GET https://localhost:44378/ - -
+03/24/2022 13:16:34 - Executing endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:16:34 - Route matched with "{action = \"Index\", controller = \"React\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.ReactController" ("Website").
+03/24/2022 13:16:34 - URL string is: 
+03/24/2022 13:16:34 - Executed action "Website.Controllers.ReactController.Index (Website)" in 154.1339ms
+03/24/2022 13:16:34 - Executed endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:16:34 - HTTP "GET" "/" responded 500 in 307.5160 ms
+System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at Website.Controllers.ReactController.Index() in C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website\Controllers\ReactController.cs:line 31
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+03/24/2022 13:16:34 - An unhandled exception has occurred while executing the request.
+System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at Website.Controllers.ReactController.Index() in C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website\Controllers\ReactController.cs:line 31
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+03/24/2022 13:16:34 - Request finished HTTP/2 GET https://localhost:44378/ - - - 500 - text/html;+charset=utf-8 476.2899ms
+03/24/2022 13:16:35 - > my-app@0.1.0 start
+
+03/24/2022 13:16:35 - > react-scripts start
+
+03/24/2022 13:16:38 - (node:14084) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:16:38 - (Use `node --trace-deprecation ...` to show where the warning was created)
+
+03/24/2022 13:16:38 - (node:14084) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:16:40 - Starting the development server...
+
+03/24/2022 13:16:41 - Compiled successfully!
+
+03/24/2022 13:16:41 - You can now view my-app in the browser.
+
+03/24/2022 13:16:41 -   Local:            http://localhost:55849
+
+03/24/2022 13:16:41 -   On Your Network:  http://172.24.128.1:55849
+
+03/24/2022 13:16:41 - Note that the development build is not optimized.
+
+03/24/2022 13:16:41 - To create a production build, use yarn build.
+
+03/24/2022 13:16:41 - asset static/js/bundle.js 2.71 MiB [emitted] (name: main) 1 related asset
+
+03/24/2022 13:16:41 - asset index.html 1.67 KiB [emitted]
+
+03/24/2022 13:16:41 - asset asset-manifest.json 190 bytes [emitted]
+
+03/24/2022 13:16:41 - cached modules 2.45 MiB [cached] 155 modules
+
+03/24/2022 13:16:41 - runtime modules 28.1 KiB 13 modules
+
+03/24/2022 13:16:41 - ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=55849&pathname=%2Fws&logging=none&reconnect=10 6.59 KiB [built] [code generated]
+
+03/24/2022 13:16:41 - webpack 5.68.0 compiled successfully in 2089 ms
+
+03/24/2022 13:18:34 - Website App Starting Up...
+03/24/2022 13:18:35 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:18:35 - Starting create-react-app server on port 55860...
+03/24/2022 13:18:36 - Now listening on: "https://localhost:44378"
+03/24/2022 13:18:36 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:18:36 - Hosting environment: "Development"
+03/24/2022 13:18:36 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website"
+03/24/2022 13:18:36 - Request starting HTTP/2 GET https://localhost:44378/ - -
+03/24/2022 13:18:36 - Executing endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:18:36 - Route matched with "{action = \"Index\", controller = \"React\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.ReactController" ("Website").
+03/24/2022 13:18:36 - URL string is: 
+03/24/2022 13:18:36 - Executed action "Website.Controllers.ReactController.Index (Website)" in 154.5745ms
+03/24/2022 13:18:36 - Executed endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:18:36 - HTTP "GET" "/" responded 500 in 301.6399 ms
+System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at Website.Controllers.ReactController.Index() in C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website\Controllers\ReactController.cs:line 31
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+03/24/2022 13:18:37 - An unhandled exception has occurred while executing the request.
+System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at Website.Controllers.ReactController.Index() in C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website\Controllers\ReactController.cs:line 31
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+03/24/2022 13:18:37 - Request finished HTTP/2 GET https://localhost:44378/ - - - 500 - text/html;+charset=utf-8 476.3798ms
+03/24/2022 13:18:37 - > my-app@0.1.0 start
+
+03/24/2022 13:18:37 - > react-scripts start
+
+03/24/2022 13:18:39 - ^C^C
+03/24/2022 13:22:26 - Website App Starting Up...
+03/24/2022 13:22:27 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:22:27 - Starting create-react-app server on port 55938...
+03/24/2022 13:22:27 - Now listening on: "https://localhost:44378"
+03/24/2022 13:22:27 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:22:27 - Hosting environment: "Development"
+03/24/2022 13:22:27 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website"
+03/24/2022 13:22:28 - Request starting HTTP/2 GET https://localhost:44378/ - -
+03/24/2022 13:22:28 - Executing endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:22:28 - Route matched with "{action = \"Index\", controller = \"React\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.ReactController" ("Website").
+03/24/2022 13:22:28 - URL string is: 
+03/24/2022 13:22:28 - Executed action "Website.Controllers.ReactController.Index (Website)" in 287.629ms
+03/24/2022 13:22:28 - Executed endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:22:28 - HTTP "GET" "/" responded 500 in 432.7809 ms
+System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at Website.Controllers.ReactController.Index() in C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website\Controllers\ReactController.cs:line 31
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+03/24/2022 13:22:28 - An unhandled exception has occurred while executing the request.
+System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at Website.Controllers.ReactController.Index() in C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website\Controllers\ReactController.cs:line 31
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+03/24/2022 13:22:28 - Request finished HTTP/2 GET https://localhost:44378/ - - - 500 - text/html;+charset=utf-8 599.6900ms
+03/24/2022 13:22:28 - > my-app@0.1.0 start
+
+03/24/2022 13:22:28 - > react-scripts start
+
+03/24/2022 13:22:32 - (node:15080) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:22:32 - (Use `node --trace-deprecation ...` to show where the warning was created)
+
+03/24/2022 13:22:32 - (node:15080) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:22:33 - Starting the development server...
+
+03/24/2022 13:22:34 - Compiled successfully!
+
+03/24/2022 13:22:34 - You can now view my-app in the browser.
+
+03/24/2022 13:22:34 -   Local:            http://localhost:55938
+
+03/24/2022 13:22:34 -   On Your Network:  http://172.24.128.1:55938
+
+03/24/2022 13:22:34 - Note that the development build is not optimized.
+
+03/24/2022 13:22:34 - To create a production build, use yarn build.
+
+03/24/2022 13:22:34 - asset static/js/bundle.js 2.71 MiB [emitted] (name: main) 1 related asset
+
+03/24/2022 13:22:34 - asset index.html 1.67 KiB [emitted]
+
+03/24/2022 13:22:34 - asset asset-manifest.json 190 bytes [emitted]
+
+03/24/2022 13:22:34 - cached modules 2.45 MiB [cached] 155 modules
+
+03/24/2022 13:22:34 - runtime modules 28.1 KiB 13 modules
+
+03/24/2022 13:22:34 - ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=55938&pathname=%2Fws&logging=none&reconnect=10 6.59 KiB [built] [code generated]
+
+03/24/2022 13:22:34 - webpack 5.68.0 compiled successfully in 1991 ms
+
+03/24/2022 13:22:51 - ^C^C
+03/24/2022 13:26:40 - Website App Starting Up...
+03/24/2022 13:26:41 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:26:41 - Starting create-react-app server on port 56000...
+03/24/2022 13:26:41 - Now listening on: "https://localhost:44378"
+03/24/2022 13:26:41 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:26:41 - Hosting environment: "Development"
+03/24/2022 13:26:41 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website"
+03/24/2022 13:26:42 - Request starting HTTP/2 GET https://localhost:44378/ - -
+03/24/2022 13:26:42 - Executing endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:26:42 - Route matched with "{action = \"Index\", controller = \"React\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.ReactController" ("Website").
+03/24/2022 13:26:42 - ReactController. Redirect URL string is: 
+03/24/2022 13:26:42 - Executing RedirectResult, redirecting to "https://localhost:44378/login".
+03/24/2022 13:26:42 - Executed action "Website.Controllers.ReactController.Index (Website)" in 4.4484ms
+03/24/2022 13:26:42 - Executed endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:26:42 - HTTP "GET" "/" responded 302 in 54.4820 ms
+03/24/2022 13:26:42 - Request finished HTTP/2 GET https://localhost:44378/ - - - 302 0 - 66.2219ms
+03/24/2022 13:26:42 - Request starting HTTP/2 GET https://localhost:44378/login - -
+03/24/2022 13:26:43 - > my-app@0.1.0 start
+
+03/24/2022 13:26:43 - > react-scripts start
+
+03/24/2022 13:26:46 - (node:19812) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:26:46 - (Use `node --trace-deprecation ...` to show where the warning was created)
+
+03/24/2022 13:26:46 - (node:19812) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:26:47 - Starting the development server...
+
+03/24/2022 13:26:48 - Compiled successfully!
+
+03/24/2022 13:26:48 - You can now view my-app in the browser.
+
+03/24/2022 13:26:48 -   Local:            http://localhost:56000
+
+03/24/2022 13:26:48 -   On Your Network:  http://172.24.128.1:56000
+
+03/24/2022 13:26:48 - Note that the development build is not optimized.
+
+03/24/2022 13:26:48 - To create a production build, use yarn build.
+
+03/24/2022 13:26:48 - asset static/js/bundle.js 2.71 MiB [emitted] (name: main) 1 related asset
+
+03/24/2022 13:26:48 - asset index.html 1.67 KiB [emitted]
+
+03/24/2022 13:26:48 - asset asset-manifest.json 190 bytes [emitted]
+
+03/24/2022 13:26:48 - cached modules 2.45 MiB [cached] 155 modules
+
+03/24/2022 13:26:48 - runtime modules 28.1 KiB 13 modules
+
+03/24/2022 13:26:48 - ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=56000&pathname=%2Fws&logging=none&reconnect=10 6.59 KiB [built] [code generated]
+
+03/24/2022 13:26:48 - webpack 5.68.0 compiled successfully in 2073 ms
+
+03/24/2022 13:26:50 - HTTP "GET" "/login" responded 200 in 7707.2384 ms
+03/24/2022 13:26:50 - Request finished HTTP/2 GET https://localhost:44378/login - - - 200 - text/html;+charset=utf-8 7708.6677ms
+03/24/2022 13:26:50 - Request starting HTTP/2 GET https://localhost:44378/static/js/bundle.js - -
+03/24/2022 13:26:50 - HTTP "GET" "/static/js/bundle.js" responded 200 in 98.0338 ms
+03/24/2022 13:26:50 - Request finished HTTP/2 GET https://localhost:44378/static/js/bundle.js - - - 200 - application/javascript;+charset=utf-8 99.0589ms
+03/24/2022 13:26:51 - Request starting HTTP/2 GET https://localhost:44378/manifest.json - -
+03/24/2022 13:26:51 - HTTP "GET" "/manifest.json" responded 200 in 5.0975 ms
+03/24/2022 13:26:51 - Request finished HTTP/2 GET https://localhost:44378/manifest.json - - - 200 492 application/json;+charset=utf-8 5.5785ms
+03/24/2022 13:26:51 - Request starting HTTP/2 GET https://localhost:44378/logo192.png - -
+03/24/2022 13:26:51 - HTTP "GET" "/logo192.png" responded 200 in 2.1589 ms
+03/24/2022 13:26:51 - Request finished HTTP/2 GET https://localhost:44378/logo192.png - - - 200 5347 image/png 2.5480ms
+03/24/2022 13:27:04 - ^C^C
+03/24/2022 13:29:51 - Website App Starting Up...
+03/24/2022 13:29:52 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:29:52 - Starting create-react-app server on port 56164...
+03/24/2022 13:29:52 - Now listening on: "https://localhost:44378"
+03/24/2022 13:29:52 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:29:52 - Hosting environment: "Development"
+03/24/2022 13:29:52 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website"
+03/24/2022 13:29:53 - Request starting HTTP/2 GET https://localhost:44378/ - -
+03/24/2022 13:29:53 - Executing endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:29:53 - Route matched with "{action = \"Index\", controller = \"React\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.ReactController" ("Website").
+03/24/2022 13:29:53 - ReactController. Redirect URL string is: 
+03/24/2022 13:29:53 - Executed action "Website.Controllers.ReactController.Index (Website)" in 152.4977ms
+03/24/2022 13:29:53 - Executed endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:29:53 - HTTP "GET" "/" responded 500 in 298.3074 ms
+System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at Website.Controllers.ReactController.Index() in C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website\Controllers\ReactController.cs:line 31
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+03/24/2022 13:29:53 - An unhandled exception has occurred while executing the request.
+System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at Website.Controllers.ReactController.Index() in C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website\Controllers\ReactController.cs:line 31
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+03/24/2022 13:29:54 - Request finished HTTP/2 GET https://localhost:44378/ - - - 500 - text/html;+charset=utf-8 471.5821ms
+03/24/2022 13:29:54 - > my-app@0.1.0 start
+
+03/24/2022 13:29:54 - > react-scripts start
+
+03/24/2022 13:29:57 - (node:13536) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:29:57 - (Use `node --trace-deprecation ...` to show where the warning was created)
+
+03/24/2022 13:29:57 - (node:13536) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:29:59 - Starting the development server...
+
+03/24/2022 13:29:59 - Compiled successfully!
+
+03/24/2022 13:29:59 - You can now view my-app in the browser.
+
+03/24/2022 13:29:59 -   Local:            http://localhost:56164
+
+03/24/2022 13:29:59 -   On Your Network:  http://172.24.128.1:56164
+
+03/24/2022 13:29:59 - Note that the development build is not optimized.
+
+03/24/2022 13:29:59 - To create a production build, use yarn build.
+
+03/24/2022 13:29:59 - asset static/js/bundle.js 2.71 MiB [emitted] (name: main) 1 related asset
+
+03/24/2022 13:29:59 - asset index.html 1.67 KiB [emitted]
+
+03/24/2022 13:29:59 - asset asset-manifest.json 190 bytes [emitted]
+
+03/24/2022 13:29:59 - cached modules 2.45 MiB [cached] 155 modules
+
+03/24/2022 13:29:59 - runtime modules 28.1 KiB 13 modules
+
+03/24/2022 13:29:59 - ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=56164&pathname=%2Fws&logging=none&reconnect=10 6.59 KiB [built] [code generated]
+
+03/24/2022 13:29:59 - webpack 5.68.0 compiled successfully in 1993 ms
+
+03/24/2022 13:30:05 - ^C^C
+03/24/2022 13:31:42 - Website App Starting Up...
+03/24/2022 13:31:43 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:31:43 - Starting create-react-app server on port 56175...
+03/24/2022 13:31:43 - Now listening on: "https://localhost:44378"
+03/24/2022 13:31:43 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:31:43 - Hosting environment: "Development"
+03/24/2022 13:31:43 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website"
+03/24/2022 13:31:44 - Request starting HTTP/2 GET https://localhost:44378/ - -
+03/24/2022 13:31:44 - Executing endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:31:44 - Route matched with "{action = \"Index\", controller = \"React\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.ReactController" ("Website").
+03/24/2022 13:31:44 - ReactController. Redirect URL string is: 
+03/24/2022 13:31:44 - Executed action "Website.Controllers.ReactController.Index (Website)" in 152.3997ms
+03/24/2022 13:31:44 - Executed endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:31:44 - HTTP "GET" "/" responded 500 in 292.6690 ms
+System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at Website.Controllers.ReactController.Index() in C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website\Controllers\ReactController.cs:line 31
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+03/24/2022 13:31:45 - An unhandled exception has occurred while executing the request.
+System.ArgumentException: Value cannot be null or empty. (Parameter 'url')
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at Website.Controllers.ReactController.Index() in C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website\Controllers\ReactController.cs:line 31
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+03/24/2022 13:31:45 - Request finished HTTP/2 GET https://localhost:44378/ - - - 500 - text/html;+charset=utf-8 464.6358ms
+03/24/2022 13:31:45 - > my-app@0.1.0 start
+
+03/24/2022 13:31:45 - > react-scripts start
+
+03/24/2022 13:31:48 - (node:10808) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:31:48 - (Use `node --trace-deprecation ...` to show where the warning was created)
+
+03/24/2022 13:31:48 - (node:10808) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:31:50 - Starting the development server...
+
+03/24/2022 13:31:50 - ^C^C
+03/24/2022 13:32:22 - Website App Starting Up...
+03/24/2022 13:32:23 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:32:23 - Starting create-react-app server on port 56185...
+03/24/2022 13:32:23 - Now listening on: "https://localhost:44378"
+03/24/2022 13:32:23 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:32:23 - Hosting environment: "Development"
+03/24/2022 13:32:23 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website"
+03/24/2022 13:32:24 - Request starting HTTP/2 GET https://localhost:44378/ - -
+03/24/2022 13:32:24 - Executing endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:32:24 - Route matched with "{action = \"Index\", controller = \"React\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.ReactController" ("Website").
+03/24/2022 13:32:24 - ReactController. Redirect URL string is: https://localhost:44378/login
+03/24/2022 13:32:24 - Executing RedirectResult, redirecting to "https://localhost:44378/login".
+03/24/2022 13:32:24 - Executed action "Website.Controllers.ReactController.Index (Website)" in 5.6637ms
+03/24/2022 13:32:24 - Executed endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:32:24 - HTTP "GET" "/" responded 302 in 64.0729 ms
+03/24/2022 13:32:24 - Request finished HTTP/2 GET https://localhost:44378/ - - - 302 0 - 75.0701ms
+03/24/2022 13:32:24 - Request starting HTTP/2 GET https://localhost:44378/login - -
+03/24/2022 13:32:25 - > my-app@0.1.0 start
+
+03/24/2022 13:32:25 - > react-scripts start
+
+03/24/2022 13:32:28 - (node:3484) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:32:28 - (Use `node --trace-deprecation ...` to show where the warning was created)
+
+03/24/2022 13:32:28 - (node:3484) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:32:30 - Starting the development server...
+
+03/24/2022 13:32:30 - Compiled successfully!
+
+03/24/2022 13:32:30 - You can now view my-app in the browser.
+
+03/24/2022 13:32:30 -   Local:            http://localhost:56185
+
+03/24/2022 13:32:30 -   On Your Network:  http://172.24.128.1:56185
+
+03/24/2022 13:32:30 - Note that the development build is not optimized.
+
+03/24/2022 13:32:30 - To create a production build, use yarn build.
+
+03/24/2022 13:32:30 - asset static/js/bundle.js 2.71 MiB [emitted] (name: main) 1 related asset
+
+03/24/2022 13:32:30 - asset index.html 1.67 KiB [emitted]
+
+03/24/2022 13:32:30 - asset asset-manifest.json 190 bytes [emitted]
+
+03/24/2022 13:32:30 - cached modules 2.45 MiB [cached] 155 modules
+
+03/24/2022 13:32:30 - runtime modules 28.1 KiB 13 modules
+
+03/24/2022 13:32:30 - ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=56185&pathname=%2Fws&logging=none&reconnect=10 6.59 KiB [built] [code generated]
+
+03/24/2022 13:32:30 - webpack 5.68.0 compiled successfully in 2000 ms
+
+03/24/2022 13:32:32 - HTTP "GET" "/login" responded 304 in 7719.5250 ms
+03/24/2022 13:32:32 - Request finished HTTP/2 GET https://localhost:44378/login - - - 304 - - 7721.0538ms
+03/24/2022 13:32:32 - Request starting HTTP/2 GET https://localhost:44378/static/js/bundle.js - -
+03/24/2022 13:32:32 - HTTP "GET" "/static/js/bundle.js" responded 200 in 100.3226 ms
+03/24/2022 13:32:32 - Request finished HTTP/2 GET https://localhost:44378/static/js/bundle.js - - - 200 - application/javascript;+charset=utf-8 101.2776ms
+03/24/2022 13:32:32 - Request starting HTTP/2 GET https://localhost:44378/manifest.json - -
+03/24/2022 13:32:32 - HTTP "GET" "/manifest.json" responded 304 in 3.4750 ms
+03/24/2022 13:32:32 - Request finished HTTP/2 GET https://localhost:44378/manifest.json - - - 304 - - 4.1578ms
+03/24/2022 13:32:32 - Request starting HTTP/2 GET https://localhost:44378/logo192.png - -
+03/24/2022 13:32:32 - HTTP "GET" "/logo192.png" responded 304 in 1.9334 ms
+03/24/2022 13:32:32 - Request finished HTTP/2 GET https://localhost:44378/logo192.png - - - 304 - - 2.6072ms
+03/24/2022 13:32:59 - Request starting HTTP/2 GET https://localhost:44378/Brains - -
+03/24/2022 13:32:59 - Executing endpoint '"Website.Controllers.BrainsController.Index (Website)"'
+03/24/2022 13:32:59 - Route matched with "{action = \"Index\", controller = \"Brains\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 13:32:59 - Executing ViewResult, running view "Index".
+03/24/2022 13:32:59 - Executed ViewResult - view "Index" executed in 88.1589ms.
+03/24/2022 13:32:59 - Executed action "Website.Controllers.BrainsController.Index (Website)" in 102.3709ms
+03/24/2022 13:32:59 - Executed endpoint '"Website.Controllers.BrainsController.Index (Website)"'
+03/24/2022 13:32:59 - HTTP "GET" "/Brains" responded 200 in 104.5402 ms
+03/24/2022 13:32:59 - Request finished HTTP/2 GET https://localhost:44378/Brains - - - 200 - text/html;+charset=utf-8 106.3323ms
+03/24/2022 13:32:59 - Request starting HTTP/2 GET https://localhost:44378/css/site.css - -
+03/24/2022 13:32:59 - Request starting HTTP/2 GET https://localhost:44378/css/navbar.css - -
+03/24/2022 13:32:59 - The file "/css/site.css" was not modified
+03/24/2022 13:32:59 - Request finished HTTP/2 GET https://localhost:44378/css/site.css - - - 304 - text/css 6.0094ms
+03/24/2022 13:32:59 - Request starting HTTP/2 GET https://localhost:44378/js/navbar.js - -
+03/24/2022 13:32:59 - Request starting HTTP/2 GET https://localhost:44378/images/hamburger.png - -
+03/24/2022 13:32:59 - Sending file. Request path: '"/js/navbar.js"'. Physical path: '"C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website\wwwroot\js\navbar.js"'
+03/24/2022 13:32:59 - Sending file. Request path: '"/css/navbar.css"'. Physical path: '"C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website\wwwroot\css\navbar.css"'
+03/24/2022 13:32:59 - Request finished HTTP/2 GET https://localhost:44378/js/navbar.js - - - 200 841 application/javascript 1.4974ms
+03/24/2022 13:32:59 - Request finished HTTP/2 GET https://localhost:44378/css/navbar.css - - - 200 3944 text/css 11.2787ms
+03/24/2022 13:32:59 - Sending file. Request path: '"/images/hamburger.png"'. Physical path: '"C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website\wwwroot\images\hamburger.png"'
+03/24/2022 13:32:59 - Request finished HTTP/2 GET https://localhost:44378/images/hamburger.png - - - 200 1953 image/png 1.5741ms
+03/24/2022 13:33:01 - Request starting HTTP/2 GET https://localhost:44378/Brains/LogOutButton - -
+03/24/2022 13:33:01 - Executing endpoint '"Website.Controllers.BrainsController.LogOutButton (Website)"'
+03/24/2022 13:33:01 - Route matched with "{action = \"LogOutButton\", controller = \"Brains\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult LogOutButton()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 13:33:01 - Executing RedirectResult, redirecting to "/Brains/SignIn".
+03/24/2022 13:33:01 - Executed action "Website.Controllers.BrainsController.LogOutButton (Website)" in 1.2116ms
+03/24/2022 13:33:01 - Executed endpoint '"Website.Controllers.BrainsController.LogOutButton (Website)"'
+03/24/2022 13:33:01 - HTTP "GET" "/Brains/LogOutButton" responded 302 in 3.3518 ms
+03/24/2022 13:33:01 - Request finished HTTP/2 GET https://localhost:44378/Brains/LogOutButton - - - 302 0 - 4.0114ms
+03/24/2022 13:33:01 - Request starting HTTP/2 GET https://localhost:44378/Brains/SignIn - -
+03/24/2022 13:33:01 - Executing endpoint '"Website.Controllers.BrainsController.SignIn (Website)"'
+03/24/2022 13:33:01 - Route matched with "{action = \"SignIn\", controller = \"Brains\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult SignIn()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 13:33:01 - Executing ViewResult, running view "SignIn".
+03/24/2022 13:33:02 - Executed ViewResult - view "SignIn" executed in 220.8319ms.
+03/24/2022 13:33:02 - Executed action "Website.Controllers.BrainsController.SignIn (Website)" in 222.1261ms
+03/24/2022 13:33:02 - Executed endpoint '"Website.Controllers.BrainsController.SignIn (Website)"'
+03/24/2022 13:33:02 - HTTP "GET" "/Brains/SignIn" responded 200 in 226.8884 ms
+03/24/2022 13:33:02 - Request finished HTTP/2 GET https://localhost:44378/Brains/SignIn - - - 200 - text/html;+charset=utf-8 227.4130ms
+03/24/2022 13:37:24 - Website App Starting Up...
+03/24/2022 13:37:25 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:37:25 - Starting create-react-app server on port 56299...
+03/24/2022 13:37:25 - Now listening on: "https://localhost:44378"
+03/24/2022 13:37:25 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:37:25 - Hosting environment: "Development"
+03/24/2022 13:37:25 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website"
+03/24/2022 13:37:26 - Request starting HTTP/2 GET https://localhost:44378/ - -
+03/24/2022 13:37:26 - Executing endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:37:26 - Route matched with "{action = \"Index\", controller = \"React\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.ReactController" ("Website").
+03/24/2022 13:37:26 - ReactController. Redirect URL string is: https://localhost:44378/login
+03/24/2022 13:37:26 - Executing RedirectResult, redirecting to "https://localhost:44378/login".
+03/24/2022 13:37:26 - Executed action "Website.Controllers.ReactController.Index (Website)" in 8.1102ms
+03/24/2022 13:37:26 - Executed endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:37:26 - HTTP "GET" "/" responded 302 in 72.2526 ms
+03/24/2022 13:37:26 - Request finished HTTP/2 GET https://localhost:44378/ - - - 302 0 - 85.9502ms
+03/24/2022 13:37:26 - Request starting HTTP/2 GET https://localhost:44378/login - -
+03/24/2022 13:37:27 - > my-app@0.1.0 start
+
+03/24/2022 13:37:27 - > react-scripts start
+
+03/24/2022 13:37:30 - (node:6956) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:37:30 - (Use `node --trace-deprecation ...` to show where the warning was created)
+
+03/24/2022 13:37:30 - (node:6956) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:37:32 - Starting the development server...
+
+03/24/2022 13:37:33 - Compiled successfully!
+
+03/24/2022 13:37:33 - You can now view my-app in the browser.
+
+03/24/2022 13:37:33 -   Local:            http://localhost:56299
+
+03/24/2022 13:37:33 -   On Your Network:  http://172.24.128.1:56299
+
+03/24/2022 13:37:33 - Note that the development build is not optimized.
+
+03/24/2022 13:37:33 - To create a production build, use yarn build.
+
+03/24/2022 13:37:33 - asset static/js/bundle.js 2.71 MiB [emitted] (name: main) 1 related asset
+
+03/24/2022 13:37:33 - asset index.html 1.67 KiB [emitted]
+
+03/24/2022 13:37:33 - asset asset-manifest.json 190 bytes [emitted]
+
+03/24/2022 13:37:33 - cached modules 2.4 MiB [cached] 151 modules
+
+03/24/2022 13:37:33 - runtime modules 28.1 KiB 13 modules
+
+03/24/2022 13:37:33 - javascript modules 58.4 KiB
+
+03/24/2022 13:37:33 -   ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=56299&pathname=%2Fws&logging=none&reconnect=10 6.59 KiB [built] [code generated]
+
+03/24/2022 13:37:33 -   ./src/components/Login.js 13 KiB [built] [code generated]
+
+03/24/2022 13:37:33 -   ./src/components/Register.js 22.3 KiB [built] [code generated]
+
+03/24/2022 13:37:33 -   ./src/components/ForgotPass.js 8.74 KiB [built] [code generated]
+
+03/24/2022 13:37:33 -   ./src/components/Payment.js 7.77 KiB [built] [code generated]
+
+03/24/2022 13:37:33 - webpack 5.68.0 compiled successfully in 2665 ms
+
+03/24/2022 13:37:34 - HTTP "GET" "/login" responded 304 in 7912.8047 ms
+03/24/2022 13:37:34 - Request finished HTTP/2 GET https://localhost:44378/login - - - 304 - - 7914.8159ms
+03/24/2022 13:37:34 - Request starting HTTP/2 GET https://localhost:44378/static/js/bundle.js - -
+03/24/2022 13:37:34 - HTTP "GET" "/static/js/bundle.js" responded 200 in 401.7641 ms
+03/24/2022 13:37:34 - Request finished HTTP/2 GET https://localhost:44378/static/js/bundle.js - - - 200 - application/javascript;+charset=utf-8 402.8052ms
+03/24/2022 13:37:34 - Request starting HTTP/2 GET https://localhost:44378/manifest.json - -
+03/24/2022 13:37:34 - HTTP "GET" "/manifest.json" responded 304 in 3.5953 ms
+03/24/2022 13:37:34 - Request finished HTTP/2 GET https://localhost:44378/manifest.json - - - 304 - - 4.3417ms
+03/24/2022 13:37:34 - Request starting HTTP/2 GET https://localhost:44378/logo192.png - -
+03/24/2022 13:37:34 - HTTP "GET" "/logo192.png" responded 304 in 1.6382 ms
+03/24/2022 13:37:34 - Request finished HTTP/2 GET https://localhost:44378/logo192.png - - - 304 - - 2.0568ms
+03/24/2022 13:37:37 - Request starting HTTP/2 GET https://localhost:44378/Brains - -
+03/24/2022 13:37:37 - Executing endpoint '"Website.Controllers.BrainsController.Index (Website)"'
+03/24/2022 13:37:37 - Route matched with "{action = \"Index\", controller = \"Brains\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 13:37:37 - Executing ViewResult, running view "Index".
+03/24/2022 13:37:37 - Executed ViewResult - view "Index" executed in 88.5516ms.
+03/24/2022 13:37:37 - Executed action "Website.Controllers.BrainsController.Index (Website)" in 99.1568ms
+03/24/2022 13:37:37 - Executed endpoint '"Website.Controllers.BrainsController.Index (Website)"'
+03/24/2022 13:37:37 - HTTP "GET" "/Brains" responded 200 in 100.7544 ms
+03/24/2022 13:37:37 - Request finished HTTP/2 GET https://localhost:44378/Brains - - - 200 - text/html;+charset=utf-8 102.2630ms
+03/24/2022 13:39:32 - Website App Starting Up...
+03/24/2022 13:39:33 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:39:33 - Starting create-react-app server on port 56337...
+03/24/2022 13:39:34 - Now listening on: "https://localhost:44378"
+03/24/2022 13:39:34 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:39:34 - Hosting environment: "Development"
+03/24/2022 13:39:34 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website"
+03/24/2022 13:39:34 - Request starting HTTP/2 GET https://localhost:44378/ - -
+03/24/2022 13:39:34 - Executing endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:39:34 - Route matched with "{action = \"Index\", controller = \"React\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.ReactController" ("Website").
+03/24/2022 13:39:34 - ReactController. Redirect URL string is: https://localhost:44378/login
+03/24/2022 13:39:34 - Executing RedirectResult, redirecting to "https://localhost:44378/login".
+03/24/2022 13:39:34 - Executed action "Website.Controllers.ReactController.Index (Website)" in 5.6592ms
+03/24/2022 13:39:34 - Executed endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:39:34 - HTTP "GET" "/" responded 302 in 58.6085 ms
+03/24/2022 13:39:34 - Request finished HTTP/2 GET https://localhost:44378/ - - - 302 0 - 71.1091ms
+03/24/2022 13:39:34 - Request starting HTTP/2 GET https://localhost:44378/login - -
+03/24/2022 13:39:35 - > my-app@0.1.0 start
+
+03/24/2022 13:39:35 - > react-scripts start
+
+03/24/2022 13:39:39 - (node:14804) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:39:39 - (Use `node --trace-deprecation ...` to show where the warning was created)
+
+03/24/2022 13:39:39 - (node:14804) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:39:40 - Starting the development server...
+
+03/24/2022 13:39:41 - Compiled successfully!
+
+03/24/2022 13:39:41 - You can now view my-app in the browser.
+
+03/24/2022 13:39:41 -   Local:            http://localhost:56337
+
+03/24/2022 13:39:41 -   On Your Network:  http://172.24.128.1:56337
+
+03/24/2022 13:39:41 - Note that the development build is not optimized.
+
+03/24/2022 13:39:41 - To create a production build, use yarn build.
+
+03/24/2022 13:39:41 - asset static/js/bundle.js 2.71 MiB [emitted] (name: main) 1 related asset
+
+03/24/2022 13:39:41 - asset index.html 1.67 KiB [emitted]
+
+03/24/2022 13:39:41 - asset asset-manifest.json 190 bytes [emitted]
+
+03/24/2022 13:39:41 - cached modules 2.44 MiB [cached] 154 modules
+
+03/24/2022 13:39:41 - runtime modules 28.1 KiB 13 modules
+
+03/24/2022 13:39:41 - javascript modules 19.6 KiB
+
+03/24/2022 13:39:41 -   ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=56337&pathname=%2Fws&logging=none&reconnect=10 6.59 KiB [built] [code generated]
+
+03/24/2022 13:39:41 -   ./src/components/Login.js 13 KiB [built]
+
+03/24/2022 13:39:41 - webpack 5.68.0 compiled successfully in 2279 ms
+
+03/24/2022 13:39:42 - HTTP "GET" "/login" responded 304 in 7902.4341 ms
+03/24/2022 13:39:42 - Request finished HTTP/2 GET https://localhost:44378/login - - - 304 - - 7903.9078ms
+03/24/2022 13:39:42 - Request starting HTTP/2 GET https://localhost:44378/static/js/bundle.js - -
+03/24/2022 13:39:42 - HTTP "GET" "/static/js/bundle.js" responded 200 in 101.6236 ms
+03/24/2022 13:39:42 - Request finished HTTP/2 GET https://localhost:44378/static/js/bundle.js - - - 200 - application/javascript;+charset=utf-8 102.7258ms
+03/24/2022 13:39:42 - Request starting HTTP/2 GET https://localhost:44378/manifest.json - -
+03/24/2022 13:39:42 - HTTP "GET" "/manifest.json" responded 304 in 3.0814 ms
+03/24/2022 13:39:42 - Request finished HTTP/2 GET https://localhost:44378/manifest.json - - - 304 - - 3.6780ms
+03/24/2022 13:39:42 - Request starting HTTP/2 GET https://localhost:44378/logo192.png - -
+03/24/2022 13:39:42 - HTTP "GET" "/logo192.png" responded 304 in 1.6816 ms
+03/24/2022 13:39:42 - Request finished HTTP/2 GET https://localhost:44378/logo192.png - - - 304 - - 2.1953ms
+03/24/2022 13:39:49 - Request starting HTTP/2 GET https://localhost:44378/Brains - -
+03/24/2022 13:39:49 - Executing endpoint '"Website.Controllers.BrainsController.Index (Website)"'
+03/24/2022 13:39:49 - Route matched with "{action = \"Index\", controller = \"Brains\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 13:39:49 - Executing ViewResult, running view "Index".
+03/24/2022 13:39:49 - Executed ViewResult - view "Index" executed in 83.4048ms.
+03/24/2022 13:39:49 - Executed action "Website.Controllers.BrainsController.Index (Website)" in 93.4368ms
+03/24/2022 13:39:49 - Executed endpoint '"Website.Controllers.BrainsController.Index (Website)"'
+03/24/2022 13:39:49 - HTTP "GET" "/Brains" responded 200 in 95.4867 ms
+03/24/2022 13:39:49 - Request finished HTTP/2 GET https://localhost:44378/Brains - - - 200 - text/html;+charset=utf-8 97.2836ms
+03/24/2022 13:40:10 - Request starting HTTP/2 POST https://localhost:44378/Auth/Login application/json 47
+03/24/2022 13:40:10 - CORS policy execution successful.
+03/24/2022 13:40:12 - HTTP "POST" "/Auth/Login" responded 404 in 2062.0021 ms
+03/24/2022 13:40:12 - Request finished HTTP/2 POST https://localhost:44378/Auth/Login application/json 47 - 404 150 text/html;+charset=utf-8 2062.7929ms
+03/24/2022 13:40:46 - Request starting HTTP/2 POST https://localhost:44378/Auth/Register application/json 95
+03/24/2022 13:40:46 - CORS policy execution successful.
+03/24/2022 13:40:48 - HTTP "POST" "/Auth/Register" responded 404 in 2047.6091 ms
+03/24/2022 13:40:48 - Request finished HTTP/2 POST https://localhost:44378/Auth/Register application/json 95 - 404 153 text/html;+charset=utf-8 2048.4581ms
+03/24/2022 13:40:55 - Request starting HTTP/2 GET https://localhost:44378/manifest.json - -
+03/24/2022 13:40:56 - Request starting HTTP/2 GET https://localhost:44378/static/js/bundle.js.map - -
+03/24/2022 13:40:57 - HTTP "GET" "/manifest.json" responded 304 in 2054.3476 ms
+03/24/2022 13:40:57 - Request finished HTTP/2 GET https://localhost:44378/manifest.json - - - 304 - - 2055.6001ms
+03/24/2022 13:40:58 - HTTP "GET" "/static/js/bundle.js.map" responded 200 in 2166.4490 ms
+03/24/2022 13:40:58 - Request finished HTTP/2 GET https://localhost:44378/static/js/bundle.js.map - - - 200 - application/json;+charset=utf-8 2166.9212ms
+03/24/2022 13:41:06 - Request starting HTTP/2 GET https://localhost:44378/Brains/GetAllPaged - -
+03/24/2022 13:41:06 - Executing endpoint '"Website.Controllers.BrainsController.GetAllPaged (Website)"'
+03/24/2022 13:41:06 - Route matched with "{action = \"GetAllPaged\", controller = \"Brains\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllPaged()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 13:41:06 - Executing RedirectResult, redirecting to "/Brains/SignIn".
+03/24/2022 13:41:06 - Executed action "Website.Controllers.BrainsController.GetAllPaged (Website)" in 2.1912ms
+03/24/2022 13:41:06 - Executed endpoint '"Website.Controllers.BrainsController.GetAllPaged (Website)"'
+03/24/2022 13:41:06 - HTTP "GET" "/Brains/GetAllPaged" responded 302 in 14.1994 ms
+03/24/2022 13:41:06 - Request finished HTTP/2 GET https://localhost:44378/Brains/GetAllPaged - - - 302 0 - 14.6610ms
+03/24/2022 13:41:06 - Request starting HTTP/2 GET https://localhost:44378/Brains/SignIn - -
+03/24/2022 13:41:06 - Executing endpoint '"Website.Controllers.BrainsController.SignIn (Website)"'
+03/24/2022 13:41:06 - Route matched with "{action = \"SignIn\", controller = \"Brains\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult SignIn()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 13:41:06 - Executing ViewResult, running view "SignIn".
+03/24/2022 13:41:06 - Executed ViewResult - view "SignIn" executed in 182.6075ms.
+03/24/2022 13:41:06 - Executed action "Website.Controllers.BrainsController.SignIn (Website)" in 183.438ms
+03/24/2022 13:41:06 - Executed endpoint '"Website.Controllers.BrainsController.SignIn (Website)"'
+03/24/2022 13:41:06 - HTTP "GET" "/Brains/SignIn" responded 200 in 187.9164 ms
+03/24/2022 13:41:06 - Request finished HTTP/2 GET https://localhost:44378/Brains/SignIn - - - 200 - text/html;+charset=utf-8 188.2331ms
+03/24/2022 13:41:14 - Request starting HTTP/2 POST https://localhost:44378/Brains/SignInButton application/x-www-form-urlencoded 220
+03/24/2022 13:41:14 - CORS policy execution successful.
+03/24/2022 13:41:14 - Executing endpoint '"Website.Controllers.BrainsController.SignInButton (Website)"'
+03/24/2022 13:41:14 - Route matched with "{action = \"SignInButton\", controller = \"Brains\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SignInButton()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 13:41:14 - Start processing HTTP request "POST" https://localhost:44331/Auth/Login
+03/24/2022 13:41:14 - Sending HTTP request "POST" https://localhost:44331/Auth/Login
+03/24/2022 13:41:17 - Received HTTP response headers after 2574.521ms - 200
+03/24/2022 13:41:17 - End processing HTTP request after 2580.6461ms - 200
+03/24/2022 13:41:17 - Executing RedirectResult, redirecting to "/Brains".
+03/24/2022 13:41:17 - Executed action "Website.Controllers.BrainsController.SignInButton (Website)" in 2726.35ms
+03/24/2022 13:41:17 - Executed endpoint '"Website.Controllers.BrainsController.SignInButton (Website)"'
+03/24/2022 13:41:17 - Session started; Key:"dc2a72cf-b0fd-f721-a7ac-471365191072", Id:"c99c0a5f-b41a-fa72-6f31-1094edea8636"
+03/24/2022 13:41:17 - HTTP "POST" "/Brains/SignInButton" responded 302 in 2731.7452 ms
+03/24/2022 13:41:17 - Request finished HTTP/2 POST https://localhost:44378/Brains/SignInButton application/x-www-form-urlencoded 220 - 302 0 - 2736.5443ms
+03/24/2022 13:41:17 - Request starting HTTP/2 GET https://localhost:44378/Brains - -
+03/24/2022 13:41:17 - Executing endpoint '"Website.Controllers.BrainsController.Index (Website)"'
+03/24/2022 13:41:17 - Route matched with "{action = \"Index\", controller = \"Brains\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 13:41:17 - Executing ViewResult, running view "Index".
+03/24/2022 13:41:17 - Executed ViewResult - view "Index" executed in 0.607ms.
+03/24/2022 13:41:17 - Executed action "Website.Controllers.BrainsController.Index (Website)" in 0.7125ms
+03/24/2022 13:41:17 - Executed endpoint '"Website.Controllers.BrainsController.Index (Website)"'
+03/24/2022 13:41:17 - HTTP "GET" "/Brains" responded 200 in 1.1850 ms
+03/24/2022 13:41:17 - Request finished HTTP/2 GET https://localhost:44378/Brains - - - 200 - text/html;+charset=utf-8 1.4300ms
+03/24/2022 13:41:18 - Request starting HTTP/2 GET https://localhost:44378/Brains/GetAllPaged - -
+03/24/2022 13:41:18 - Executing endpoint '"Website.Controllers.BrainsController.GetAllPaged (Website)"'
+03/24/2022 13:41:18 - Route matched with "{action = \"GetAllPaged\", controller = \"Brains\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllPaged()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 13:41:18 - Start processing HTTP request "GET" https://localhost:44331/User/GetPagedUsers/1
+03/24/2022 13:41:18 - Sending HTTP request "GET" https://localhost:44331/User/GetPagedUsers/1
+03/24/2022 13:41:19 - Received HTTP response headers after 214.1147ms - 200
+03/24/2022 13:41:19 - End processing HTTP request after 214.3514ms - 200
+03/24/2022 13:41:19 - Executing ViewResult, running view "GetAllPaged".
+03/24/2022 13:41:19 - Executed ViewResult - view "GetAllPaged" executed in 18.5556ms.
+03/24/2022 13:41:19 - Executed action "Website.Controllers.BrainsController.GetAllPaged (Website)" in 254.8236ms
+03/24/2022 13:41:19 - Executed endpoint '"Website.Controllers.BrainsController.GetAllPaged (Website)"'
+03/24/2022 13:41:19 - HTTP "GET" "/Brains/GetAllPaged" responded 200 in 255.3375 ms
+03/24/2022 13:41:19 - Request finished HTTP/2 GET https://localhost:44378/Brains/GetAllPaged - - - 200 - text/html;+charset=utf-8 255.9307ms
+03/24/2022 13:41:29 - Request starting HTTP/2 GET https://localhost:44378/Brains/DeleteUser/7 - -
+03/24/2022 13:41:29 - Executing endpoint '"Website.Controllers.BrainsController.DeleteUser (Website)"'
+03/24/2022 13:41:29 - Route matched with "{action = \"DeleteUser\", controller = \"Brains\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteUser(Int32)" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 13:41:29 - Start processing HTTP request "GET" https://localhost:44331/User/7
+03/24/2022 13:41:29 - Sending HTTP request "GET" https://localhost:44331/User/7
+03/24/2022 13:41:29 - Received HTTP response headers after 84.3812ms - 200
+03/24/2022 13:41:29 - End processing HTTP request after 84.62ms - 200
+03/24/2022 13:41:29 - Executing ViewResult, running view "DeleteUser".
+03/24/2022 13:41:29 - Executed ViewResult - view "DeleteUser" executed in 6.2941ms.
+03/24/2022 13:41:29 - Executed action "Website.Controllers.BrainsController.DeleteUser (Website)" in 105.2244ms
+03/24/2022 13:41:29 - Executed endpoint '"Website.Controllers.BrainsController.DeleteUser (Website)"'
+03/24/2022 13:41:29 - HTTP "GET" "/Brains/DeleteUser/7" responded 200 in 121.9072 ms
+03/24/2022 13:41:29 - Request finished HTTP/2 GET https://localhost:44378/Brains/DeleteUser/7 - - - 200 - text/html;+charset=utf-8 122.5126ms
+03/24/2022 13:41:30 - Request starting HTTP/2 POST https://localhost:44378/Brains/DeleteButton application/x-www-form-urlencoded 187
+03/24/2022 13:41:30 - CORS policy execution successful.
+03/24/2022 13:41:30 - Executing endpoint '"Website.Controllers.BrainsController.DeleteButton (Website)"'
+03/24/2022 13:41:30 - Route matched with "{action = \"DeleteButton\", controller = \"Brains\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteButton()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 13:41:30 - Start processing HTTP request "DELETE" https://localhost:44331/User/7
+03/24/2022 13:41:30 - Sending HTTP request "DELETE" https://localhost:44331/User/7
+03/24/2022 13:41:31 - Received HTTP response headers after 165.6519ms - 200
+03/24/2022 13:41:31 - End processing HTTP request after 165.9168ms - 200
+03/24/2022 13:41:31 - Executing ViewResult, running view "DeleteConfirmed".
+03/24/2022 13:41:31 - Executed ViewResult - view "DeleteConfirmed" executed in 1.8794ms.
+03/24/2022 13:41:31 - Executed action "Website.Controllers.BrainsController.DeleteButton (Website)" in 171.873ms
+03/24/2022 13:41:31 - Executed endpoint '"Website.Controllers.BrainsController.DeleteButton (Website)"'
+03/24/2022 13:41:31 - HTTP "POST" "/Brains/DeleteButton" responded 200 in 174.4356 ms
+03/24/2022 13:41:31 - Request finished HTTP/2 POST https://localhost:44378/Brains/DeleteButton application/x-www-form-urlencoded 187 - 200 - text/html;+charset=utf-8 174.7166ms
+03/24/2022 13:41:32 - Request starting HTTP/2 GET https://localhost:44378/Brains/GetAllPaged - -
+03/24/2022 13:41:32 - Executing endpoint '"Website.Controllers.BrainsController.GetAllPaged (Website)"'
+03/24/2022 13:41:32 - Route matched with "{action = \"GetAllPaged\", controller = \"Brains\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllPaged()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 13:41:32 - Start processing HTTP request "GET" https://localhost:44331/User/GetPagedUsers/1
+03/24/2022 13:41:32 - Sending HTTP request "GET" https://localhost:44331/User/GetPagedUsers/1
+03/24/2022 13:41:32 - Received HTTP response headers after 69.2104ms - 200
+03/24/2022 13:41:32 - End processing HTTP request after 69.416ms - 200
+03/24/2022 13:41:32 - Executing ViewResult, running view "GetAllPaged".
+03/24/2022 13:41:32 - Executed ViewResult - view "GetAllPaged" executed in 4.6856ms.
+03/24/2022 13:41:32 - Executed action "Website.Controllers.BrainsController.GetAllPaged (Website)" in 74.6007ms
+03/24/2022 13:41:32 - Executed endpoint '"Website.Controllers.BrainsController.GetAllPaged (Website)"'
+03/24/2022 13:41:32 - HTTP "GET" "/Brains/GetAllPaged" responded 200 in 75.1366 ms
+03/24/2022 13:41:32 - Request finished HTTP/2 GET https://localhost:44378/Brains/GetAllPaged - - - 200 - text/html;+charset=utf-8 75.4583ms
+03/24/2022 13:46:10 - Website App Starting Up...
+03/24/2022 13:46:10 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:46:11 - Starting create-react-app server on port 56491...
+03/24/2022 13:46:11 - Now listening on: "https://localhost:44378"
+03/24/2022 13:46:11 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:46:11 - Hosting environment: "Development"
+03/24/2022 13:46:11 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website"
+03/24/2022 13:46:11 - Request starting HTTP/2 GET https://localhost:44378/ - -
+03/24/2022 13:46:11 - Executing endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:46:12 - Route matched with "{action = \"Index\", controller = \"React\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.ReactController" ("Website").
+03/24/2022 13:46:12 - ReactController. Redirect URL string is: https://localhost:44378/login
+03/24/2022 13:46:12 - Executing RedirectResult, redirecting to "https://localhost:44378/login".
+03/24/2022 13:46:12 - Executed action "Website.Controllers.ReactController.Index (Website)" in 5.4079ms
+03/24/2022 13:46:12 - Executed endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 13:46:12 - HTTP "GET" "/" responded 302 in 54.9308 ms
+03/24/2022 13:46:12 - Request finished HTTP/2 GET https://localhost:44378/ - - - 302 0 - 65.9975ms
+03/24/2022 13:46:12 - Request starting HTTP/2 GET https://localhost:44378/login - -
+03/24/2022 13:46:12 - > my-app@0.1.0 start
+
+03/24/2022 13:46:12 - > react-scripts start
+
+03/24/2022 13:46:16 - (node:16772) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:46:16 - (Use `node --trace-deprecation ...` to show where the warning was created)
+
+03/24/2022 13:46:16 - (node:16772) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 13:46:17 - Starting the development server...
+
+03/24/2022 13:46:19 - Compiled successfully!
+
+03/24/2022 13:46:19 - You can now view my-app in the browser.
+
+03/24/2022 13:46:19 -   Local:            http://localhost:56491
+
+03/24/2022 13:46:19 -   On Your Network:  http://172.24.128.1:56491
+
+03/24/2022 13:46:19 - Note that the development build is not optimized.
+
+03/24/2022 13:46:19 - To create a production build, use yarn build.
+
+03/24/2022 13:46:19 - asset static/js/bundle.js 2.71 MiB [emitted] (name: main) 1 related asset
+
+03/24/2022 13:46:19 - asset index.html 1.67 KiB [emitted]
+
+03/24/2022 13:46:19 - asset asset-manifest.json 190 bytes [emitted]
+
+03/24/2022 13:46:19 - cached modules 2.4 MiB [cached] 151 modules
+
+03/24/2022 13:46:19 - runtime modules 28.1 KiB 13 modules
+
+03/24/2022 13:46:19 - javascript modules 58.4 KiB
+
+03/24/2022 13:46:19 -   ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=56491&pathname=%2Fws&logging=none&reconnect=10 6.59 KiB [built] [code generated]
+
+03/24/2022 13:46:19 -   ./src/components/Login.js 13 KiB [built] [code generated]
+
+03/24/2022 13:46:19 -   ./src/components/Register.js 22.3 KiB [built] [code generated]
+
+03/24/2022 13:46:19 -   ./src/components/ForgotPass.js 8.74 KiB [built] [code generated]
+
+03/24/2022 13:46:19 -   ./src/components/Payment.js 7.77 KiB [built] [code generated]
+
+03/24/2022 13:46:19 - webpack 5.68.0 compiled successfully in 2731 ms
+
+03/24/2022 13:46:19 - HTTP "GET" "/login" responded 304 in 7812.2315 ms
+03/24/2022 13:46:19 - Request finished HTTP/2 GET https://localhost:44378/login - - - 304 - - 7813.7585ms
+03/24/2022 13:46:19 - Request starting HTTP/2 GET https://localhost:44378/static/js/bundle.js - -
+03/24/2022 13:46:19 - HTTP "GET" "/static/js/bundle.js" responded 200 in 102.8719 ms
+03/24/2022 13:46:19 - Request finished HTTP/2 GET https://localhost:44378/static/js/bundle.js - - - 200 - application/javascript;+charset=utf-8 103.9013ms
+03/24/2022 13:46:20 - Request starting HTTP/2 GET https://localhost:44378/manifest.json - -
+03/24/2022 13:46:20 - HTTP "GET" "/manifest.json" responded 304 in 128.1313 ms
+03/24/2022 13:46:20 - Request finished HTTP/2 GET https://localhost:44378/manifest.json - - - 304 - - 128.7353ms
+03/24/2022 13:46:20 - Request starting HTTP/2 GET https://localhost:44378/logo192.png - -
+03/24/2022 13:46:20 - HTTP "GET" "/logo192.png" responded 304 in 2.0035 ms
+03/24/2022 13:46:20 - Request finished HTTP/2 GET https://localhost:44378/logo192.png - - - 304 - - 2.5738ms
+03/24/2022 13:46:27 - Request starting HTTP/2 GET https://localhost:44378/Brains - -
+03/24/2022 13:46:27 - Executing endpoint '"Website.Controllers.BrainsController.Index (Website)"'
+03/24/2022 13:46:27 - Route matched with "{action = \"Index\", controller = \"Brains\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 13:46:28 - Executing ViewResult, running view "Index".
+03/24/2022 13:46:28 - Executed ViewResult - view "Index" executed in 83.6878ms.
+03/24/2022 13:46:28 - Executed action "Website.Controllers.BrainsController.Index (Website)" in 94.5889ms
+03/24/2022 13:46:28 - Executed endpoint '"Website.Controllers.BrainsController.Index (Website)"'
+03/24/2022 13:46:28 - HTTP "GET" "/Brains" responded 200 in 97.5726 ms
+03/24/2022 13:46:28 - Request finished HTTP/2 GET https://localhost:44378/Brains - - - 200 - text/html;+charset=utf-8 99.5374ms
+03/24/2022 13:47:23 - Request starting HTTP/2 GET https://localhost:44378/Brains/LogOutButton - -
+03/24/2022 13:47:23 - Executing endpoint '"Website.Controllers.BrainsController.LogOutButton (Website)"'
+03/24/2022 13:47:23 - Route matched with "{action = \"LogOutButton\", controller = \"Brains\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult LogOutButton()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 13:47:23 - Accessing expired session, Key:"dc2a72cf-b0fd-f721-a7ac-471365191072"
+03/24/2022 13:47:23 - Executing RedirectResult, redirecting to "/Brains/SignIn".
+03/24/2022 13:47:23 - Executed action "Website.Controllers.BrainsController.LogOutButton (Website)" in 1.8147ms
+03/24/2022 13:47:23 - Executed endpoint '"Website.Controllers.BrainsController.LogOutButton (Website)"'
+03/24/2022 13:47:23 - HTTP "GET" "/Brains/LogOutButton" responded 302 in 7.8805 ms
+03/24/2022 13:47:23 - Request finished HTTP/2 GET https://localhost:44378/Brains/LogOutButton - - - 302 0 - 8.8677ms
+03/24/2022 13:47:23 - Request starting HTTP/2 GET https://localhost:44378/Brains/SignIn - -
+03/24/2022 13:47:23 - Executing endpoint '"Website.Controllers.BrainsController.SignIn (Website)"'
+03/24/2022 13:47:23 - Route matched with "{action = \"SignIn\", controller = \"Brains\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult SignIn()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 13:47:23 - Executing ViewResult, running view "SignIn".
+03/24/2022 13:47:23 - Executed ViewResult - view "SignIn" executed in 184.0313ms.
+03/24/2022 13:47:23 - Executed action "Website.Controllers.BrainsController.SignIn (Website)" in 185.5826ms
+03/24/2022 13:47:23 - Executed endpoint '"Website.Controllers.BrainsController.SignIn (Website)"'
+03/24/2022 13:47:23 - HTTP "GET" "/Brains/SignIn" responded 200 in 188.9350 ms
+03/24/2022 13:47:23 - Request finished HTTP/2 GET https://localhost:44378/Brains/SignIn - - - 200 - text/html;+charset=utf-8 189.2251ms
+03/24/2022 13:48:17 - Request starting HTTP/2 GET https://localhost:44378/VerifyEmail?id=8&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkJlcnRpM0BmbG93ZXJzLm5ldCIsIm5iZiI6MTY0ODEwMDg3NywiZXhwIjoxNjQ4MTA0NDc3LCJpYXQiOjE2NDgxMDA4Nzd9.-46SwgwDivZL5k_hrR7TPsHfTiGEMAX9o-c-oYQAcf8198_fhix2TfIUuWt7FOOKGofVFpUeUayJNsZW2LCP8g - -
+03/24/2022 13:48:17 - Executing endpoint '"Website.Controllers.BrainsController.EmailVerified (Website)"'
+03/24/2022 13:48:17 - Route matched with "{action = \"EmailVerified\", controller = \"Brains\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerified(Int32, System.String)" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 13:48:17 - Start processing HTTP request "POST" https://localhost:44331/User/VerifyEmail/
+03/24/2022 13:48:17 - Sending HTTP request "POST" https://localhost:44331/User/VerifyEmail/
+03/24/2022 13:48:17 - Received HTTP response headers after 224.9435ms - 200
+03/24/2022 13:48:17 - End processing HTTP request after 231.0666ms - 200
+03/24/2022 13:48:17 - Executing ViewResult, running view "EmailVerified".
+03/24/2022 13:48:17 - Executed ViewResult - view "EmailVerified" executed in 186.7663ms.
+03/24/2022 13:48:17 - Executed action "Website.Controllers.BrainsController.EmailVerified (Website)" in 541.4696ms
+03/24/2022 13:48:17 - Executed endpoint '"Website.Controllers.BrainsController.EmailVerified (Website)"'
+03/24/2022 13:48:17 - HTTP "GET" "/VerifyEmail?id=8&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkJlcnRpM0BmbG93ZXJzLm5ldCIsIm5iZiI6MTY0ODEwMDg3NywiZXhwIjoxNjQ4MTA0NDc3LCJpYXQiOjE2NDgxMDA4Nzd9.-46SwgwDivZL5k_hrR7TPsHfTiGEMAX9o-c-oYQAcf8198_fhix2TfIUuWt7FOOKGofVFpUeUayJNsZW2LCP8g" responded 200 in 557.3003 ms
+03/24/2022 13:48:17 - Request finished HTTP/2 GET https://localhost:44378/VerifyEmail?id=8&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkJlcnRpM0BmbG93ZXJzLm5ldCIsIm5iZiI6MTY0ODEwMDg3NywiZXhwIjoxNjQ4MTA0NDc3LCJpYXQiOjE2NDgxMDA4Nzd9.-46SwgwDivZL5k_hrR7TPsHfTiGEMAX9o-c-oYQAcf8198_fhix2TfIUuWt7FOOKGofVFpUeUayJNsZW2LCP8g - - - 200 - text/html;+charset=utf-8 557.8618ms
+03/24/2022 14:04:37 - Website App Starting Up...
+03/24/2022 14:04:38 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 14:04:38 - Starting create-react-app server on port 56627...
+03/24/2022 14:04:38 - Now listening on: "https://localhost:44378"
+03/24/2022 14:04:38 - Application started. Press Ctrl+C to shut down.
+03/24/2022 14:04:38 - Hosting environment: "Development"
+03/24/2022 14:04:38 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website"
+03/24/2022 14:04:39 - Request starting HTTP/2 GET https://localhost:44378/ - -
+03/24/2022 14:04:39 - Executing endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 14:04:39 - Route matched with "{action = \"Index\", controller = \"React\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.ReactController" ("Website").
+03/24/2022 14:04:39 - ReactController. Redirect URL string is: https://localhost:44378/login
+03/24/2022 14:04:39 - Executing RedirectResult, redirecting to "https://localhost:44378/login".
+03/24/2022 14:04:39 - Executed action "Website.Controllers.ReactController.Index (Website)" in 6.7735ms
+03/24/2022 14:04:39 - Executed endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 14:04:39 - HTTP "GET" "/" responded 302 in 80.7083 ms
+03/24/2022 14:04:39 - Request finished HTTP/2 GET https://localhost:44378/ - - - 302 0 - 95.6177ms
+03/24/2022 14:04:39 - Request starting HTTP/2 GET https://localhost:44378/login - -
+03/24/2022 14:04:40 - > my-app@0.1.0 start
+
+03/24/2022 14:04:40 - > react-scripts start
+
+03/24/2022 14:04:44 - (node:5500) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 14:04:44 - (Use `node --trace-deprecation ...` to show where the warning was created)
+
+03/24/2022 14:04:44 - (node:5500) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 14:04:46 - Starting the development server...
+
+03/24/2022 14:04:47 - Compiled successfully!
+
+03/24/2022 14:04:47 - You can now view my-app in the browser.
+
+03/24/2022 14:04:47 -   Local:            http://localhost:56627
+
+03/24/2022 14:04:47 -   On Your Network:  http://172.24.128.1:56627
+
+03/24/2022 14:04:47 - Note that the development build is not optimized.
+
+03/24/2022 14:04:47 - To create a production build, use yarn build.
+
+03/24/2022 14:04:47 - asset static/js/bundle.js 2.71 MiB [emitted] (name: main) 1 related asset
+
+03/24/2022 14:04:47 - asset index.html 1.67 KiB [emitted]
+
+03/24/2022 14:04:47 - asset asset-manifest.json 190 bytes [emitted]
+
+03/24/2022 14:04:47 - cached modules 2.45 MiB [cached] 155 modules
+
+03/24/2022 14:04:47 - runtime modules 28.1 KiB 13 modules
+
+03/24/2022 14:04:47 - ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=56627&pathname=%2Fws&logging=none&reconnect=10 6.59 KiB [built] [code generated]
+
+03/24/2022 14:04:47 - webpack 5.68.0 compiled successfully in 2381 ms
+
+03/24/2022 14:04:47 - Compiling...
+
+03/24/2022 14:04:47 - Compiled successfully!
+
+03/24/2022 14:04:47 - assets by chunk 2.71 MiB (name: main)
+
+03/24/2022 14:04:47 -   asset static/js/bundle.js 2.71 MiB [emitted] (name: main) 1 related asset
+
+03/24/2022 14:04:47 -   asset main.c187f065c3b2b001f99c.hot-update.js 357 bytes [emitted] [immutable] [hmr] (name: main) 1 related asset
+
+03/24/2022 14:04:47 - assets by path *.json 343 bytes
+
+03/24/2022 14:04:47 -   asset asset-manifest.json 315 bytes [emitted]
+
+03/24/2022 14:04:47 -   asset main.c187f065c3b2b001f99c.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+
+03/24/2022 14:04:47 - asset index.html 1.67 KiB [emitted]
+
+03/24/2022 14:04:47 - Entrypoint main 2.71 MiB (2.71 MiB) = static/js/bundle.js 2.71 MiB main.c187f065c3b2b001f99c.hot-update.js 357 bytes 2 auxiliary assets
+
+03/24/2022 14:04:47 - cached modules 2.46 MiB [cached] 156 modules
+
+03/24/2022 14:04:47 - runtime modules 28.1 KiB 13 modules
+
+03/24/2022 14:04:47 - webpack 5.68.0 compiled successfully in 119 ms
+
+03/24/2022 14:04:48 - HTTP "GET" "/login" responded 304 in 9107.8832 ms
+03/24/2022 14:04:48 - Request finished HTTP/2 GET https://localhost:44378/login - - - 304 - - 9109.2916ms
+03/24/2022 14:04:48 - Request starting HTTP/2 GET https://localhost:44378/static/js/bundle.js - -
+03/24/2022 14:04:48 - HTTP "GET" "/static/js/bundle.js" responded 200 in 264.1146 ms
+03/24/2022 14:04:48 - Request finished HTTP/2 GET https://localhost:44378/static/js/bundle.js - - - 200 - application/javascript;+charset=utf-8 265.0682ms
+03/24/2022 14:04:48 - Request starting HTTP/2 GET https://localhost:44378/manifest.json - -
+03/24/2022 14:04:48 - HTTP "GET" "/manifest.json" responded 304 in 3.0149 ms
+03/24/2022 14:04:48 - Request finished HTTP/2 GET https://localhost:44378/manifest.json - - - 304 - - 3.5577ms
+03/24/2022 14:04:48 - Request starting HTTP/2 GET https://localhost:44378/logo192.png - -
+03/24/2022 14:04:48 - HTTP "GET" "/logo192.png" responded 304 in 1.9224 ms
+03/24/2022 14:04:48 - Request finished HTTP/2 GET https://localhost:44378/logo192.png - - - 304 - - 2.3451ms
+03/24/2022 14:05:30 - Request starting HTTP/2 GET https://localhost:44378/VerifyEmail?id=9&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImphbWVzQmVubmV0dzRAeWFob28uY29tIiwibmJmIjoxNjQ4MTAxOTEzLCJleHAiOjE2NDgxMDU1MTMsImlhdCI6MTY0ODEwMTkxM30.P3yeb8nab2gOMSDalQmuOOQjGCG9V18DQ305CRYf5Kr815MfWhO95NM4ZYTHkJ89FA8AYSMLvTDpoDfURkFRuQ - -
+03/24/2022 14:05:30 - Executing endpoint '"Website.Controllers.BrainsController.EmailVerified (Website)"'
+03/24/2022 14:05:30 - Route matched with "{action = \"EmailVerified\", controller = \"Brains\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerified(Int32, System.String)" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 14:05:30 - Start processing HTTP request "POST" https://localhost:44331/User/VerifyEmail/
+03/24/2022 14:05:30 - Sending HTTP request "POST" https://localhost:44331/User/VerifyEmail/
+03/24/2022 14:05:30 - Received HTTP response headers after 261.8598ms - 200
+03/24/2022 14:05:30 - End processing HTTP request after 267.9868ms - 200
+03/24/2022 14:05:30 - Executing ViewResult, running view "EmailVerified".
+03/24/2022 14:05:30 - Executed ViewResult - view "EmailVerified" executed in 280.779ms.
+03/24/2022 14:05:30 - Executed action "Website.Controllers.BrainsController.EmailVerified (Website)" in 702.697ms
+03/24/2022 14:05:30 - Executed endpoint '"Website.Controllers.BrainsController.EmailVerified (Website)"'
+03/24/2022 14:05:30 - HTTP "GET" "/VerifyEmail?id=9&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImphbWVzQmVubmV0dzRAeWFob28uY29tIiwibmJmIjoxNjQ4MTAxOTEzLCJleHAiOjE2NDgxMDU1MTMsImlhdCI6MTY0ODEwMTkxM30.P3yeb8nab2gOMSDalQmuOOQjGCG9V18DQ305CRYf5Kr815MfWhO95NM4ZYTHkJ89FA8AYSMLvTDpoDfURkFRuQ" responded 200 in 724.6830 ms
+03/24/2022 14:05:30 - Request finished HTTP/2 GET https://localhost:44378/VerifyEmail?id=9&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImphbWVzQmVubmV0dzRAeWFob28uY29tIiwibmJmIjoxNjQ4MTAxOTEzLCJleHAiOjE2NDgxMDU1MTMsImlhdCI6MTY0ODEwMTkxM30.P3yeb8nab2gOMSDalQmuOOQjGCG9V18DQ305CRYf5Kr815MfWhO95NM4ZYTHkJ89FA8AYSMLvTDpoDfURkFRuQ - - - 200 - text/html;+charset=utf-8 726.1392ms
+03/24/2022 14:05:35 - Request starting HTTP/2 GET https://localhost:44378/login - -
+03/24/2022 14:05:37 - HTTP "GET" "/login" responded 304 in 2055.9556 ms
+03/24/2022 14:05:37 - Request finished HTTP/2 GET https://localhost:44378/login - - - 304 - - 2056.6345ms
+03/24/2022 14:05:37 - Request starting HTTP/2 GET https://localhost:44378/static/js/bundle.js - -
+03/24/2022 14:05:37 - HTTP "GET" "/static/js/bundle.js" responded 304 in 5.5921 ms
+03/24/2022 14:05:37 - Request finished HTTP/2 GET https://localhost:44378/static/js/bundle.js - - - 304 - - 6.1587ms
+03/24/2022 14:05:37 - Request starting HTTP/2 GET https://localhost:44378/manifest.json - -
+03/24/2022 14:05:37 - HTTP "GET" "/manifest.json" responded 304 in 1.9358 ms
+03/24/2022 14:05:37 - Request finished HTTP/2 GET https://localhost:44378/manifest.json - - - 304 - - 2.6278ms
+03/24/2022 14:05:37 - Request starting HTTP/2 GET https://localhost:44378/logo192.png - -
+03/24/2022 14:05:37 - HTTP "GET" "/logo192.png" responded 304 in 1.6949 ms
+03/24/2022 14:05:37 - Request finished HTTP/2 GET https://localhost:44378/logo192.png - - - 304 - - 2.1871ms
+03/24/2022 14:05:48 - Request starting HTTP/2 GET https://localhost:44378/VerifyEmail?id=9&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImphbWVzQmVubmV0dzRAeWFob28uY29tIiwibmJmIjoxNjQ4MTAxOTEzLCJleHAiOjE2NDgxMDU1MTMsImlhdCI6MTY0ODEwMTkxM30.P3yeb8nab2gOMSDalQmuOOQjGCG9V18DQ305CRYf5Kr815MfWhO95NM4ZYTHkJ89FA8AYSMLvTDpoDfURkFRuQ - -
+03/24/2022 14:05:48 - Executing endpoint '"Website.Controllers.BrainsController.EmailVerified (Website)"'
+03/24/2022 14:05:48 - Route matched with "{action = \"EmailVerified\", controller = \"Brains\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerified(Int32, System.String)" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 14:05:48 - Start processing HTTP request "POST" https://localhost:44331/User/VerifyEmail/
+03/24/2022 14:05:48 - Sending HTTP request "POST" https://localhost:44331/User/VerifyEmail/
+03/24/2022 14:05:48 - Received HTTP response headers after 97.2338ms - 200
+03/24/2022 14:05:48 - End processing HTTP request after 97.4509ms - 200
+03/24/2022 14:05:48 - Executing ViewResult, running view "EmailVerified".
+03/24/2022 14:05:48 - Executed ViewResult - view "EmailVerified" executed in 2.1169ms.
+03/24/2022 14:05:48 - Executed action "Website.Controllers.BrainsController.EmailVerified (Website)" in 100.6046ms
+03/24/2022 14:05:48 - Executed endpoint '"Website.Controllers.BrainsController.EmailVerified (Website)"'
+03/24/2022 14:05:48 - HTTP "GET" "/VerifyEmail?id=9&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImphbWVzQmVubmV0dzRAeWFob28uY29tIiwibmJmIjoxNjQ4MTAxOTEzLCJleHAiOjE2NDgxMDU1MTMsImlhdCI6MTY0ODEwMTkxM30.P3yeb8nab2gOMSDalQmuOOQjGCG9V18DQ305CRYf5Kr815MfWhO95NM4ZYTHkJ89FA8AYSMLvTDpoDfURkFRuQ" responded 200 in 101.1938 ms
+03/24/2022 14:05:48 - Request finished HTTP/2 GET https://localhost:44378/VerifyEmail?id=9&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImphbWVzQmVubmV0dzRAeWFob28uY29tIiwibmJmIjoxNjQ4MTAxOTEzLCJleHAiOjE2NDgxMDU1MTMsImlhdCI6MTY0ODEwMTkxM30.P3yeb8nab2gOMSDalQmuOOQjGCG9V18DQ305CRYf5Kr815MfWhO95NM4ZYTHkJ89FA8AYSMLvTDpoDfURkFRuQ - - - 200 - text/html;+charset=utf-8 101.6274ms
+03/24/2022 14:05:52 - Request starting HTTP/2 GET https://localhost:44378/login - -
+03/24/2022 14:05:54 - HTTP "GET" "/login" responded 304 in 2027.4227 ms
+03/24/2022 14:05:54 - Request finished HTTP/2 GET https://localhost:44378/login - - - 304 - - 2027.8914ms
+03/24/2022 14:05:54 - Request starting HTTP/2 GET https://localhost:44378/static/js/bundle.js - -
+03/24/2022 14:05:54 - HTTP "GET" "/static/js/bundle.js" responded 304 in 5.4895 ms
+03/24/2022 14:05:54 - Request finished HTTP/2 GET https://localhost:44378/static/js/bundle.js - - - 304 - - 6.2284ms
+03/24/2022 14:05:54 - Request starting HTTP/2 GET https://localhost:44378/manifest.json - -
+03/24/2022 14:05:54 - HTTP "GET" "/manifest.json" responded 304 in 4.4661 ms
+03/24/2022 14:05:54 - Request finished HTTP/2 GET https://localhost:44378/manifest.json - - - 304 - - 5.5370ms
+03/24/2022 14:05:54 - Request starting HTTP/2 GET https://localhost:44378/logo192.png - -
+03/24/2022 14:05:54 - HTTP "GET" "/logo192.png" responded 304 in 1.3241 ms
+03/24/2022 14:05:54 - Request finished HTTP/2 GET https://localhost:44378/logo192.png - - - 304 - - 1.6779ms
+03/24/2022 14:06:23 - ^C^C
+03/24/2022 14:12:40 - Website App Starting Up...
+03/24/2022 14:12:41 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 14:12:41 - Starting create-react-app server on port 56722...
+03/24/2022 14:12:41 - Now listening on: "https://localhost:44378"
+03/24/2022 14:12:41 - Application started. Press Ctrl+C to shut down.
+03/24/2022 14:12:41 - Hosting environment: "Development"
+03/24/2022 14:12:41 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website"
+03/24/2022 14:12:42 - Request starting HTTP/2 GET https://localhost:44378/ - -
+03/24/2022 14:12:42 - Executing endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 14:12:42 - Route matched with "{action = \"Index\", controller = \"React\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.ReactController" ("Website").
+03/24/2022 14:12:42 - ReactController. Redirect URL string is: https://localhost:44378/login
+03/24/2022 14:12:42 - Executing RedirectResult, redirecting to "https://localhost:44378/login".
+03/24/2022 14:12:42 - Executed action "Website.Controllers.ReactController.Index (Website)" in 5.7559ms
+03/24/2022 14:12:42 - Executed endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 14:12:42 - HTTP "GET" "/" responded 302 in 52.5454 ms
+03/24/2022 14:12:42 - Request finished HTTP/2 GET https://localhost:44378/ - - - 302 0 - 62.8625ms
+03/24/2022 14:12:42 - Request starting HTTP/2 GET https://localhost:44378/login - -
+03/24/2022 14:12:42 - > my-app@0.1.0 start
+
+03/24/2022 14:12:42 - > react-scripts start
+
+03/24/2022 14:12:46 - (node:17032) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 14:12:46 - (Use `node --trace-deprecation ...` to show where the warning was created)
+
+03/24/2022 14:12:46 - (node:17032) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 14:12:47 - Starting the development server...
+
+03/24/2022 14:12:48 - Compiled successfully!
+
+03/24/2022 14:12:48 - You can now view my-app in the browser.
+
+03/24/2022 14:12:48 -   Local:            http://localhost:56722
+
+03/24/2022 14:12:48 -   On Your Network:  http://172.24.128.1:56722
+
+03/24/2022 14:12:48 - Note that the development build is not optimized.
+
+03/24/2022 14:12:48 - To create a production build, use yarn build.
+
+03/24/2022 14:12:48 - asset static/js/bundle.js 2.71 MiB [emitted] (name: main) 1 related asset
+
+03/24/2022 14:12:48 - asset index.html 1.67 KiB [emitted]
+
+03/24/2022 14:12:48 - asset asset-manifest.json 190 bytes [emitted]
+
+03/24/2022 14:12:48 - cached modules 2.45 MiB [cached] 155 modules
+
+03/24/2022 14:12:48 - runtime modules 28.1 KiB 13 modules
+
+03/24/2022 14:12:48 - ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=56722&pathname=%2Fws&logging=none&reconnect=10 6.59 KiB [built] [code generated]
+
+03/24/2022 14:12:48 - webpack 5.68.0 compiled successfully in 1968 ms
+
+03/24/2022 14:12:49 - HTTP "GET" "/login" responded 304 in 7012.3007 ms
+03/24/2022 14:12:49 - Request finished HTTP/2 GET https://localhost:44378/login - - - 304 - - 7013.7887ms
+03/24/2022 14:12:49 - Request starting HTTP/2 GET https://localhost:44378/static/js/bundle.js - -
+03/24/2022 14:12:49 - HTTP "GET" "/static/js/bundle.js" responded 200 in 106.2034 ms
+03/24/2022 14:12:49 - Request finished HTTP/2 GET https://localhost:44378/static/js/bundle.js - - - 200 - application/javascript;+charset=utf-8 107.2130ms
+03/24/2022 14:12:49 - Request starting HTTP/2 GET https://localhost:44378/manifest.json - -
+03/24/2022 14:12:49 - HTTP "GET" "/manifest.json" responded 304 in 3.1332 ms
+03/24/2022 14:12:49 - Request finished HTTP/2 GET https://localhost:44378/manifest.json - - - 304 - - 3.6238ms
+03/24/2022 14:12:49 - Request starting HTTP/2 GET https://localhost:44378/logo192.png - -
+03/24/2022 14:12:49 - HTTP "GET" "/logo192.png" responded 304 in 1.8929 ms
+03/24/2022 14:12:49 - Request finished HTTP/2 GET https://localhost:44378/logo192.png - - - 304 - - 2.3757ms
+03/24/2022 14:14:45 - Request starting HTTP/2 GET https://localhost:44378/ResetPass?id=9&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI5IiwidW5pcXVlX25hbWUiOiJqYm9uZHc0Iiwicm9sZSI6ImJhc2ljIiwibmJmIjoxNjQ4MTAyNDEwLCJleHAiOjE2NDgxMDYwMTAsImlhdCI6MTY0ODEwMjQxMH0.sqD0rUGO0epfNqzJ2s_7eQNWna85GgrenoKkFRkvbLy5ZIXO3cEpjyX_qmQ2993hK6nzjpw-bzG1YGWkHzfcRg - -
+03/24/2022 14:14:45 - Executing endpoint '"Website.Controllers.BrainsController.ResetPass (Website)"'
+03/24/2022 14:14:45 - Route matched with "{action = \"ResetPass\", controller = \"Brains\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ResetPass(Int32, System.String)" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 14:14:45 - Executing ViewResult, running view "ResetPass".
+03/24/2022 14:14:45 - Executed ViewResult - view "ResetPass" executed in 248.1227ms.
+03/24/2022 14:14:45 - Executed action "Website.Controllers.BrainsController.ResetPass (Website)" in 271.2455ms
+03/24/2022 14:14:45 - Executed endpoint '"Website.Controllers.BrainsController.ResetPass (Website)"'
+03/24/2022 14:14:45 - HTTP "GET" "/ResetPass?id=9&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI5IiwidW5pcXVlX25hbWUiOiJqYm9uZHc0Iiwicm9sZSI6ImJhc2ljIiwibmJmIjoxNjQ4MTAyNDEwLCJleHAiOjE2NDgxMDYwMTAsImlhdCI6MTY0ODEwMjQxMH0.sqD0rUGO0epfNqzJ2s_7eQNWna85GgrenoKkFRkvbLy5ZIXO3cEpjyX_qmQ2993hK6nzjpw-bzG1YGWkHzfcRg" responded 200 in 280.9646 ms
+03/24/2022 14:14:45 - Request finished HTTP/2 GET https://localhost:44378/ResetPass?id=9&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI5IiwidW5pcXVlX25hbWUiOiJqYm9uZHc0Iiwicm9sZSI6ImJhc2ljIiwibmJmIjoxNjQ4MTAyNDEwLCJleHAiOjE2NDgxMDYwMTAsImlhdCI6MTY0ODEwMjQxMH0.sqD0rUGO0epfNqzJ2s_7eQNWna85GgrenoKkFRkvbLy5ZIXO3cEpjyX_qmQ2993hK6nzjpw-bzG1YGWkHzfcRg - - - 200 - text/html;+charset=utf-8 288.2173ms
+03/24/2022 14:14:58 - Request starting HTTP/2 GET https://localhost:44378/ResetPass?id=9&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI5IiwidW5pcXVlX25hbWUiOiJqYm9uZHc0Iiwicm9sZSI6ImJhc2ljIiwibmJmIjoxNjQ4MTAyNDEwLCJleHAiOjE2NDgxMDYwMTAsImlhdCI6MTY0ODEwMjQxMH0.sqD0rUGO0epfNqzJ2s_7eQNWna85GgrenoKkFRkvbLy5ZIXO3cEpjyX_qmQ2993hK6nzjpw-bzG1YGWkHzfcRg - -
+03/24/2022 14:14:58 - Executing endpoint '"Website.Controllers.BrainsController.ResetPass (Website)"'
+03/24/2022 14:14:58 - Route matched with "{action = \"ResetPass\", controller = \"Brains\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ResetPass(Int32, System.String)" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 14:14:58 - Executing ViewResult, running view "ResetPass".
+03/24/2022 14:14:58 - Executed ViewResult - view "ResetPass" executed in 9.1942ms.
+03/24/2022 14:14:58 - Executed action "Website.Controllers.BrainsController.ResetPass (Website)" in 10.3923ms
+03/24/2022 14:14:58 - Executed endpoint '"Website.Controllers.BrainsController.ResetPass (Website)"'
+03/24/2022 14:14:58 - HTTP "GET" "/ResetPass?id=9&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI5IiwidW5pcXVlX25hbWUiOiJqYm9uZHc0Iiwicm9sZSI6ImJhc2ljIiwibmJmIjoxNjQ4MTAyNDEwLCJleHAiOjE2NDgxMDYwMTAsImlhdCI6MTY0ODEwMjQxMH0.sqD0rUGO0epfNqzJ2s_7eQNWna85GgrenoKkFRkvbLy5ZIXO3cEpjyX_qmQ2993hK6nzjpw-bzG1YGWkHzfcRg" responded 200 in 10.9078 ms
+03/24/2022 14:14:58 - Request finished HTTP/2 GET https://localhost:44378/ResetPass?id=9&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI5IiwidW5pcXVlX25hbWUiOiJqYm9uZHc0Iiwicm9sZSI6ImJhc2ljIiwibmJmIjoxNjQ4MTAyNDEwLCJleHAiOjE2NDgxMDYwMTAsImlhdCI6MTY0ODEwMjQxMH0.sqD0rUGO0epfNqzJ2s_7eQNWna85GgrenoKkFRkvbLy5ZIXO3cEpjyX_qmQ2993hK6nzjpw-bzG1YGWkHzfcRg - - - 200 - text/html;+charset=utf-8 11.4481ms
+03/24/2022 14:15:26 - Request starting HTTP/2 POST https://localhost:44378/Brains/ResetPassButton application/x-www-form-urlencoded 510
+03/24/2022 14:15:26 - CORS policy execution successful.
+03/24/2022 14:15:26 - Executing endpoint '"Website.Controllers.BrainsController.ResetPassButton (Website)"'
+03/24/2022 14:15:26 - Route matched with "{action = \"ResetPassButton\", controller = \"Brains\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassButton(Website.Models.ResetPassModel)" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 14:15:26 - Executing RedirectResult, redirecting to "/ResetPassAgain?Id=9&Token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI5IiwidW5pcXVlX25hbWUiOiJqYm9uZHc0Iiwicm9sZSI6ImJhc2ljIiwibmJmIjoxNjQ4MTAyNDEwLCJleHAiOjE2NDgxMDYwMTAsImlhdCI6MTY0ODEwMjQxMH0.sqD0rUGO0epfNqzJ2s_7eQNWna85GgrenoKkFRkvbLy5ZIXO3cEpjyX_qmQ2993hK6nzjpw-bzG1YGWkHzfcRg".
+03/24/2022 14:15:26 - Executed action "Website.Controllers.BrainsController.ResetPassButton (Website)" in 19.3203ms
+03/24/2022 14:15:26 - Executed endpoint '"Website.Controllers.BrainsController.ResetPassButton (Website)"'
+03/24/2022 14:15:26 - HTTP "POST" "/Brains/ResetPassButton" responded 302 in 28.8507 ms
+03/24/2022 14:15:26 - Request finished HTTP/2 POST https://localhost:44378/Brains/ResetPassButton application/x-www-form-urlencoded 510 - 302 0 - 29.6490ms
+03/24/2022 14:15:27 - Request starting HTTP/2 GET https://localhost:44378/ResetPassAgain?Id=9&Token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI5IiwidW5pcXVlX25hbWUiOiJqYm9uZHc0Iiwicm9sZSI6ImJhc2ljIiwibmJmIjoxNjQ4MTAyNDEwLCJleHAiOjE2NDgxMDYwMTAsImlhdCI6MTY0ODEwMjQxMH0.sqD0rUGO0epfNqzJ2s_7eQNWna85GgrenoKkFRkvbLy5ZIXO3cEpjyX_qmQ2993hK6nzjpw-bzG1YGWkHzfcRg - -
+03/24/2022 14:15:27 - Executing endpoint '"Website.Controllers.BrainsController.ResetPassAgain (Website)"'
+03/24/2022 14:15:27 - Route matched with "{action = \"ResetPassAgain\", controller = \"Brains\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ResetPassAgain(Website.Models.ResetPassModel)" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 14:15:27 - Executing ViewResult, running view "ResetPass".
+03/24/2022 14:15:27 - Executed ViewResult - view "ResetPass" executed in 3.0045ms.
+03/24/2022 14:15:27 - Executed action "Website.Controllers.BrainsController.ResetPassAgain (Website)" in 3.5714ms
+03/24/2022 14:15:27 - Executed endpoint '"Website.Controllers.BrainsController.ResetPassAgain (Website)"'
+03/24/2022 14:15:27 - HTTP "GET" "/ResetPassAgain?Id=9&Token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI5IiwidW5pcXVlX25hbWUiOiJqYm9uZHc0Iiwicm9sZSI6ImJhc2ljIiwibmJmIjoxNjQ4MTAyNDEwLCJleHAiOjE2NDgxMDYwMTAsImlhdCI6MTY0ODEwMjQxMH0.sqD0rUGO0epfNqzJ2s_7eQNWna85GgrenoKkFRkvbLy5ZIXO3cEpjyX_qmQ2993hK6nzjpw-bzG1YGWkHzfcRg" responded 200 in 4.7653 ms
+03/24/2022 14:15:27 - Request finished HTTP/2 GET https://localhost:44378/ResetPassAgain?Id=9&Token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI5IiwidW5pcXVlX25hbWUiOiJqYm9uZHc0Iiwicm9sZSI6ImJhc2ljIiwibmJmIjoxNjQ4MTAyNDEwLCJleHAiOjE2NDgxMDYwMTAsImlhdCI6MTY0ODEwMjQxMH0.sqD0rUGO0epfNqzJ2s_7eQNWna85GgrenoKkFRkvbLy5ZIXO3cEpjyX_qmQ2993hK6nzjpw-bzG1YGWkHzfcRg - - - 200 - text/html;+charset=utf-8 5.0530ms
+03/24/2022 14:15:31 - Request starting HTTP/2 POST https://localhost:44378/Brains/ResetPassButton application/x-www-form-urlencoded 519
+03/24/2022 14:15:31 - CORS policy execution successful.
+03/24/2022 14:15:31 - Executing endpoint '"Website.Controllers.BrainsController.ResetPassButton (Website)"'
+03/24/2022 14:15:31 - Route matched with "{action = \"ResetPassButton\", controller = \"Brains\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassButton(Website.Models.ResetPassModel)" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 14:15:32 - Start processing HTTP request "PUT" https://localhost:44331/User/ChangePass/
+03/24/2022 14:15:32 - Sending HTTP request "PUT" https://localhost:44331/User/ChangePass/
+03/24/2022 14:15:32 - Received HTTP response headers after 191.9122ms - 200
+03/24/2022 14:15:32 - End processing HTTP request after 197.8478ms - 200
+03/24/2022 14:15:32 - Executing ViewResult, running view "ResetPassSuccess".
+03/24/2022 14:15:32 - Executed ViewResult - view "ResetPassSuccess" executed in 3.9436ms.
+03/24/2022 14:15:32 - Executed action "Website.Controllers.BrainsController.ResetPassButton (Website)" in 315.0879ms
+03/24/2022 14:15:32 - Executed endpoint '"Website.Controllers.BrainsController.ResetPassButton (Website)"'
+03/24/2022 14:15:32 - HTTP "POST" "/Brains/ResetPassButton" responded 200 in 319.4826 ms
+03/24/2022 14:15:32 - Request finished HTTP/2 POST https://localhost:44378/Brains/ResetPassButton application/x-www-form-urlencoded 519 - 200 - text/html;+charset=utf-8 319.7133ms
+03/24/2022 14:15:35 - Request starting HTTP/2 GET https://localhost:44378/login - -
+03/24/2022 14:15:37 - HTTP "GET" "/login" responded 304 in 2063.9957 ms
+03/24/2022 14:15:37 - Request finished HTTP/2 GET https://localhost:44378/login - - - 304 - - 2064.6089ms
+03/24/2022 14:15:37 - Request starting HTTP/2 GET https://localhost:44378/static/js/bundle.js - -
+03/24/2022 14:15:37 - HTTP "GET" "/static/js/bundle.js" responded 304 in 4.8686 ms
+03/24/2022 14:15:37 - Request finished HTTP/2 GET https://localhost:44378/static/js/bundle.js - - - 304 - - 5.3128ms
+03/24/2022 14:15:37 - Request starting HTTP/2 GET https://localhost:44378/manifest.json - -
+03/24/2022 14:15:37 - HTTP "GET" "/manifest.json" responded 304 in 1.9218 ms
+03/24/2022 14:15:37 - Request finished HTTP/2 GET https://localhost:44378/manifest.json - - - 304 - - 2.5182ms
+03/24/2022 14:15:37 - Request starting HTTP/2 GET https://localhost:44378/logo192.png - -
+03/24/2022 14:15:37 - HTTP "GET" "/logo192.png" responded 304 in 1.3987 ms
+03/24/2022 14:15:37 - Request finished HTTP/2 GET https://localhost:44378/logo192.png - - - 304 - - 1.7643ms
+03/24/2022 14:17:09 - Request starting HTTP/2 GET https://localhost:44378/VerifyEmail?id=10&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRvcmlhbndvcmtAeWFob28uY29tIiwibmJmIjoxNjQ4MTAyNTc5LCJleHAiOjE2NDgxMDYxNzksImlhdCI6MTY0ODEwMjU3OX0.GKWHL2NwfiBvgD-gtfrr19RczRLXdvYmHrW2K1bt4reiw5fwNm0mEQRrrYmdbXXBczczGUpIlwO5x1wM7xHIFA - -
+03/24/2022 14:17:09 - Executing endpoint '"Website.Controllers.BrainsController.EmailVerified (Website)"'
+03/24/2022 14:17:09 - Route matched with "{action = \"EmailVerified\", controller = \"Brains\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerified(Int32, System.String)" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 14:17:09 - Start processing HTTP request "POST" https://localhost:44331/User/VerifyEmail/
+03/24/2022 14:17:09 - Sending HTTP request "POST" https://localhost:44331/User/VerifyEmail/
+03/24/2022 14:17:10 - Received HTTP response headers after 225.2955ms - 200
+03/24/2022 14:17:10 - End processing HTTP request after 225.5639ms - 200
+03/24/2022 14:17:10 - 03/24/2022 06:17:10 - Error - Wrong Token or Id. BrainsController.EmailVerified - ID: 10
+03/24/2022 14:17:10 - Executing ViewResult, running view "EmailNotVerified".
+03/24/2022 14:17:10 - Executed ViewResult - view "EmailNotVerified" executed in 157.6344ms.
+03/24/2022 14:17:10 - Executed action "Website.Controllers.BrainsController.EmailVerified (Website)" in 388.1181ms
+03/24/2022 14:17:10 - Executed endpoint '"Website.Controllers.BrainsController.EmailVerified (Website)"'
+03/24/2022 14:17:10 - HTTP "GET" "/VerifyEmail?id=10&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRvcmlhbndvcmtAeWFob28uY29tIiwibmJmIjoxNjQ4MTAyNTc5LCJleHAiOjE2NDgxMDYxNzksImlhdCI6MTY0ODEwMjU3OX0.GKWHL2NwfiBvgD-gtfrr19RczRLXdvYmHrW2K1bt4reiw5fwNm0mEQRrrYmdbXXBczczGUpIlwO5x1wM7xHIFA" responded 200 in 394.3564 ms
+03/24/2022 14:17:10 - Request finished HTTP/2 GET https://localhost:44378/VerifyEmail?id=10&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRvcmlhbndvcmtAeWFob28uY29tIiwibmJmIjoxNjQ4MTAyNTc5LCJleHAiOjE2NDgxMDYxNzksImlhdCI6MTY0ODEwMjU3OX0.GKWHL2NwfiBvgD-gtfrr19RczRLXdvYmHrW2K1bt4reiw5fwNm0mEQRrrYmdbXXBczczGUpIlwO5x1wM7xHIFA - - - 200 - text/html;+charset=utf-8 394.7524ms
+03/24/2022 14:17:19 - Request starting HTTP/2 GET https://localhost:44378/login - -
+03/24/2022 14:17:21 - HTTP "GET" "/login" responded 304 in 2069.3060 ms
+03/24/2022 14:17:21 - Request finished HTTP/2 GET https://localhost:44378/login - - - 304 - - 2069.6638ms
+03/24/2022 14:17:21 - Request starting HTTP/2 GET https://localhost:44378/static/js/bundle.js - -
+03/24/2022 14:17:21 - HTTP "GET" "/static/js/bundle.js" responded 304 in 9.1886 ms
+03/24/2022 14:17:21 - Request finished HTTP/2 GET https://localhost:44378/static/js/bundle.js - - - 304 - - 9.7714ms
+03/24/2022 14:17:22 - Request starting HTTP/2 GET https://localhost:44378/manifest.json - -
+03/24/2022 14:17:22 - HTTP "GET" "/manifest.json" responded 304 in 2.4294 ms
+03/24/2022 14:17:22 - Request finished HTTP/2 GET https://localhost:44378/manifest.json - - - 304 - - 2.7807ms
+03/24/2022 14:17:22 - Request starting HTTP/2 GET https://localhost:44378/logo192.png - -
+03/24/2022 14:17:22 - HTTP "GET" "/logo192.png" responded 304 in 1.7228 ms
+03/24/2022 14:17:22 - Request finished HTTP/2 GET https://localhost:44378/logo192.png - - - 304 - - 2.2112ms
+03/24/2022 14:17:47 - Request starting HTTP/2 GET https://localhost:44378/VerifyEmail?id=10&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRvcmlhbndvcmtAeWFob28uY29tIiwibmJmIjoxNjQ4MTAyNjA4LCJleHAiOjE2NDgxMDYyMDgsImlhdCI6MTY0ODEwMjYwOH0.1CYiDCYCsOxHdxzsqw-StwRM1fm2ZS_ESn5Z9LkkmEmJ9lv3FYBCttjPhZSv08KTo77PC955RcNB0JeGgYeE4A - -
+03/24/2022 14:17:47 - Executing endpoint '"Website.Controllers.BrainsController.EmailVerified (Website)"'
+03/24/2022 14:17:47 - Route matched with "{action = \"EmailVerified\", controller = \"Brains\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerified(Int32, System.String)" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 14:17:47 - Start processing HTTP request "POST" https://localhost:44331/User/VerifyEmail/
+03/24/2022 14:17:47 - Sending HTTP request "POST" https://localhost:44331/User/VerifyEmail/
+03/24/2022 14:17:47 - Received HTTP response headers after 148.9761ms - 200
+03/24/2022 14:17:47 - End processing HTTP request after 149.3474ms - 200
+03/24/2022 14:17:47 - Executing ViewResult, running view "EmailVerified".
+03/24/2022 14:17:48 - Executed ViewResult - view "EmailVerified" executed in 145.9495ms.
+03/24/2022 14:17:48 - Executed action "Website.Controllers.BrainsController.EmailVerified (Website)" in 296.1036ms
+03/24/2022 14:17:48 - Executed endpoint '"Website.Controllers.BrainsController.EmailVerified (Website)"'
+03/24/2022 14:17:48 - HTTP "GET" "/VerifyEmail?id=10&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRvcmlhbndvcmtAeWFob28uY29tIiwibmJmIjoxNjQ4MTAyNjA4LCJleHAiOjE2NDgxMDYyMDgsImlhdCI6MTY0ODEwMjYwOH0.1CYiDCYCsOxHdxzsqw-StwRM1fm2ZS_ESn5Z9LkkmEmJ9lv3FYBCttjPhZSv08KTo77PC955RcNB0JeGgYeE4A" responded 200 in 296.6443 ms
+03/24/2022 14:17:48 - Request finished HTTP/2 GET https://localhost:44378/VerifyEmail?id=10&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRvcmlhbndvcmtAeWFob28uY29tIiwibmJmIjoxNjQ4MTAyNjA4LCJleHAiOjE2NDgxMDYyMDgsImlhdCI6MTY0ODEwMjYwOH0.1CYiDCYCsOxHdxzsqw-StwRM1fm2ZS_ESn5Z9LkkmEmJ9lv3FYBCttjPhZSv08KTo77PC955RcNB0JeGgYeE4A - - - 200 - text/html;+charset=utf-8 300.2384ms
+03/24/2022 14:28:35 - Website App Starting Up...
+03/24/2022 14:28:36 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 14:28:37 - Starting create-react-app server on port 56867...
+03/24/2022 14:28:37 - Now listening on: "https://localhost:44378"
+03/24/2022 14:28:37 - Application started. Press Ctrl+C to shut down.
+03/24/2022 14:28:37 - Hosting environment: "Development"
+03/24/2022 14:28:37 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website"
+03/24/2022 14:28:37 - Request starting HTTP/2 GET https://localhost:44378/ - -
+03/24/2022 14:28:37 - Executing endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 14:28:37 - Route matched with "{action = \"Index\", controller = \"React\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.ReactController" ("Website").
+03/24/2022 14:28:37 - ReactController. Redirect URL string is: https://localhost:44378/login
+03/24/2022 14:28:37 - Executing RedirectResult, redirecting to "https://localhost:44378/login".
+03/24/2022 14:28:37 - Executed action "Website.Controllers.ReactController.Index (Website)" in 8.0176ms
+03/24/2022 14:28:37 - Executed endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 14:28:37 - HTTP "GET" "/" responded 302 in 73.3485 ms
+03/24/2022 14:28:37 - Request finished HTTP/2 GET https://localhost:44378/ - - - 302 0 - 87.8712ms
+03/24/2022 14:28:37 - Request starting HTTP/2 GET https://localhost:44378/login - -
+03/24/2022 14:28:38 - > my-app@0.1.0 start
+
+03/24/2022 14:28:38 - > react-scripts start
+
+03/24/2022 14:28:41 - (node:18464) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 14:28:41 - (Use `node --trace-deprecation ...` to show where the warning was created)
+
+03/24/2022 14:28:41 - (node:18464) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 14:28:42 - Starting the development server...
+
+03/24/2022 14:28:43 - Compiled successfully!
+
+03/24/2022 14:28:43 - You can now view my-app in the browser.
+
+03/24/2022 14:28:43 -   Local:            http://localhost:56867
+
+03/24/2022 14:28:43 -   On Your Network:  http://172.24.128.1:56867
+
+03/24/2022 14:28:43 - Note that the development build is not optimized.
+
+03/24/2022 14:28:43 - To create a production build, use yarn build.
+
+03/24/2022 14:28:43 - asset static/js/bundle.js 2.71 MiB [emitted] (name: main) 1 related asset
+
+03/24/2022 14:28:43 - asset index.html 1.67 KiB [emitted]
+
+03/24/2022 14:28:43 - asset asset-manifest.json 190 bytes [emitted]
+
+03/24/2022 14:28:43 - cached modules 2.43 MiB [cached] 154 modules
+
+03/24/2022 14:28:43 - runtime modules 28.1 KiB 13 modules
+
+03/24/2022 14:28:43 - javascript modules 29 KiB
+
+03/24/2022 14:28:43 -   ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=56867&pathname=%2Fws&logging=none&reconnect=10 6.59 KiB [built] [code generated]
+
+03/24/2022 14:28:43 -   ./src/components/Register.js 22.4 KiB [built] [code generated]
+
+03/24/2022 14:28:43 - webpack 5.68.0 compiled successfully in 2020 ms
+
+03/24/2022 14:28:45 - HTTP "GET" "/login" responded 304 in 7240.2516 ms
+03/24/2022 14:28:45 - Request finished HTTP/2 GET https://localhost:44378/login - - - 304 - - 7242.2917ms
+03/24/2022 14:28:45 - Request starting HTTP/2 GET https://localhost:44378/static/js/bundle.js - -
+03/24/2022 14:28:45 - HTTP "GET" "/static/js/bundle.js" responded 200 in 101.1790 ms
+03/24/2022 14:28:45 - Request finished HTTP/2 GET https://localhost:44378/static/js/bundle.js - - - 200 - application/javascript;+charset=utf-8 102.1584ms
+03/24/2022 14:28:45 - Request starting HTTP/2 GET https://localhost:44378/manifest.json - -
+03/24/2022 14:28:45 - HTTP "GET" "/manifest.json" responded 304 in 4.6883 ms
+03/24/2022 14:28:45 - Request finished HTTP/2 GET https://localhost:44378/manifest.json - - - 304 - - 5.6991ms
+03/24/2022 14:28:45 - Request starting HTTP/2 GET https://localhost:44378/logo192.png - -
+03/24/2022 14:28:45 - HTTP "GET" "/logo192.png" responded 304 in 1.7032 ms
+03/24/2022 14:28:45 - Request finished HTTP/2 GET https://localhost:44378/logo192.png - - - 304 - - 2.1590ms
+03/24/2022 14:39:14 - Website App Starting Up...
+03/24/2022 14:39:14 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 14:39:15 - Starting create-react-app server on port 56948...
+03/24/2022 14:39:15 - Now listening on: "https://localhost:44378"
+03/24/2022 14:39:15 - Application started. Press Ctrl+C to shut down.
+03/24/2022 14:39:15 - Hosting environment: "Development"
+03/24/2022 14:39:15 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website"
+03/24/2022 14:39:15 - Request starting HTTP/2 GET https://localhost:44378/ - -
+03/24/2022 14:39:16 - Executing endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 14:39:16 - Route matched with "{action = \"Index\", controller = \"React\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.ReactController" ("Website").
+03/24/2022 14:39:16 - ReactController. Redirect URL string is: https://localhost:44378/login
+03/24/2022 14:39:16 - Executing RedirectResult, redirecting to "https://localhost:44378/login".
+03/24/2022 14:39:16 - Executed action "Website.Controllers.ReactController.Index (Website)" in 7.1501ms
+03/24/2022 14:39:16 - Executed endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 14:39:16 - HTTP "GET" "/" responded 302 in 74.5087 ms
+03/24/2022 14:39:16 - Request finished HTTP/2 GET https://localhost:44378/ - - - 302 0 - 88.3540ms
+03/24/2022 14:39:16 - Request starting HTTP/2 GET https://localhost:44378/login - -
+03/24/2022 14:39:16 - > my-app@0.1.0 start
+
+03/24/2022 14:39:16 - > react-scripts start
+
+03/24/2022 14:39:19 - (node:17424) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 14:39:19 - (Use `node --trace-deprecation ...` to show where the warning was created)
+
+03/24/2022 14:39:19 - (node:17424) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 14:39:21 - Starting the development server...
+
+03/24/2022 14:39:22 - Compiled successfully!
+
+03/24/2022 14:39:22 - You can now view my-app in the browser.
+
+03/24/2022 14:39:22 -   Local:            http://localhost:56948
+
+03/24/2022 14:39:22 -   On Your Network:  http://172.24.128.1:56948
+
+03/24/2022 14:39:22 - Note that the development build is not optimized.
+
+03/24/2022 14:39:22 - To create a production build, use yarn build.
+
+03/24/2022 14:39:22 - asset static/js/bundle.js 2.71 MiB [emitted] (name: main) 1 related asset
+
+03/24/2022 14:39:22 - asset index.html 1.67 KiB [emitted]
+
+03/24/2022 14:39:22 - asset asset-manifest.json 190 bytes [emitted]
+
+03/24/2022 14:39:22 - cached modules 2.43 MiB [cached] 153 modules
+
+03/24/2022 14:39:22 - runtime modules 28.1 KiB 13 modules
+
+03/24/2022 14:39:22 - javascript modules 31.2 KiB
+
+03/24/2022 14:39:22 -   ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=56948&pathname=%2Fws&logging=none&reconnect=10 6.59 KiB [built] [code generated]
+
+03/24/2022 14:39:22 -   ./src/components/Register.js 22.4 KiB [built] [code generated]
+
+03/24/2022 14:39:22 -   ./src/Validation/Validation.js 2.21 KiB [built] [code generated]
+
+03/24/2022 14:39:22 - webpack 5.68.0 compiled successfully in 2407 ms
+
+03/24/2022 14:39:23 - HTTP "GET" "/login" responded 304 in 7201.5476 ms
+03/24/2022 14:39:23 - Request finished HTTP/2 GET https://localhost:44378/login - - - 304 - - 7203.0368ms
+03/24/2022 14:39:23 - Request starting HTTP/2 GET https://localhost:44378/static/js/bundle.js - -
+03/24/2022 14:39:23 - HTTP "GET" "/static/js/bundle.js" responded 200 in 397.2623 ms
+03/24/2022 14:39:23 - Request finished HTTP/2 GET https://localhost:44378/static/js/bundle.js - - - 200 - application/javascript;+charset=utf-8 398.2599ms
+03/24/2022 14:39:23 - Request starting HTTP/2 GET https://localhost:44378/manifest.json - -
+03/24/2022 14:39:23 - HTTP "GET" "/manifest.json" responded 304 in 3.5004 ms
+03/24/2022 14:39:23 - Request finished HTTP/2 GET https://localhost:44378/manifest.json - - - 304 - - 3.9934ms
+03/24/2022 14:39:23 - Request starting HTTP/2 GET https://localhost:44378/logo192.png - -
+03/24/2022 14:39:23 - HTTP "GET" "/logo192.png" responded 304 in 1.7833 ms
+03/24/2022 14:39:23 - Request finished HTTP/2 GET https://localhost:44378/logo192.png - - - 304 - - 2.2459ms
+03/24/2022 14:56:00 - Website App Starting Up...
+03/24/2022 14:56:01 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 14:56:01 - Starting create-react-app server on port 57022...
+03/24/2022 14:56:01 - Now listening on: "https://localhost:44378"
+03/24/2022 14:56:01 - Application started. Press Ctrl+C to shut down.
+03/24/2022 14:56:01 - Hosting environment: "Development"
+03/24/2022 14:56:01 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website"
+03/24/2022 14:56:02 - Request starting HTTP/2 GET https://localhost:44378/ - -
+03/24/2022 14:56:02 - Executing endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 14:56:02 - Route matched with "{action = \"Index\", controller = \"React\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.ReactController" ("Website").
+03/24/2022 14:56:02 - ReactController. Redirect URL string is: https://localhost:44378/login
+03/24/2022 14:56:02 - Executing RedirectResult, redirecting to "https://localhost:44378/login".
+03/24/2022 14:56:02 - Executed action "Website.Controllers.ReactController.Index (Website)" in 6.5519ms
+03/24/2022 14:56:02 - Executed endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 14:56:02 - HTTP "GET" "/" responded 302 in 75.6213 ms
+03/24/2022 14:56:02 - Request finished HTTP/2 GET https://localhost:44378/ - - - 302 0 - 88.9688ms
+03/24/2022 14:56:02 - Request starting HTTP/2 GET https://localhost:44378/login - -
+03/24/2022 14:56:02 - > my-app@0.1.0 start
+
+03/24/2022 14:56:02 - > react-scripts start
+
+03/24/2022 14:56:06 - (node:16584) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 14:56:06 - (Use `node --trace-deprecation ...` to show where the warning was created)
+
+03/24/2022 14:56:06 - (node:16584) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 14:56:07 - Starting the development server...
+
+03/24/2022 14:56:08 - Compiled successfully!
+
+03/24/2022 14:56:08 - You can now view my-app in the browser.
+
+03/24/2022 14:56:08 -   Local:            http://localhost:57022
+
+03/24/2022 14:56:08 -   On Your Network:  http://172.24.128.1:57022
+
+03/24/2022 14:56:08 - Note that the development build is not optimized.
+
+03/24/2022 14:56:08 - To create a production build, use yarn build.
+
+03/24/2022 14:56:08 - asset static/js/bundle.js 2.71 MiB [emitted] (name: main) 1 related asset
+
+03/24/2022 14:56:08 - asset index.html 1.67 KiB [emitted]
+
+03/24/2022 14:56:08 - asset asset-manifest.json 190 bytes [emitted]
+
+03/24/2022 14:56:08 - cached modules 2.43 MiB [cached] 153 modules
+
+03/24/2022 14:56:08 - runtime modules 28.1 KiB 13 modules
+
+03/24/2022 14:56:08 - javascript modules 31.7 KiB
+
+03/24/2022 14:56:08 -   ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=57022&pathname=%2Fws&logging=none&reconnect=10 6.59 KiB [built] [code generated]
+
+03/24/2022 14:56:08 -   ./src/components/Register.js 22.9 KiB [built] [code generated]
+
+03/24/2022 14:56:08 -   ./src/Validation/Validation.js 2.21 KiB [built]
+
+03/24/2022 14:56:08 - webpack 5.68.0 compiled successfully in 2419 ms
+
+03/24/2022 14:56:09 - HTTP "GET" "/login" responded 304 in 7222.9310 ms
+03/24/2022 14:56:09 - Request finished HTTP/2 GET https://localhost:44378/login - - - 304 - - 7224.6329ms
+03/24/2022 14:56:09 - Request starting HTTP/2 GET https://localhost:44378/static/js/bundle.js - -
+03/24/2022 14:56:09 - HTTP "GET" "/static/js/bundle.js" responded 200 in 267.7991 ms
+03/24/2022 14:56:09 - Request finished HTTP/2 GET https://localhost:44378/static/js/bundle.js - - - 200 - application/javascript;+charset=utf-8 268.8825ms
+03/24/2022 14:56:09 - Request starting HTTP/2 GET https://localhost:44378/manifest.json - -
+03/24/2022 14:56:09 - HTTP "GET" "/manifest.json" responded 304 in 3.1979 ms
+03/24/2022 14:56:09 - Request finished HTTP/2 GET https://localhost:44378/manifest.json - - - 304 - - 3.9865ms
+03/24/2022 14:56:09 - Request starting HTTP/2 GET https://localhost:44378/logo192.png - -
+03/24/2022 14:56:09 - HTTP "GET" "/logo192.png" responded 304 in 2.0936 ms
+03/24/2022 14:56:09 - Request finished HTTP/2 GET https://localhost:44378/logo192.png - - - 304 - - 2.5464ms
+03/24/2022 14:58:34 - Website App Starting Up...
+03/24/2022 14:58:35 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 14:58:35 - Starting create-react-app server on port 57062...
+03/24/2022 14:58:36 - Now listening on: "https://localhost:44378"
+03/24/2022 14:58:36 - Application started. Press Ctrl+C to shut down.
+03/24/2022 14:58:36 - Hosting environment: "Development"
+03/24/2022 14:58:36 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\Website"
+03/24/2022 14:58:36 - Request starting HTTP/2 GET https://localhost:44378/ - -
+03/24/2022 14:58:36 - Executing endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 14:58:36 - Route matched with "{action = \"Index\", controller = \"React\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.ReactController" ("Website").
+03/24/2022 14:58:36 - ReactController. Redirect URL string is: https://localhost:44378/login
+03/24/2022 14:58:36 - Executing RedirectResult, redirecting to "https://localhost:44378/login".
+03/24/2022 14:58:36 - Executed action "Website.Controllers.ReactController.Index (Website)" in 7.8117ms
+03/24/2022 14:58:36 - Executed endpoint '"Website.Controllers.ReactController.Index (Website)"'
+03/24/2022 14:58:36 - HTTP "GET" "/" responded 302 in 66.0498 ms
+03/24/2022 14:58:36 - Request finished HTTP/2 GET https://localhost:44378/ - - - 302 0 - 81.1792ms
+03/24/2022 14:58:36 - Request starting HTTP/2 GET https://localhost:44378/login - -
+03/24/2022 14:58:37 - > my-app@0.1.0 start
+
+03/24/2022 14:58:37 - > react-scripts start
+
+03/24/2022 14:58:40 - (node:2572) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 14:58:40 - (Use `node --trace-deprecation ...` to show where the warning was created)
+
+03/24/2022 14:58:40 - (node:2572) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+
+03/24/2022 14:58:41 - Starting the development server...
+
+03/24/2022 14:58:42 - Compiled successfully!
+
+03/24/2022 14:58:42 - You can now view my-app in the browser.
+
+03/24/2022 14:58:42 -   Local:            http://localhost:57062
+
+03/24/2022 14:58:42 -   On Your Network:  http://172.24.128.1:57062
+
+03/24/2022 14:58:42 - Note that the development build is not optimized.
+
+03/24/2022 14:58:42 - To create a production build, use yarn build.
+
+03/24/2022 14:58:42 - asset static/js/bundle.js 2.71 MiB [emitted] (name: main) 1 related asset
+
+03/24/2022 14:58:42 - asset index.html 1.67 KiB [emitted]
+
+03/24/2022 14:58:42 - asset asset-manifest.json 190 bytes [emitted]
+
+03/24/2022 14:58:42 - cached modules 2.43 MiB [cached] 154 modules
+
+03/24/2022 14:58:42 - runtime modules 28.1 KiB 13 modules
+
+03/24/2022 14:58:42 - javascript modules 29.5 KiB
+
+03/24/2022 14:58:42 -   ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=57062&pathname=%2Fws&logging=none&reconnect=10 6.59 KiB [built] [code generated]
+
+03/24/2022 14:58:42 -   ./src/components/Register.js 23 KiB [built] [code generated]
+
+03/24/2022 14:58:42 - webpack 5.68.0 compiled successfully in 2131 ms
+
+03/24/2022 14:58:43 - HTTP "GET" "/login" responded 304 in 7225.5475 ms
+03/24/2022 14:58:43 - Request finished HTTP/2 GET https://localhost:44378/login - - - 304 - - 7227.1945ms
+03/24/2022 14:58:43 - Request starting HTTP/2 GET https://localhost:44378/static/js/bundle.js - -
+03/24/2022 14:58:44 - HTTP "GET" "/static/js/bundle.js" responded 200 in 103.6006 ms
+03/24/2022 14:58:44 - Request finished HTTP/2 GET https://localhost:44378/static/js/bundle.js - - - 200 - application/javascript;+charset=utf-8 104.5937ms
+03/24/2022 14:58:44 - Request starting HTTP/2 GET https://localhost:44378/manifest.json - -
+03/24/2022 14:58:44 - HTTP "GET" "/manifest.json" responded 304 in 3.3250 ms
+03/24/2022 14:58:44 - Request finished HTTP/2 GET https://localhost:44378/manifest.json - - - 304 - - 4.0528ms
+03/24/2022 14:58:44 - Request starting HTTP/2 GET https://localhost:44378/logo192.png - -
+03/24/2022 14:58:44 - HTTP "GET" "/logo192.png" responded 304 in 1.9200 ms
+03/24/2022 14:58:44 - Request finished HTTP/2 GET https://localhost:44378/logo192.png - - - 304 - - 2.3960ms
+03/24/2022 15:01:07 - Request starting HTTP/2 GET https://localhost:44378/VerifyEmail?id=11&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZtYW5hZ2VtZW50QHlhaG9vLmNvbSIsIm5iZiI6MTY0ODEwNTIyNiwiZXhwIjoxNjQ4MTA4ODI2LCJpYXQiOjE2NDgxMDUyMjZ9.FovgOxxtcCLjdI4MXHSJurmqy8gSc66IN-kV-9C-ZXxccVkFYSWZl0TdqPNS8G7yJqOZohJpvrj84I4i0uI3CQ - -
+03/24/2022 15:01:07 - Executing endpoint '"Website.Controllers.BrainsController.EmailVerified (Website)"'
+03/24/2022 15:01:07 - Route matched with "{action = \"EmailVerified\", controller = \"Brains\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EmailVerified(Int32, System.String)" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 15:01:08 - Start processing HTTP request "POST" https://localhost:44331/User/VerifyEmail/
+03/24/2022 15:01:08 - Sending HTTP request "POST" https://localhost:44331/User/VerifyEmail/
+03/24/2022 15:01:08 - Received HTTP response headers after 278.203ms - 200
+03/24/2022 15:01:08 - End processing HTTP request after 284.2072ms - 200
+03/24/2022 15:01:08 - Executing ViewResult, running view "EmailVerified".
+03/24/2022 15:01:08 - Executed ViewResult - view "EmailVerified" executed in 282.0689ms.
+03/24/2022 15:01:08 - Executed action "Website.Controllers.BrainsController.EmailVerified (Website)" in 721.0719ms
+03/24/2022 15:01:08 - Executed endpoint '"Website.Controllers.BrainsController.EmailVerified (Website)"'
+03/24/2022 15:01:08 - HTTP "GET" "/VerifyEmail?id=11&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZtYW5hZ2VtZW50QHlhaG9vLmNvbSIsIm5iZiI6MTY0ODEwNTIyNiwiZXhwIjoxNjQ4MTA4ODI2LCJpYXQiOjE2NDgxMDUyMjZ9.FovgOxxtcCLjdI4MXHSJurmqy8gSc66IN-kV-9C-ZXxccVkFYSWZl0TdqPNS8G7yJqOZohJpvrj84I4i0uI3CQ" responded 200 in 744.8790 ms
+03/24/2022 15:01:08 - Request finished HTTP/2 GET https://localhost:44378/VerifyEmail?id=11&token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZtYW5hZ2VtZW50QHlhaG9vLmNvbSIsIm5iZiI6MTY0ODEwNTIyNiwiZXhwIjoxNjQ4MTA4ODI2LCJpYXQiOjE2NDgxMDUyMjZ9.FovgOxxtcCLjdI4MXHSJurmqy8gSc66IN-kV-9C-ZXxccVkFYSWZl0TdqPNS8G7yJqOZohJpvrj84I4i0uI3CQ - - - 200 - text/html;+charset=utf-8 746.9929ms
+03/24/2022 15:01:10 - Request starting HTTP/2 GET https://localhost:44378/login - -
+03/24/2022 15:01:12 - HTTP "GET" "/login" responded 304 in 2062.4960 ms
+03/24/2022 15:01:12 - Request finished HTTP/2 GET https://localhost:44378/login - - - 304 - - 2063.1469ms
+03/24/2022 15:01:12 - Request starting HTTP/2 GET https://localhost:44378/static/js/bundle.js - -
+03/24/2022 15:01:12 - HTTP "GET" "/static/js/bundle.js" responded 304 in 5.5335 ms
+03/24/2022 15:01:12 - Request finished HTTP/2 GET https://localhost:44378/static/js/bundle.js - - - 304 - - 6.0293ms
+03/24/2022 15:01:12 - Request starting HTTP/2 GET https://localhost:44378/manifest.json - -
+03/24/2022 15:01:12 - HTTP "GET" "/manifest.json" responded 304 in 1.3987 ms
+03/24/2022 15:01:12 - Request finished HTTP/2 GET https://localhost:44378/manifest.json - - - 304 - - 1.7561ms
+03/24/2022 15:01:12 - Request starting HTTP/2 GET https://localhost:44378/logo192.png - -
+03/24/2022 15:01:12 - HTTP "GET" "/logo192.png" responded 304 in 1.6097 ms
+03/24/2022 15:01:12 - Request finished HTTP/2 GET https://localhost:44378/logo192.png - - - 304 - - 2.0282ms
+03/24/2022 15:01:36 - Request starting HTTP/2 GET https://localhost:44378/Brains - -
+03/24/2022 15:01:36 - Executing endpoint '"Website.Controllers.BrainsController.Index (Website)"'
+03/24/2022 15:01:36 - Route matched with "{action = \"Index\", controller = \"Brains\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 15:01:36 - Executing ViewResult, running view "Index".
+03/24/2022 15:01:36 - Executed ViewResult - view "Index" executed in 51.2966ms.
+03/24/2022 15:01:36 - Executed action "Website.Controllers.BrainsController.Index (Website)" in 51.8454ms
+03/24/2022 15:01:36 - Executed endpoint '"Website.Controllers.BrainsController.Index (Website)"'
+03/24/2022 15:01:36 - HTTP "GET" "/Brains" responded 200 in 53.2121 ms
+03/24/2022 15:01:36 - Request finished HTTP/2 GET https://localhost:44378/Brains - - - 200 - text/html;+charset=utf-8 53.6292ms
+03/24/2022 15:01:38 - Request starting HTTP/2 GET https://localhost:44378/Brains/GetAllPaged - -
+03/24/2022 15:01:38 - Executing endpoint '"Website.Controllers.BrainsController.GetAllPaged (Website)"'
+03/24/2022 15:01:38 - Route matched with "{action = \"GetAllPaged\", controller = \"Brains\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllPaged()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 15:01:38 - Accessing expired session, Key:"dc2a72cf-b0fd-f721-a7ac-471365191072"
+03/24/2022 15:01:38 - Executing RedirectResult, redirecting to "/Brains/SignIn".
+03/24/2022 15:01:38 - Executed action "Website.Controllers.BrainsController.GetAllPaged (Website)" in 2.2716ms
+03/24/2022 15:01:38 - Executed endpoint '"Website.Controllers.BrainsController.GetAllPaged (Website)"'
+03/24/2022 15:01:38 - HTTP "GET" "/Brains/GetAllPaged" responded 302 in 5.3146 ms
+03/24/2022 15:01:38 - Request finished HTTP/2 GET https://localhost:44378/Brains/GetAllPaged - - - 302 0 - 5.7952ms
+03/24/2022 15:01:38 - Request starting HTTP/2 GET https://localhost:44378/Brains/SignIn - -
+03/24/2022 15:01:38 - Executing endpoint '"Website.Controllers.BrainsController.SignIn (Website)"'
+03/24/2022 15:01:38 - Route matched with "{action = \"SignIn\", controller = \"Brains\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult SignIn()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 15:01:38 - Executing ViewResult, running view "SignIn".
+03/24/2022 15:01:38 - Executed ViewResult - view "SignIn" executed in 111.66ms.
+03/24/2022 15:01:38 - Executed action "Website.Controllers.BrainsController.SignIn (Website)" in 111.8805ms
+03/24/2022 15:01:38 - Executed endpoint '"Website.Controllers.BrainsController.SignIn (Website)"'
+03/24/2022 15:01:38 - HTTP "GET" "/Brains/SignIn" responded 200 in 115.0266 ms
+03/24/2022 15:01:38 - Request finished HTTP/2 GET https://localhost:44378/Brains/SignIn - - - 200 - text/html;+charset=utf-8 115.3710ms
+03/24/2022 15:01:50 - Request starting HTTP/2 POST https://localhost:44378/Brains/SignInButton application/x-www-form-urlencoded 219
+03/24/2022 15:01:50 - CORS policy execution successful.
+03/24/2022 15:01:50 - Executing endpoint '"Website.Controllers.BrainsController.SignInButton (Website)"'
+03/24/2022 15:01:50 - Route matched with "{action = \"SignInButton\", controller = \"Brains\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SignInButton()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 15:01:50 - Start processing HTTP request "POST" https://localhost:44331/Auth/Login
+03/24/2022 15:01:50 - Sending HTTP request "POST" https://localhost:44331/Auth/Login
+03/24/2022 15:01:50 - Received HTTP response headers after 79.6619ms - 400
+03/24/2022 15:01:50 - End processing HTTP request after 79.8636ms - 400
+03/24/2022 15:01:50 - 03/24/2022 07:01:50 - Login Error - HttpClientService.Login  - USER: "admin" - "Response status code does not indicate success: 400 (Bad Request)."
+03/24/2022 15:01:50 - 03/24/2022 07:01:50 - Exception occured in BrainsController.SignInButton - "Index was outside the bounds of the array."
+03/24/2022 15:01:50 - Executing ViewResult, running view "SignIn".
+03/24/2022 15:01:50 - Executed ViewResult - view "SignIn" executed in 2.1749ms.
+03/24/2022 15:01:50 - Executed action "Website.Controllers.BrainsController.SignInButton (Website)" in 262.7216ms
+03/24/2022 15:01:50 - Executed endpoint '"Website.Controllers.BrainsController.SignInButton (Website)"'
+03/24/2022 15:01:50 - HTTP "POST" "/Brains/SignInButton" responded 200 in 268.9042 ms
+03/24/2022 15:01:50 - Request finished HTTP/2 POST https://localhost:44378/Brains/SignInButton application/x-www-form-urlencoded 219 - 200 - text/html;+charset=utf-8 269.3965ms
+03/24/2022 15:02:01 - Request starting HTTP/2 POST https://localhost:44378/Brains/SignInButton application/x-www-form-urlencoded 220
+03/24/2022 15:02:01 - CORS policy execution successful.
+03/24/2022 15:02:01 - Executing endpoint '"Website.Controllers.BrainsController.SignInButton (Website)"'
+03/24/2022 15:02:01 - Route matched with "{action = \"SignInButton\", controller = \"Brains\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SignInButton()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 15:02:01 - Start processing HTTP request "POST" https://localhost:44331/Auth/Login
+03/24/2022 15:02:01 - Sending HTTP request "POST" https://localhost:44331/Auth/Login
+03/24/2022 15:02:01 - Received HTTP response headers after 82.9696ms - 400
+03/24/2022 15:02:01 - End processing HTTP request after 83.148ms - 400
+03/24/2022 15:02:01 - 03/24/2022 07:02:01 - Login Error - HttpClientService.Login  - USER: "admin" - "Response status code does not indicate success: 400 (Bad Request)."
+03/24/2022 15:02:01 - 03/24/2022 07:02:01 - Exception occured in BrainsController.SignInButton - "Index was outside the bounds of the array."
+03/24/2022 15:02:01 - Executing ViewResult, running view "SignIn".
+03/24/2022 15:02:01 - Executed ViewResult - view "SignIn" executed in 1.0406ms.
+03/24/2022 15:02:01 - Executed action "Website.Controllers.BrainsController.SignInButton (Website)" in 163.3377ms
+03/24/2022 15:02:01 - Executed endpoint '"Website.Controllers.BrainsController.SignInButton (Website)"'
+03/24/2022 15:02:01 - HTTP "POST" "/Brains/SignInButton" responded 200 in 169.9903 ms
+03/24/2022 15:02:01 - Request finished HTTP/2 POST https://localhost:44378/Brains/SignInButton application/x-www-form-urlencoded 220 - 200 - text/html;+charset=utf-8 171.7721ms
+03/24/2022 15:02:15 - Request starting HTTP/2 POST https://localhost:44378/Brains/SignInButton application/x-www-form-urlencoded 220
+03/24/2022 15:02:15 - CORS policy execution successful.
+03/24/2022 15:02:15 - Executing endpoint '"Website.Controllers.BrainsController.SignInButton (Website)"'
+03/24/2022 15:02:15 - Route matched with "{action = \"SignInButton\", controller = \"Brains\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SignInButton()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 15:02:15 - Start processing HTTP request "POST" https://localhost:44331/Auth/Login
+03/24/2022 15:02:15 - Sending HTTP request "POST" https://localhost:44331/Auth/Login
+03/24/2022 15:02:15 - Received HTTP response headers after 85.4174ms - 200
+03/24/2022 15:02:15 - End processing HTTP request after 85.637ms - 200
+03/24/2022 15:02:15 - Accessing expired session, Key:"dc2a72cf-b0fd-f721-a7ac-471365191072"
+03/24/2022 15:02:15 - Executing RedirectResult, redirecting to "/Brains".
+03/24/2022 15:02:15 - Executed action "Website.Controllers.BrainsController.SignInButton (Website)" in 91.6077ms
+03/24/2022 15:02:15 - Executed endpoint '"Website.Controllers.BrainsController.SignInButton (Website)"'
+03/24/2022 15:02:15 - Session started; Key:"dc2a72cf-b0fd-f721-a7ac-471365191072", Id:"48601f05-08e8-5d23-53d7-cdef5015568a"
+03/24/2022 15:02:15 - HTTP "POST" "/Brains/SignInButton" responded 302 in 95.4826 ms
+03/24/2022 15:02:15 - Request finished HTTP/2 POST https://localhost:44378/Brains/SignInButton application/x-www-form-urlencoded 220 - 302 0 - 96.8397ms
+03/24/2022 15:02:15 - Request starting HTTP/2 GET https://localhost:44378/Brains - -
+03/24/2022 15:02:15 - Executing endpoint '"Website.Controllers.BrainsController.Index (Website)"'
+03/24/2022 15:02:15 - Route matched with "{action = \"Index\", controller = \"Brains\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 15:02:15 - Executing ViewResult, running view "Index".
+03/24/2022 15:02:15 - Executed ViewResult - view "Index" executed in 0.549ms.
+03/24/2022 15:02:15 - Executed action "Website.Controllers.BrainsController.Index (Website)" in 0.6569ms
+03/24/2022 15:02:15 - Executed endpoint '"Website.Controllers.BrainsController.Index (Website)"'
+03/24/2022 15:02:15 - HTTP "GET" "/Brains" responded 200 in 0.9575 ms
+03/24/2022 15:02:15 - Request finished HTTP/2 GET https://localhost:44378/Brains - - - 200 - text/html;+charset=utf-8 1.2122ms
+03/24/2022 15:02:16 - Request starting HTTP/2 GET https://localhost:44378/Brains/GetAllPaged - -
+03/24/2022 15:02:16 - Executing endpoint '"Website.Controllers.BrainsController.GetAllPaged (Website)"'
+03/24/2022 15:02:16 - Route matched with "{action = \"GetAllPaged\", controller = \"Brains\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllPaged()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 15:02:16 - Start processing HTTP request "GET" https://localhost:44331/User/GetPagedUsers/1
+03/24/2022 15:02:16 - Sending HTTP request "GET" https://localhost:44331/User/GetPagedUsers/1
+03/24/2022 15:02:16 - Received HTTP response headers after 128.9697ms - 200
+03/24/2022 15:02:16 - End processing HTTP request after 129.1917ms - 200
+03/24/2022 15:02:16 - Executing ViewResult, running view "GetAllPaged".
+03/24/2022 15:02:17 - Executed ViewResult - view "GetAllPaged" executed in 20.9805ms.
+03/24/2022 15:02:17 - Executed action "Website.Controllers.BrainsController.GetAllPaged (Website)" in 174.3095ms
+03/24/2022 15:02:17 - Executed endpoint '"Website.Controllers.BrainsController.GetAllPaged (Website)"'
+03/24/2022 15:02:17 - HTTP "GET" "/Brains/GetAllPaged" responded 200 in 174.6932 ms
+03/24/2022 15:02:17 - Request finished HTTP/2 GET https://localhost:44378/Brains/GetAllPaged - - - 200 - text/html;+charset=utf-8 175.1637ms
+03/24/2022 15:03:02 - Request starting HTTP/2 GET https://localhost:44378/Brains - -
+03/24/2022 15:03:02 - Executing endpoint '"Website.Controllers.BrainsController.Index (Website)"'
+03/24/2022 15:03:02 - Route matched with "{action = \"Index\", controller = \"Brains\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 15:03:02 - Executing ViewResult, running view "Index".
+03/24/2022 15:03:02 - Executed ViewResult - view "Index" executed in 0.5315ms.
+03/24/2022 15:03:02 - Executed action "Website.Controllers.BrainsController.Index (Website)" in 0.7412ms
+03/24/2022 15:03:02 - Executed endpoint '"Website.Controllers.BrainsController.Index (Website)"'
+03/24/2022 15:03:02 - HTTP "GET" "/Brains" responded 200 in 1.4383 ms
+03/24/2022 15:03:02 - Request finished HTTP/2 GET https://localhost:44378/Brains - - - 200 - text/html;+charset=utf-8 1.9264ms
+03/24/2022 15:03:03 - Request starting HTTP/2 GET https://localhost:44378/Brains/LogOutButton - -
+03/24/2022 15:03:03 - Executing endpoint '"Website.Controllers.BrainsController.LogOutButton (Website)"'
+03/24/2022 15:03:03 - Route matched with "{action = \"LogOutButton\", controller = \"Brains\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult LogOutButton()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 15:03:03 - Executing RedirectResult, redirecting to "/Brains/SignIn".
+03/24/2022 15:03:03 - Executed action "Website.Controllers.BrainsController.LogOutButton (Website)" in 0.4979ms
+03/24/2022 15:03:03 - Executed endpoint '"Website.Controllers.BrainsController.LogOutButton (Website)"'
+03/24/2022 15:03:03 - HTTP "GET" "/Brains/LogOutButton" responded 302 in 2.4007 ms
+03/24/2022 15:03:03 - Request finished HTTP/2 GET https://localhost:44378/Brains/LogOutButton - - - 302 0 - 3.1538ms
+03/24/2022 15:03:03 - Request starting HTTP/2 GET https://localhost:44378/Brains/SignIn - -
+03/24/2022 15:03:03 - Executing endpoint '"Website.Controllers.BrainsController.SignIn (Website)"'
+03/24/2022 15:03:03 - Route matched with "{action = \"SignIn\", controller = \"Brains\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult SignIn()" on controller "Website.Controllers.BrainsController" ("Website").
+03/24/2022 15:03:03 - Executing ViewResult, running view "SignIn".
+03/24/2022 15:03:03 - Executed ViewResult - view "SignIn" executed in 0.5994ms.
+03/24/2022 15:03:03 - Executed action "Website.Controllers.BrainsController.SignIn (Website)" in 0.6995ms
+03/24/2022 15:03:03 - Executed endpoint '"Website.Controllers.BrainsController.SignIn (Website)"'
+03/24/2022 15:03:03 - HTTP "GET" "/Brains/SignIn" responded 200 in 1.0545 ms
+03/24/2022 15:03:03 - Request finished HTTP/2 GET https://localhost:44378/Brains/SignIn - - - 200 - text/html;+charset=utf-8 1.3281ms

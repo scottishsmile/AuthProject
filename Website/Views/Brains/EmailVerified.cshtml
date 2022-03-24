@@ -1,0 +1,27 @@
+﻿@model Website.Models.VerifyEmailModel
+
+@{
+    Layout = null;
+    ViewData["Title"] = "Email Verified";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="main-h1">Email Address Verified!</h1>
+        <p class="main-p">Thank you for verifying your email address!</p>
+        <p class="main-p"><a href="@TempData["login_again"]">Login Again</a></p>
+    </div>
+    <div id="errormsg" class="errormsg">
+        <p>@ViewBag.errorMsg</p>
+        <p>@TempData["errorMsg"]</p>
+    </div>
+</body>
+</html>

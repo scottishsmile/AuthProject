@@ -1,0 +1,1175 @@
+03/24/2022 13:04:11 - REST API App Starting Up...
+03/24/2022 13:04:13 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:04:13 - Now listening on: "http://127.0.0.1:29137"
+03/24/2022 13:04:13 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:04:13 - Hosting environment: "Development"
+03/24/2022 13:04:13 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\API Project"
+03/24/2022 13:04:13 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/index.html - -
+03/24/2022 13:04:13 - Request starting HTTP/1.1 DEBUG http://localhost:44331/ - 0
+03/24/2022 13:04:13 - Request finished HTTP/1.1 DEBUG http://localhost:44331/ - 0 - 200 0 - 36.2967ms
+03/24/2022 13:04:14 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/index.html - - - 200 - text/html;charset=utf-8 153.3173ms
+03/24/2022 13:04:14 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - -
+03/24/2022 13:04:14 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.2939ms
+03/24/2022 13:09:23 - REST API App Starting Up...
+03/24/2022 13:09:24 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:09:24 - Now listening on: "http://127.0.0.1:35189"
+03/24/2022 13:09:24 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:09:24 - Hosting environment: "Development"
+03/24/2022 13:09:24 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\API Project"
+03/24/2022 13:09:24 - Request starting HTTP/1.1 DEBUG http://localhost:44331/ - 0
+03/24/2022 13:09:24 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/index.html - -
+03/24/2022 13:09:24 - Request finished HTTP/1.1 DEBUG http://localhost:44331/ - 0 - 200 0 - 18.1817ms
+03/24/2022 13:09:24 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/index.html - - - 200 - text/html;charset=utf-8 105.5696ms
+03/24/2022 13:09:25 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - -
+03/24/2022 13:09:25 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 99.5686ms
+03/24/2022 13:12:34 - REST API App Starting Up...
+03/24/2022 13:12:35 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:12:35 - Now listening on: "http://127.0.0.1:45678"
+03/24/2022 13:12:35 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:12:35 - Hosting environment: "Development"
+03/24/2022 13:12:35 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\API Project"
+03/24/2022 13:12:35 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/index.html - -
+03/24/2022 13:12:35 - Request starting HTTP/1.1 DEBUG http://localhost:44331/ - 0
+03/24/2022 13:12:35 - Request finished HTTP/1.1 DEBUG http://localhost:44331/ - 0 - 200 0 - 15.6644ms
+03/24/2022 13:12:35 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/index.html - - - 200 - text/html;charset=utf-8 113.5554ms
+03/24/2022 13:12:35 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - -
+03/24/2022 13:12:36 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 120.2317ms
+03/24/2022 13:16:32 - REST API App Starting Up...
+03/24/2022 13:16:33 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:16:33 - Now listening on: "http://127.0.0.1:18821"
+03/24/2022 13:16:33 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:16:33 - Hosting environment: "Development"
+03/24/2022 13:16:33 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\API Project"
+03/24/2022 13:16:33 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/index.html - -
+03/24/2022 13:16:33 - Request starting HTTP/1.1 DEBUG http://localhost:44331/ - 0
+03/24/2022 13:16:33 - Request finished HTTP/1.1 DEBUG http://localhost:44331/ - 0 - 200 0 - 22.0764ms
+03/24/2022 13:16:33 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/index.html - - - 200 - text/html;charset=utf-8 119.8609ms
+03/24/2022 13:16:34 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - -
+03/24/2022 13:16:34 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 88.7776ms
+03/24/2022 13:18:34 - REST API App Starting Up...
+03/24/2022 13:18:35 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:18:35 - Now listening on: "http://127.0.0.1:3752"
+03/24/2022 13:18:35 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:18:35 - Hosting environment: "Development"
+03/24/2022 13:18:35 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\API Project"
+03/24/2022 13:18:36 - Request starting HTTP/1.1 DEBUG http://localhost:44331/ - 0
+03/24/2022 13:18:36 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/index.html - -
+03/24/2022 13:18:36 - Request finished HTTP/1.1 DEBUG http://localhost:44331/ - 0 - 200 0 - 16.7284ms
+03/24/2022 13:18:36 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/index.html - - - 200 - text/html;charset=utf-8 128.2700ms
+03/24/2022 13:18:36 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - -
+03/24/2022 13:18:36 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.3206ms
+03/24/2022 13:22:26 - REST API App Starting Up...
+03/24/2022 13:22:26 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:22:27 - Now listening on: "http://127.0.0.1:36790"
+03/24/2022 13:22:27 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:22:27 - Hosting environment: "Development"
+03/24/2022 13:22:27 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\API Project"
+03/24/2022 13:22:27 - Request starting HTTP/1.1 DEBUG http://localhost:44331/ - 0
+03/24/2022 13:22:27 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/index.html - -
+03/24/2022 13:22:27 - Request finished HTTP/1.1 DEBUG http://localhost:44331/ - 0 - 200 0 - 14.4490ms
+03/24/2022 13:22:27 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/index.html - - - 200 - text/html;charset=utf-8 143.9869ms
+03/24/2022 13:22:27 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - -
+03/24/2022 13:22:27 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 73.2948ms
+03/24/2022 13:26:40 - REST API App Starting Up...
+03/24/2022 13:26:41 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:26:41 - Now listening on: "http://127.0.0.1:27229"
+03/24/2022 13:26:41 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:26:41 - Hosting environment: "Development"
+03/24/2022 13:26:41 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\API Project"
+03/24/2022 13:26:41 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/index.html - -
+03/24/2022 13:26:41 - Request starting HTTP/1.1 DEBUG http://localhost:44331/ - 0
+03/24/2022 13:26:41 - Request finished HTTP/1.1 DEBUG http://localhost:44331/ - 0 - 200 0 - 13.9413ms
+03/24/2022 13:26:41 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/index.html - - - 200 - text/html;charset=utf-8 97.7982ms
+03/24/2022 13:26:41 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - -
+03/24/2022 13:26:42 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 94.0241ms
+03/24/2022 13:29:51 - REST API App Starting Up...
+03/24/2022 13:29:52 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:29:52 - Now listening on: "http://127.0.0.1:42235"
+03/24/2022 13:29:52 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:29:52 - Hosting environment: "Development"
+03/24/2022 13:29:52 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\API Project"
+03/24/2022 13:29:52 - Request starting HTTP/1.1 DEBUG http://localhost:44331/ - 0
+03/24/2022 13:29:52 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/index.html - -
+03/24/2022 13:29:52 - Request finished HTTP/1.1 DEBUG http://localhost:44331/ - 0 - 200 0 - 18.1228ms
+03/24/2022 13:29:53 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/index.html - - - 200 - text/html;charset=utf-8 136.6716ms
+03/24/2022 13:29:53 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - -
+03/24/2022 13:29:53 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 93.8105ms
+03/24/2022 13:31:42 - REST API App Starting Up...
+03/24/2022 13:31:43 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:31:43 - Now listening on: "http://127.0.0.1:17386"
+03/24/2022 13:31:43 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:31:43 - Hosting environment: "Development"
+03/24/2022 13:31:43 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\API Project"
+03/24/2022 13:31:43 - Request starting HTTP/1.1 DEBUG http://localhost:44331/ - 0
+03/24/2022 13:31:43 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/index.html - -
+03/24/2022 13:31:44 - Request finished HTTP/1.1 DEBUG http://localhost:44331/ - 0 - 200 0 - 15.1476ms
+03/24/2022 13:31:44 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/index.html - - - 200 - text/html;charset=utf-8 117.5088ms
+03/24/2022 13:31:44 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - -
+03/24/2022 13:31:44 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 88.3431ms
+03/24/2022 13:32:22 - REST API App Starting Up...
+03/24/2022 13:32:23 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:32:23 - Now listening on: "http://127.0.0.1:10209"
+03/24/2022 13:32:23 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:32:23 - Hosting environment: "Development"
+03/24/2022 13:32:23 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\API Project"
+03/24/2022 13:32:23 - Request starting HTTP/1.1 DEBUG http://localhost:44331/ - 0
+03/24/2022 13:32:23 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/index.html - -
+03/24/2022 13:32:23 - Request finished HTTP/1.1 DEBUG http://localhost:44331/ - 0 - 200 0 - 18.2969ms
+03/24/2022 13:32:23 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/index.html - - - 200 - text/html;charset=utf-8 98.0751ms
+03/24/2022 13:32:24 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - -
+03/24/2022 13:32:24 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 85.3637ms
+03/24/2022 13:37:24 - REST API App Starting Up...
+03/24/2022 13:37:25 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:37:25 - Now listening on: "http://127.0.0.1:11957"
+03/24/2022 13:37:25 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:37:25 - Hosting environment: "Development"
+03/24/2022 13:37:25 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\API Project"
+03/24/2022 13:37:25 - Request starting HTTP/1.1 DEBUG http://localhost:44331/ - 0
+03/24/2022 13:37:25 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/index.html - -
+03/24/2022 13:37:25 - Request finished HTTP/1.1 DEBUG http://localhost:44331/ - 0 - 200 0 - 30.3148ms
+03/24/2022 13:37:25 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/index.html - - - 200 - text/html;charset=utf-8 118.0840ms
+03/24/2022 13:37:25 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - -
+03/24/2022 13:37:26 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.6933ms
+03/24/2022 13:37:38 - Request starting HTTP/1.1 GET http://localhost:44331/ - -
+03/24/2022 13:37:39 - HTTP "GET" "/" responded 404 in 118.6299 ms
+03/24/2022 13:37:39 - Request finished HTTP/1.1 GET http://localhost:44331/ - - - 404 0 - 123.8214ms
+03/24/2022 13:39:32 - REST API App Starting Up...
+03/24/2022 13:39:33 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:39:34 - Now listening on: "http://127.0.0.1:6930"
+03/24/2022 13:39:34 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:39:34 - Hosting environment: "Development"
+03/24/2022 13:39:34 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\API Project"
+03/24/2022 13:39:34 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/index.html - -
+03/24/2022 13:39:34 - Request starting HTTP/1.1 DEBUG http://localhost:44331/ - 0
+03/24/2022 13:39:34 - Request finished HTTP/1.1 DEBUG http://localhost:44331/ - 0 - 200 0 - 15.7205ms
+03/24/2022 13:39:34 - HTTP "GET" "/swagger/index.html" responded 404 in 78.3804 ms
+03/24/2022 13:39:34 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/index.html - - - 404 0 - 135.9481ms
+03/24/2022 13:39:47 - Request starting HTTP/1.1 GET http://localhost:44331/ - -
+03/24/2022 13:39:47 - Request finished HTTP/1.1 GET http://localhost:44331/ - - - 301 0 - 1.6488ms
+03/24/2022 13:39:47 - Request starting HTTP/1.1 GET http://localhost:44331/index.html - -
+03/24/2022 13:39:47 - Request finished HTTP/1.1 GET http://localhost:44331/index.html - - - 200 - text/html;charset=utf-8 45.3292ms
+03/24/2022 13:39:47 - Request starting HTTP/1.1 GET http://localhost:44331/swagger-ui.css - -
+03/24/2022 13:39:47 - Request starting HTTP/1.1 GET http://localhost:44331/swagger-ui-standalone-preset.js - -
+03/24/2022 13:39:47 - Request starting HTTP/1.1 GET http://localhost:44331/swagger-ui-bundle.js - -
+03/24/2022 13:39:47 - Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+03/24/2022 13:39:47 - Request finished HTTP/1.1 GET http://localhost:44331/swagger-ui.css - - - 200 142933 text/css 32.5891ms
+03/24/2022 13:39:47 - Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+03/24/2022 13:39:47 - Request finished HTTP/1.1 GET http://localhost:44331/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 34.0533ms
+03/24/2022 13:39:47 - Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+03/24/2022 13:39:47 - Request finished HTTP/1.1 GET http://localhost:44331/swagger-ui-bundle.js - - - 200 986342 application/javascript 37.4570ms
+03/24/2022 13:39:47 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - -
+03/24/2022 13:39:47 - Request starting HTTP/1.1 GET http://localhost:44331/favicon-32x32.png - -
+03/24/2022 13:39:47 - Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+03/24/2022 13:39:47 - Request finished HTTP/1.1 GET http://localhost:44331/favicon-32x32.png - - - 200 628 image/png 0.6544ms
+03/24/2022 13:39:47 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 69.2305ms
+03/24/2022 13:41:14 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Login application/json;+charset=utf-8 45
+03/24/2022 13:41:14 - Executing endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 13:41:14 - Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[API_Project.Dtos.User.LoginResponseDto]]] Login(API_Project.Dtos.User.UserLoginDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 13:41:15 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 13:41:16 - Executed DbCommand ("45"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Username]) = @__ToLower_0"
+03/24/2022 13:41:17 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[API_Project.Dtos.User.LoginResponseDto, API Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+03/24/2022 13:41:17 - Executed action "API_Project.Controllers.AuthController.Login (API Project)" in 2503.4082ms
+03/24/2022 13:41:17 - Executed endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 13:41:17 - HTTP "POST" "/Auth/Login" responded 200 in 2536.3751 ms
+03/24/2022 13:41:17 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Login application/json;+charset=utf-8 45 - 200 - application/json;+charset=utf-8 2541.7313ms
+03/24/2022 13:41:18 - Request starting HTTP/1.1 GET http://localhost:44331/User/GetPagedUsers/1 - -
+03/24/2022 13:41:19 - Successfully validated the token.
+03/24/2022 13:41:19 - Authorization was successful.
+03/24/2022 13:41:19 - Executing endpoint '"API_Project.Controllers.UserController.GetPagedUsers (API Project)"'
+03/24/2022 13:41:19 - Route matched with "{action = \"GetPagedUsers\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServicePaged`1[API_Project.Dtos.User.GetPagedUserDto]]] GetPagedUsers(Int32)" on controller "API_Project.Controllers.UserController" ("API Project").
+03/24/2022 13:41:19 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 13:41:19 - Executed DbCommand ("8"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+ORDER BY [u].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY"
+03/24/2022 13:41:19 - Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Users] AS [u]"
+03/24/2022 13:41:19 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServicePaged`1[[API_Project.Dtos.User.GetPagedUserDto, API Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+03/24/2022 13:41:19 - Executed action "API_Project.Controllers.UserController.GetPagedUsers (API Project)" in 160.4529ms
+03/24/2022 13:41:19 - Executed endpoint '"API_Project.Controllers.UserController.GetPagedUsers (API Project)"'
+03/24/2022 13:41:19 - HTTP "GET" "/User/GetPagedUsers/1" responded 200 in 212.5636 ms
+03/24/2022 13:41:19 - Request finished HTTP/1.1 GET http://localhost:44331/User/GetPagedUsers/1 - - - 200 - application/json;+charset=utf-8 213.1582ms
+03/24/2022 13:41:29 - Request starting HTTP/1.1 GET http://localhost:44331/User/7 - -
+03/24/2022 13:41:29 - Successfully validated the token.
+03/24/2022 13:41:29 - Authorization was successful.
+03/24/2022 13:41:29 - Executing endpoint '"API_Project.Controllers.UserController.GetSingleUser (API Project)"'
+03/24/2022 13:41:29 - Route matched with "{action = \"GetSingleUser\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[API_Project.Dtos.User.GetUserDto]]] GetSingleUser(Int32)" on controller "API_Project.Controllers.UserController" ("API Project").
+03/24/2022 13:41:29 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 13:41:29 - Executed DbCommand ("7"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0"
+03/24/2022 13:41:29 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[API_Project.Dtos.User.GetUserDto, API Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+03/24/2022 13:41:29 - Executed action "API_Project.Controllers.UserController.GetSingleUser (API Project)" in 78.1564ms
+03/24/2022 13:41:29 - Executed endpoint '"API_Project.Controllers.UserController.GetSingleUser (API Project)"'
+03/24/2022 13:41:29 - HTTP "GET" "/User/7" responded 200 in 82.4785 ms
+03/24/2022 13:41:29 - Request finished HTTP/1.1 GET http://localhost:44331/User/7 - - - 200 - application/json;+charset=utf-8 82.9483ms
+03/24/2022 13:41:30 - Request starting HTTP/1.1 DELETE http://localhost:44331/User/7 - -
+03/24/2022 13:41:30 - Successfully validated the token.
+03/24/2022 13:41:30 - Authorization was successful.
+03/24/2022 13:41:30 - Executing endpoint '"API_Project.Controllers.UserController.Delete (API Project)"'
+03/24/2022 13:41:30 - Route matched with "{action = \"Delete\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[System.Collections.Generic.List`1[API_Project.Dtos.User.GetUserDto]]]] Delete(Int32)" on controller "API_Project.Controllers.UserController" ("API Project").
+03/24/2022 13:41:30 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 13:41:30 - Executed DbCommand ("8"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0"
+03/24/2022 13:41:31 - Executed DbCommand ("1"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [Users]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;"
+03/24/2022 13:41:31 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[System.Collections.Generic.List`1[[API_Project.Dtos.User.GetUserDto, API Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+03/24/2022 13:41:31 - Executed action "API_Project.Controllers.UserController.Delete (API Project)" in 158.3721ms
+03/24/2022 13:41:31 - Executed endpoint '"API_Project.Controllers.UserController.Delete (API Project)"'
+03/24/2022 13:41:31 - HTTP "DELETE" "/User/7" responded 200 in 161.5632 ms
+03/24/2022 13:41:31 - Request finished HTTP/1.1 DELETE http://localhost:44331/User/7 - - - 200 - application/json;+charset=utf-8 161.8974ms
+03/24/2022 13:41:32 - Request starting HTTP/1.1 GET http://localhost:44331/User/GetPagedUsers/1 - -
+03/24/2022 13:41:32 - Successfully validated the token.
+03/24/2022 13:41:32 - Authorization was successful.
+03/24/2022 13:41:32 - Executing endpoint '"API_Project.Controllers.UserController.GetPagedUsers (API Project)"'
+03/24/2022 13:41:32 - Route matched with "{action = \"GetPagedUsers\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServicePaged`1[API_Project.Dtos.User.GetPagedUserDto]]] GetPagedUsers(Int32)" on controller "API_Project.Controllers.UserController" ("API Project").
+03/24/2022 13:41:32 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 13:41:32 - Executed DbCommand ("8"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+ORDER BY [u].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY"
+03/24/2022 13:41:32 - Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Users] AS [u]"
+03/24/2022 13:41:32 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServicePaged`1[[API_Project.Dtos.User.GetPagedUserDto, API Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+03/24/2022 13:41:32 - Executed action "API_Project.Controllers.UserController.GetPagedUsers (API Project)" in 65.5304ms
+03/24/2022 13:41:32 - Executed endpoint '"API_Project.Controllers.UserController.GetPagedUsers (API Project)"'
+03/24/2022 13:41:32 - HTTP "GET" "/User/GetPagedUsers/1" responded 200 in 66.3184 ms
+03/24/2022 13:41:32 - Request finished HTTP/1.1 GET http://localhost:44331/User/GetPagedUsers/1 - - - 200 - application/json;+charset=utf-8 66.6843ms
+03/24/2022 13:46:10 - REST API App Starting Up...
+03/24/2022 13:46:10 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 13:46:11 - Now listening on: "http://127.0.0.1:39509"
+03/24/2022 13:46:11 - Application started. Press Ctrl+C to shut down.
+03/24/2022 13:46:11 - Hosting environment: "Development"
+03/24/2022 13:46:11 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\API Project"
+03/24/2022 13:46:11 - Request starting HTTP/1.1 DEBUG http://localhost:44331/ - 0
+03/24/2022 13:46:11 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/index.html - -
+03/24/2022 13:46:11 - Request finished HTTP/1.1 DEBUG http://localhost:44331/ - 0 - 200 0 - 15.2063ms
+03/24/2022 13:46:11 - HTTP "GET" "/swagger/index.html" responded 404 in 93.9597 ms
+03/24/2022 13:46:11 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/index.html - - - 404 0 - 145.6836ms
+03/24/2022 13:46:30 - Request starting HTTP/1.1 GET http://localhost:44331/index.html - -
+03/24/2022 13:46:30 - Request finished HTTP/1.1 GET http://localhost:44331/index.html - - - 200 - text/html;charset=utf-8 46.5749ms
+03/24/2022 13:46:30 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - -
+03/24/2022 13:46:30 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 92.6900ms
+03/24/2022 13:46:32 - Request starting HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - -
+03/24/2022 13:46:32 - CORS policy execution successful.
+03/24/2022 13:46:32 - HTTP "OPTIONS" "/Auth/Login" responded 204 in 3.2901 ms
+03/24/2022 13:46:32 - Request finished HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - - - 204 - - 4.0208ms
+03/24/2022 13:46:32 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 47
+03/24/2022 13:46:32 - CORS policy execution successful.
+03/24/2022 13:46:32 - Executing endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 13:46:32 - Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[API_Project.Dtos.User.LoginResponseDto]]] Login(API_Project.Dtos.User.UserLoginDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 13:46:32 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 13:46:34 - Executed DbCommand ("44"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Username]) = @__ToLower_0"
+03/24/2022 13:46:34 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[API_Project.Dtos.User.LoginResponseDto, API Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+03/24/2022 13:46:34 - Executed action "API_Project.Controllers.AuthController.Login (API Project)" in 2559.2983ms
+03/24/2022 13:46:34 - Executed endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 13:46:34 - HTTP "POST" "/Auth/Login" responded 200 in 2594.3678 ms
+03/24/2022 13:46:34 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 47 - 200 - application/json;+charset=utf-8 2598.7737ms
+03/24/2022 13:47:57 - Request starting HTTP/1.1 OPTIONS http://localhost:44331/Auth/Register - -
+03/24/2022 13:47:57 - CORS policy execution successful.
+03/24/2022 13:47:57 - HTTP "OPTIONS" "/Auth/Register" responded 204 in 1.9716 ms
+03/24/2022 13:47:57 - Request finished HTTP/1.1 OPTIONS http://localhost:44331/Auth/Register - - - 204 - - 5.0601ms
+03/24/2022 13:47:57 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Register application/json 95
+03/24/2022 13:47:57 - CORS policy execution successful.
+03/24/2022 13:47:57 - Executing endpoint '"API_Project.Controllers.AuthController.Register (API Project)"'
+03/24/2022 13:47:57 - Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[System.Int32]]] Register(API_Project.Dtos.User.UserRegisterDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 13:47:57 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 13:47:57 - Executed DbCommand ("8"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Username]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 13:47:57 - Executed DbCommand ("2"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Email]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 13:47:57 - Executed DbCommand ("2"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Username]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 13:47:57 - Executed DbCommand ("2"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Email]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 13:47:57 - Executed DbCommand ("3"ms) [Parameters=["@p0='?' (DbType = Boolean), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = Int32), @p9='?' (DbType = Boolean), @p10='?' (Size = 8000) (DbType = Binary), @p11='?' (Size = 8000) (DbType = Binary), @p12='?' (Size = 4000), @p13='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([AccountLocked], [DateEmailVerifySent], [DateLocked], [DatePassResetEmailSent], [Email], [EmailVerified], [EmailVerifyToken], [ForgotPass], [LoginTries], [Newsletter], [PasswordHash], [PasswordSalt], [ResetToken], [Username])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+SELECT [Id], [Role]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+03/24/2022 13:47:57 - Executed DbCommand ("3"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [DateEmailVerifySent] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;"
+03/24/2022 13:48:03 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+03/24/2022 13:48:03 - Executed action "API_Project.Controllers.AuthController.Register (API Project)" in 6122.4627ms
+03/24/2022 13:48:03 - Executed endpoint '"API_Project.Controllers.AuthController.Register (API Project)"'
+03/24/2022 13:48:03 - HTTP "POST" "/Auth/Register" responded 200 in 6127.3974 ms
+03/24/2022 13:48:03 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Register application/json 95 - 200 - application/json;+charset=utf-8 6127.7734ms
+03/24/2022 13:48:17 - Request starting HTTP/1.1 POST http://localhost:44331/User/VerifyEmail/ application/json;+charset=utf-8 251
+03/24/2022 13:48:17 - Successfully validated the token.
+03/24/2022 13:48:17 - Executing endpoint '"API_Project.Controllers.UserController.VerifyEmail (API Project)"'
+03/24/2022 13:48:17 - Route matched with "{action = \"VerifyEmail\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[System.String]]] VerifyEmail(API_Project.Dtos.User.VerifyEmailDto)" on controller "API_Project.Controllers.UserController" ("API Project").
+03/24/2022 13:48:17 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 13:48:17 - Executed DbCommand ("7"ms) [Parameters=["@__details_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__details_Id_0"
+03/24/2022 13:48:17 - Executed DbCommand ("2"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = Boolean)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [EmailVerified] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;"
+03/24/2022 13:48:17 - Executed DbCommand ("2"ms) [Parameters=["@__details_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__details_Id_0"
+03/24/2022 13:48:17 - 03/24/2022 05:48:17 - User doesn't want to subscribe to newsletter. Newsletter.Subscribe - ID: 8
+03/24/2022 13:48:17 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+03/24/2022 13:48:17 - Executed action "API_Project.Controllers.UserController.VerifyEmail (API Project)" in 145.903ms
+03/24/2022 13:48:17 - Executed endpoint '"API_Project.Controllers.UserController.VerifyEmail (API Project)"'
+03/24/2022 13:48:17 - HTTP "POST" "/User/VerifyEmail/" responded 200 in 191.0715 ms
+03/24/2022 13:48:17 - Request finished HTTP/1.1 POST http://localhost:44331/User/VerifyEmail/ application/json;+charset=utf-8 251 - 200 - application/json;+charset=utf-8 191.3681ms
+03/24/2022 13:48:40 - Request starting HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - -
+03/24/2022 13:48:40 - CORS policy execution successful.
+03/24/2022 13:48:40 - HTTP "OPTIONS" "/Auth/Login" responded 204 in 3.8906 ms
+03/24/2022 13:48:40 - Request finished HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - - - 204 - - 5.1365ms
+03/24/2022 13:48:40 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 57
+03/24/2022 13:48:40 - CORS policy execution successful.
+03/24/2022 13:48:40 - Executing endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 13:48:40 - Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[API_Project.Dtos.User.LoginResponseDto]]] Login(API_Project.Dtos.User.UserLoginDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 13:48:40 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 13:48:40 - Executed DbCommand ("12"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Username]) = @__ToLower_0"
+03/24/2022 13:48:40 - Executed DbCommand ("2"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Email]) = @__ToLower_0"
+03/24/2022 13:48:40 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[API_Project.Dtos.User.LoginResponseDto, API Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+03/24/2022 13:48:40 - Executed action "API_Project.Controllers.AuthController.Login (API Project)" in 95.5542ms
+03/24/2022 13:48:40 - Executed endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 13:48:40 - HTTP "POST" "/Auth/Login" responded 200 in 96.1165 ms
+03/24/2022 13:48:40 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 57 - 200 - application/json;+charset=utf-8 96.3910ms
+03/24/2022 13:48:49 - Request starting HTTP/1.1 OPTIONS http://localhost:44331/User/Paid4Premium/bertie30 - -
+03/24/2022 13:48:49 - CORS policy execution successful.
+03/24/2022 13:48:49 - HTTP "OPTIONS" "/User/Paid4Premium/bertie30" responded 204 in 0.6916 ms
+03/24/2022 13:48:49 - Request finished HTTP/1.1 OPTIONS http://localhost:44331/User/Paid4Premium/bertie30 - - - 204 - - 1.9002ms
+03/24/2022 13:48:49 - Request starting HTTP/1.1 PATCH http://localhost:44331/User/Paid4Premium/bertie30 application/json -
+03/24/2022 13:48:49 - CORS policy execution successful.
+03/24/2022 13:48:49 - Successfully validated the token.
+03/24/2022 13:48:49 - Authorization was successful.
+03/24/2022 13:48:49 - Executing endpoint '"API_Project.Controllers.UserController.Paid4Premium (API Project)"'
+03/24/2022 13:48:49 - Route matched with "{action = \"Paid4Premium\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[System.String]]] Paid4Premium(System.String)" on controller "API_Project.Controllers.UserController" ("API Project").
+03/24/2022 13:48:49 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 13:48:49 - Executed DbCommand ("8"ms) [Parameters=["@__username_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0"
+03/24/2022 13:48:49 - Executed DbCommand ("2"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [Role] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;"
+03/24/2022 13:48:49 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+03/24/2022 13:48:49 - Executed action "API_Project.Controllers.UserController.Paid4Premium (API Project)" in 183.7436ms
+03/24/2022 13:48:49 - Executed endpoint '"API_Project.Controllers.UserController.Paid4Premium (API Project)"'
+03/24/2022 13:48:49 - HTTP "PATCH" "/User/Paid4Premium/bertie30" responded 200 in 194.8294 ms
+03/24/2022 13:48:49 - Request finished HTTP/1.1 PATCH http://localhost:44331/User/Paid4Premium/bertie30 application/json - - 200 - application/json;+charset=utf-8 195.1654ms
+03/24/2022 13:48:59 - Request starting HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - -
+03/24/2022 13:48:59 - CORS policy execution successful.
+03/24/2022 13:48:59 - HTTP "OPTIONS" "/Auth/Login" responded 204 in 0.0888 ms
+03/24/2022 13:48:59 - Request finished HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - - - 204 - - 0.4418ms
+03/24/2022 13:48:59 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 55
+03/24/2022 13:48:59 - CORS policy execution successful.
+03/24/2022 13:48:59 - Executing endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 13:48:59 - Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[API_Project.Dtos.User.LoginResponseDto]]] Login(API_Project.Dtos.User.UserLoginDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 13:48:59 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 13:49:00 - Executed DbCommand ("20"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Username]) = @__ToLower_0"
+03/24/2022 13:49:00 - Executed DbCommand ("4"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Email]) = @__ToLower_0"
+03/24/2022 13:49:00 - Executed DbCommand ("2"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [LoginTries] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;"
+03/24/2022 13:49:00 - 03/24/2022 05:49:00 - Wrong Password - Login.AuthRepository.cs - password "bertie30" does not match "Berti3@flowers.net" username
+03/24/2022 13:49:00 - Executing "BadRequestObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[API_Project.Dtos.User.LoginResponseDto, API Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+03/24/2022 13:49:00 - Executed action "API_Project.Controllers.AuthController.Login (API Project)" in 725.65ms
+03/24/2022 13:49:00 - Executed endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 13:49:00 - HTTP "POST" "/Auth/Login" responded 400 in 726.0693 ms
+03/24/2022 13:49:00 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 55 - 400 - application/json;+charset=utf-8 726.3579ms
+03/24/2022 13:49:16 - Request starting HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - -
+03/24/2022 13:49:16 - CORS policy execution successful.
+03/24/2022 13:49:16 - HTTP "OPTIONS" "/Auth/Login" responded 204 in 0.3292 ms
+03/24/2022 13:49:16 - Request finished HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - - - 204 - - 0.7614ms
+03/24/2022 13:49:16 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 57
+03/24/2022 13:49:16 - CORS policy execution successful.
+03/24/2022 13:49:16 - Executing endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 13:49:16 - Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[API_Project.Dtos.User.LoginResponseDto]]] Login(API_Project.Dtos.User.UserLoginDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 13:49:16 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 13:49:16 - Executed DbCommand ("8"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Username]) = @__ToLower_0"
+03/24/2022 13:49:16 - Executed DbCommand ("2"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Email]) = @__ToLower_0"
+03/24/2022 13:49:16 - Executed DbCommand ("2"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [LoginTries] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;"
+03/24/2022 13:49:16 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[API_Project.Dtos.User.LoginResponseDto, API Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+03/24/2022 13:49:16 - Executed action "API_Project.Controllers.AuthController.Login (API Project)" in 92.4243ms
+03/24/2022 13:49:16 - Executed endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 13:49:16 - HTTP "POST" "/Auth/Login" responded 200 in 92.8378 ms
+03/24/2022 13:49:16 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 57 - 200 - application/json;+charset=utf-8 93.0888ms
+03/24/2022 14:04:37 - REST API App Starting Up...
+03/24/2022 14:04:38 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 14:04:38 - Now listening on: "http://127.0.0.1:37559"
+03/24/2022 14:04:38 - Application started. Press Ctrl+C to shut down.
+03/24/2022 14:04:38 - Hosting environment: "Development"
+03/24/2022 14:04:38 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\API Project"
+03/24/2022 14:04:38 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/index.html - -
+03/24/2022 14:04:38 - Request starting HTTP/1.1 DEBUG http://localhost:44331/ - 0
+03/24/2022 14:04:38 - Request finished HTTP/1.1 DEBUG http://localhost:44331/ - 0 - 200 0 - 22.2231ms
+03/24/2022 14:04:39 - HTTP "GET" "/swagger/index.html" responded 404 in 304.0541 ms
+03/24/2022 14:04:39 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/index.html - - - 404 0 - 394.7994ms
+03/24/2022 14:05:11 - Request starting HTTP/1.1 OPTIONS http://localhost:44331/Auth/Register - -
+03/24/2022 14:05:11 - CORS policy execution successful.
+03/24/2022 14:05:11 - HTTP "OPTIONS" "/Auth/Register" responded 204 in 6.5190 ms
+03/24/2022 14:05:11 - Request finished HTTP/1.1 OPTIONS http://localhost:44331/Auth/Register - - - 204 - - 12.2547ms
+03/24/2022 14:05:11 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Register application/json 104
+03/24/2022 14:05:11 - CORS policy execution successful.
+03/24/2022 14:05:11 - Executing endpoint '"API_Project.Controllers.AuthController.Register (API Project)"'
+03/24/2022 14:05:11 - Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[System.Int32]]] Register(API_Project.Dtos.User.UserRegisterDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 14:05:11 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 14:05:13 - Executed DbCommand ("45"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Username]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 14:05:13 - Executed DbCommand ("1"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Email]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 14:05:13 - Executed DbCommand ("0"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Username]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 14:05:13 - Executed DbCommand ("2"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Email]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 14:05:13 - Executed DbCommand ("12"ms) [Parameters=["@p0='?' (DbType = Boolean), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = Int32), @p9='?' (DbType = Boolean), @p10='?' (Size = 8000) (DbType = Binary), @p11='?' (Size = 8000) (DbType = Binary), @p12='?' (Size = 4000), @p13='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([AccountLocked], [DateEmailVerifySent], [DateLocked], [DatePassResetEmailSent], [Email], [EmailVerified], [EmailVerifyToken], [ForgotPass], [LoginTries], [Newsletter], [PasswordHash], [PasswordSalt], [ResetToken], [Username])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+SELECT [Id], [Role]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+03/24/2022 14:05:13 - Executed DbCommand ("1"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [DateEmailVerifySent] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;"
+03/24/2022 14:05:19 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+03/24/2022 14:05:19 - Executed action "API_Project.Controllers.AuthController.Register (API Project)" in 8262.9634ms
+03/24/2022 14:05:19 - Executed endpoint '"API_Project.Controllers.AuthController.Register (API Project)"'
+03/24/2022 14:05:19 - HTTP "POST" "/Auth/Register" responded 200 in 8298.9892 ms
+03/24/2022 14:05:19 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Register application/json 104 - 200 - application/json;+charset=utf-8 8303.0529ms
+03/24/2022 14:05:30 - Request starting HTTP/1.1 POST http://localhost:44331/User/VerifyEmail/ application/json;+charset=utf-8 258
+03/24/2022 14:05:30 - Successfully validated the token.
+03/24/2022 14:05:30 - Executing endpoint '"API_Project.Controllers.UserController.VerifyEmail (API Project)"'
+03/24/2022 14:05:30 - Route matched with "{action = \"VerifyEmail\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[System.String]]] VerifyEmail(API_Project.Dtos.User.VerifyEmailDto)" on controller "API_Project.Controllers.UserController" ("API Project").
+03/24/2022 14:05:30 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 14:05:30 - Executed DbCommand ("8"ms) [Parameters=["@__details_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__details_Id_0"
+03/24/2022 14:05:30 - Executed DbCommand ("1"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = Boolean)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [EmailVerified] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;"
+03/24/2022 14:05:30 - Executed DbCommand ("2"ms) [Parameters=["@__details_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__details_Id_0"
+03/24/2022 14:05:30 - 03/24/2022 06:05:30 - User doesn't want to subscribe to newsletter. Newsletter.Subscribe - ID: 9
+03/24/2022 14:05:30 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+03/24/2022 14:05:30 - Executed action "API_Project.Controllers.UserController.VerifyEmail (API Project)" in 182.6987ms
+03/24/2022 14:05:30 - Executed endpoint '"API_Project.Controllers.UserController.VerifyEmail (API Project)"'
+03/24/2022 14:05:30 - HTTP "POST" "/User/VerifyEmail/" responded 200 in 231.7866 ms
+03/24/2022 14:05:30 - Request finished HTTP/1.1 POST http://localhost:44331/User/VerifyEmail/ application/json;+charset=utf-8 258 - 200 - application/json;+charset=utf-8 232.1828ms
+03/24/2022 14:05:48 - Request starting HTTP/1.1 POST http://localhost:44331/User/VerifyEmail/ application/json;+charset=utf-8 258
+03/24/2022 14:05:48 - Successfully validated the token.
+03/24/2022 14:05:48 - Executing endpoint '"API_Project.Controllers.UserController.VerifyEmail (API Project)"'
+03/24/2022 14:05:48 - Route matched with "{action = \"VerifyEmail\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[System.String]]] VerifyEmail(API_Project.Dtos.User.VerifyEmailDto)" on controller "API_Project.Controllers.UserController" ("API Project").
+03/24/2022 14:05:48 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 14:05:48 - Executed DbCommand ("8"ms) [Parameters=["@__details_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__details_Id_0"
+03/24/2022 14:05:48 - Executed DbCommand ("2"ms) [Parameters=["@__details_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__details_Id_0"
+03/24/2022 14:05:48 - 03/24/2022 06:05:48 - User doesn't want to subscribe to newsletter. Newsletter.Subscribe - ID: 9
+03/24/2022 14:05:48 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+03/24/2022 14:05:48 - Executed action "API_Project.Controllers.UserController.VerifyEmail (API Project)" in 90.7033ms
+03/24/2022 14:05:48 - Executed endpoint '"API_Project.Controllers.UserController.VerifyEmail (API Project)"'
+03/24/2022 14:05:48 - HTTP "POST" "/User/VerifyEmail/" responded 200 in 94.5223 ms
+03/24/2022 14:05:48 - Request finished HTTP/1.1 POST http://localhost:44331/User/VerifyEmail/ application/json;+charset=utf-8 258 - 200 - application/json;+charset=utf-8 95.3422ms
+03/24/2022 14:06:06 - Request starting HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - -
+03/24/2022 14:06:06 - CORS policy execution successful.
+03/24/2022 14:06:06 - HTTP "OPTIONS" "/Auth/Login" responded 204 in 0.1843 ms
+03/24/2022 14:06:06 - Request finished HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - - - 204 - - 0.4856ms
+03/24/2022 14:06:06 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 67
+03/24/2022 14:06:06 - CORS policy execution successful.
+03/24/2022 14:06:06 - Executing endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 14:06:06 - Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[API_Project.Dtos.User.LoginResponseDto]]] Login(API_Project.Dtos.User.UserLoginDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 14:06:06 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 14:06:06 - Executed DbCommand ("8"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Username]) = @__ToLower_0"
+03/24/2022 14:06:06 - Executed DbCommand ("1"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Email]) = @__ToLower_0"
+03/24/2022 14:06:06 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[API_Project.Dtos.User.LoginResponseDto, API Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+03/24/2022 14:06:06 - Executed action "API_Project.Controllers.AuthController.Login (API Project)" in 100.6732ms
+03/24/2022 14:06:06 - Executed endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 14:06:06 - HTTP "POST" "/Auth/Login" responded 200 in 103.8466 ms
+03/24/2022 14:06:06 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 67 - 200 - application/json;+charset=utf-8 104.2145ms
+03/24/2022 14:12:39 - REST API App Starting Up...
+03/24/2022 14:12:41 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 14:12:41 - Now listening on: "http://127.0.0.1:41525"
+03/24/2022 14:12:41 - Application started. Press Ctrl+C to shut down.
+03/24/2022 14:12:41 - Hosting environment: "Development"
+03/24/2022 14:12:41 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\API Project"
+03/24/2022 14:12:41 - Request starting HTTP/1.1 DEBUG http://localhost:44331/ - 0
+03/24/2022 14:12:41 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/index.html - -
+03/24/2022 14:12:41 - Request finished HTTP/1.1 DEBUG http://localhost:44331/ - 0 - 200 0 - 14.7698ms
+03/24/2022 14:12:41 - HTTP "GET" "/swagger/index.html" responded 404 in 84.8481 ms
+03/24/2022 14:12:41 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/index.html - - - 404 0 - 150.9147ms
+03/24/2022 14:13:08 - Request starting HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - -
+03/24/2022 14:13:08 - CORS policy execution successful.
+03/24/2022 14:13:08 - HTTP "OPTIONS" "/Auth/Login" responded 204 in 11.2099 ms
+03/24/2022 14:13:08 - Request finished HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - - - 204 - - 12.1082ms
+03/24/2022 14:13:08 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 51
+03/24/2022 14:13:08 - CORS policy execution successful.
+03/24/2022 14:13:08 - Executing endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 14:13:08 - Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[API_Project.Dtos.User.LoginResponseDto]]] Login(API_Project.Dtos.User.UserLoginDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 14:13:08 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 14:13:10 - Executed DbCommand ("44"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Username]) = @__ToLower_0"
+03/24/2022 14:13:10 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[API_Project.Dtos.User.LoginResponseDto, API Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+03/24/2022 14:13:10 - Executed action "API_Project.Controllers.AuthController.Login (API Project)" in 2243.7995ms
+03/24/2022 14:13:10 - Executed endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 14:13:10 - HTTP "POST" "/Auth/Login" responded 200 in 2278.4307 ms
+03/24/2022 14:13:10 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 51 - 200 - application/json;+charset=utf-8 2282.6998ms
+03/24/2022 14:13:30 - Request starting HTTP/1.1 OPTIONS http://localhost:44331/Auth/ForgotPass/jamesBennetw4@yahoo.com - -
+03/24/2022 14:13:30 - CORS policy execution successful.
+03/24/2022 14:13:30 - HTTP "OPTIONS" "/Auth/ForgotPass/jamesBennetw4@yahoo.com" responded 204 in 0.6927 ms
+03/24/2022 14:13:30 - Request finished HTTP/1.1 OPTIONS http://localhost:44331/Auth/ForgotPass/jamesBennetw4@yahoo.com - - - 204 - - 1.2356ms
+03/24/2022 14:13:30 - Request starting HTTP/1.1 GET http://localhost:44331/Auth/ForgotPass/jamesBennetw4@yahoo.com application/json -
+03/24/2022 14:13:30 - CORS policy execution successful.
+03/24/2022 14:13:30 - Executing endpoint '"API_Project.Controllers.AuthController.ForgotPass (API Project)"'
+03/24/2022 14:13:30 - Route matched with "{action = \"ForgotPass\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[System.String]]] ForgotPass(System.String)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 14:13:30 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 14:13:30 - Executed DbCommand ("8"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Username]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 14:13:30 - Executed DbCommand ("2"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Email]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 14:13:30 - Executed DbCommand ("1"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Username]) = @__ToLower_0"
+03/24/2022 14:13:30 - Executed DbCommand ("2"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Email]) = @__ToLower_0"
+03/24/2022 14:13:30 - Executed DbCommand ("3"ms) [Parameters=["@p3='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (DbType = Boolean), @p2='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [DatePassResetEmailSent] = @p0, [ForgotPass] = @p1, [ResetToken] = @p2
+WHERE [Id] = @p3;
+SELECT @@ROWCOUNT;"
+03/24/2022 14:13:36 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+03/24/2022 14:13:36 - Executed action "API_Project.Controllers.AuthController.ForgotPass (API Project)" in 6081.6266ms
+03/24/2022 14:13:36 - Executed endpoint '"API_Project.Controllers.AuthController.ForgotPass (API Project)"'
+03/24/2022 14:13:36 - HTTP "GET" "/Auth/ForgotPass/jamesBennetw4@yahoo.com" responded 200 in 6092.6220 ms
+03/24/2022 14:13:36 - Request finished HTTP/1.1 GET http://localhost:44331/Auth/ForgotPass/jamesBennetw4@yahoo.com application/json - - 200 - application/json;+charset=utf-8 6093.2636ms
+03/24/2022 14:13:53 - Request starting HTTP/1.1 GET http://localhost:44331/index.html - -
+03/24/2022 14:13:53 - Request finished HTTP/1.1 GET http://localhost:44331/index.html - - - 200 - text/html;charset=utf-8 33.8854ms
+03/24/2022 14:13:53 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - -
+03/24/2022 14:13:53 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 70.7788ms
+03/24/2022 14:15:32 - Request starting HTTP/1.1 PUT http://localhost:44331/User/ChangePass/ application/json;+charset=utf-8 306
+03/24/2022 14:15:32 - Successfully validated the token.
+03/24/2022 14:15:32 - Authorization was successful.
+03/24/2022 14:15:32 - Executing endpoint '"API_Project.Controllers.UserController.ChangePass (API Project)"'
+03/24/2022 14:15:32 - Route matched with "{action = \"ChangePass\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[System.String]]] ChangePass(API_Project.Dtos.User.ChangePassDto)" on controller "API_Project.Controllers.UserController" ("API Project").
+03/24/2022 14:15:32 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 14:15:32 - Executed DbCommand ("8"ms) [Parameters=["@__newDetails_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__newDetails_Id_0"
+03/24/2022 14:15:32 - Executed DbCommand ("1"ms) [Parameters=["@p2='?' (DbType = Int32), @p0='?' (Size = 8000) (DbType = Binary), @p1='?' (Size = 8000) (DbType = Binary)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [PasswordHash] = @p0, [PasswordSalt] = @p1
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;"
+03/24/2022 14:15:32 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+03/24/2022 14:15:32 - Executed action "API_Project.Controllers.UserController.ChangePass (API Project)" in 99.7578ms
+03/24/2022 14:15:32 - Executed endpoint '"API_Project.Controllers.UserController.ChangePass (API Project)"'
+03/24/2022 14:15:32 - HTTP "PUT" "/User/ChangePass/" responded 200 in 153.2818 ms
+03/24/2022 14:15:32 - Request finished HTTP/1.1 PUT http://localhost:44331/User/ChangePass/ application/json;+charset=utf-8 306 - 200 - application/json;+charset=utf-8 153.7518ms
+03/24/2022 14:15:45 - Request starting HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - -
+03/24/2022 14:15:45 - CORS policy execution successful.
+03/24/2022 14:15:45 - HTTP "OPTIONS" "/Auth/Login" responded 204 in 0.1910 ms
+03/24/2022 14:15:45 - Request finished HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - - - 204 - - 0.5453ms
+03/24/2022 14:15:45 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 63
+03/24/2022 14:15:45 - CORS policy execution successful.
+03/24/2022 14:15:45 - Executing endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 14:15:45 - Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[API_Project.Dtos.User.LoginResponseDto]]] Login(API_Project.Dtos.User.UserLoginDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 14:15:45 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 14:15:46 - Executed DbCommand ("12"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Username]) = @__ToLower_0"
+03/24/2022 14:15:46 - Executed DbCommand ("4"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Email]) = @__ToLower_0"
+03/24/2022 14:15:46 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[API_Project.Dtos.User.LoginResponseDto, API Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+03/24/2022 14:15:46 - Executed action "API_Project.Controllers.AuthController.Login (API Project)" in 137.6376ms
+03/24/2022 14:15:46 - Executed endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 14:15:46 - HTTP "POST" "/Auth/Login" responded 200 in 138.3571 ms
+03/24/2022 14:15:46 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 63 - 200 - application/json;+charset=utf-8 138.7210ms
+03/24/2022 14:16:18 - Request starting HTTP/1.1 OPTIONS http://localhost:44331/Auth/Register - -
+03/24/2022 14:16:18 - CORS policy execution successful.
+03/24/2022 14:16:18 - HTTP "OPTIONS" "/Auth/Register" responded 204 in 0.1878 ms
+03/24/2022 14:16:18 - Request finished HTTP/1.1 OPTIONS http://localhost:44331/Auth/Register - - - 204 - - 0.6879ms
+03/24/2022 14:16:18 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Register application/json 93
+03/24/2022 14:16:18 - CORS policy execution successful.
+03/24/2022 14:16:18 - Executing endpoint '"API_Project.Controllers.AuthController.Register (API Project)"'
+03/24/2022 14:16:18 - Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[System.Int32]]] Register(API_Project.Dtos.User.UserRegisterDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 14:16:18 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 14:16:19 - Executed DbCommand ("9"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Username]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 14:16:19 - Executed DbCommand ("3"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Email]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 14:16:19 - Executed DbCommand ("1"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Username]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 14:16:19 - Executed DbCommand ("3"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Email]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 14:16:19 - Executed DbCommand ("2"ms) [Parameters=["@p0='?' (DbType = Boolean), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = Int32), @p9='?' (DbType = Boolean), @p10='?' (Size = 8000) (DbType = Binary), @p11='?' (Size = 8000) (DbType = Binary), @p12='?' (Size = 4000), @p13='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([AccountLocked], [DateEmailVerifySent], [DateLocked], [DatePassResetEmailSent], [Email], [EmailVerified], [EmailVerifyToken], [ForgotPass], [LoginTries], [Newsletter], [PasswordHash], [PasswordSalt], [ResetToken], [Username])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+SELECT [Id], [Role]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+03/24/2022 14:16:19 - Executed DbCommand ("1"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [DateEmailVerifySent] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;"
+03/24/2022 14:16:24 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+03/24/2022 14:16:24 - Executed action "API_Project.Controllers.AuthController.Register (API Project)" in 5763.8709ms
+03/24/2022 14:16:24 - Executed endpoint '"API_Project.Controllers.AuthController.Register (API Project)"'
+03/24/2022 14:16:24 - HTTP "POST" "/Auth/Register" responded 200 in 5767.2655 ms
+03/24/2022 14:16:24 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Register application/json 93 - 200 - application/json;+charset=utf-8 5770.8869ms
+03/24/2022 14:16:48 - Request starting HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - -
+03/24/2022 14:16:48 - CORS policy execution successful.
+03/24/2022 14:16:48 - HTTP "OPTIONS" "/Auth/Login" responded 204 in 2.2381 ms
+03/24/2022 14:16:48 - Request finished HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - - - 204 - - 7.2376ms
+03/24/2022 14:16:48 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 43
+03/24/2022 14:16:48 - CORS policy execution successful.
+03/24/2022 14:16:48 - Executing endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 14:16:48 - Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[API_Project.Dtos.User.LoginResponseDto]]] Login(API_Project.Dtos.User.UserLoginDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 14:16:48 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 14:16:48 - Executed DbCommand ("10"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Username]) = @__ToLower_0"
+03/24/2022 14:16:48 - Executed DbCommand ("2"ms) [Parameters=["@p2='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [DateEmailVerifySent] = @p0, [EmailVerifyToken] = @p1
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;"
+03/24/2022 14:16:53 - 03/24/2022 06:16:53 - Login.AuthRepository.cs - Email address not yet verified. Verification email re-sent.
+03/24/2022 14:16:53 - Executing "BadRequestObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[API_Project.Dtos.User.LoginResponseDto, API Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+03/24/2022 14:16:53 - Executed action "API_Project.Controllers.AuthController.Login (API Project)" in 5476.7079ms
+03/24/2022 14:16:53 - Executed endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 14:16:53 - HTTP "POST" "/Auth/Login" responded 400 in 5477.5850 ms
+03/24/2022 14:16:53 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 43 - 400 - application/json;+charset=utf-8 5478.1469ms
+03/24/2022 14:17:09 - Request starting HTTP/1.1 POST http://localhost:44331/User/VerifyEmail/ application/json;+charset=utf-8 255
+03/24/2022 14:17:09 - Successfully validated the token.
+03/24/2022 14:17:09 - Executing endpoint '"API_Project.Controllers.UserController.VerifyEmail (API Project)"'
+03/24/2022 14:17:09 - Route matched with "{action = \"VerifyEmail\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[System.String]]] VerifyEmail(API_Project.Dtos.User.VerifyEmailDto)" on controller "API_Project.Controllers.UserController" ("API Project").
+03/24/2022 14:17:09 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 14:17:10 - Executed DbCommand ("20"ms) [Parameters=["@__details_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__details_Id_0"
+03/24/2022 14:17:10 - 03/24/2022 06:17:10 - Error - Email Verification Token didn't match. UserService.EmailVerified - ID: 10
+03/24/2022 14:17:10 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+03/24/2022 14:17:10 - Executed action "API_Project.Controllers.UserController.VerifyEmail (API Project)" in 215.601ms
+03/24/2022 14:17:10 - Executed endpoint '"API_Project.Controllers.UserController.VerifyEmail (API Project)"'
+03/24/2022 14:17:10 - HTTP "POST" "/User/VerifyEmail/" responded 200 in 222.8451 ms
+03/24/2022 14:17:10 - Request finished HTTP/1.1 POST http://localhost:44331/User/VerifyEmail/ application/json;+charset=utf-8 255 - 200 - application/json;+charset=utf-8 223.2161ms
+03/24/2022 14:17:47 - Request starting HTTP/1.1 POST http://localhost:44331/User/VerifyEmail/ application/json;+charset=utf-8 255
+03/24/2022 14:17:47 - Successfully validated the token.
+03/24/2022 14:17:47 - Executing endpoint '"API_Project.Controllers.UserController.VerifyEmail (API Project)"'
+03/24/2022 14:17:47 - Route matched with "{action = \"VerifyEmail\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[System.String]]] VerifyEmail(API_Project.Dtos.User.VerifyEmailDto)" on controller "API_Project.Controllers.UserController" ("API Project").
+03/24/2022 14:17:47 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 14:17:47 - Executed DbCommand ("9"ms) [Parameters=["@__details_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__details_Id_0"
+03/24/2022 14:17:47 - Executed DbCommand ("1"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = Boolean)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [EmailVerified] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;"
+03/24/2022 14:17:47 - Executed DbCommand ("2"ms) [Parameters=["@__details_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__details_Id_0"
+03/24/2022 14:17:47 - 03/24/2022 06:17:47 - User doesn't want to subscribe to newsletter. Newsletter.Subscribe - ID: 10
+03/24/2022 14:17:47 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+03/24/2022 14:17:47 - Executed action "API_Project.Controllers.UserController.VerifyEmail (API Project)" in 126.441ms
+03/24/2022 14:17:47 - Executed endpoint '"API_Project.Controllers.UserController.VerifyEmail (API Project)"'
+03/24/2022 14:17:47 - HTTP "POST" "/User/VerifyEmail/" responded 200 in 132.9165 ms
+03/24/2022 14:17:47 - Request finished HTTP/1.1 POST http://localhost:44331/User/VerifyEmail/ application/json;+charset=utf-8 255 - 200 - application/json;+charset=utf-8 135.1730ms
+03/24/2022 14:17:56 - Request starting HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - -
+03/24/2022 14:17:56 - CORS policy execution successful.
+03/24/2022 14:17:56 - HTTP "OPTIONS" "/Auth/Login" responded 204 in 0.0953 ms
+03/24/2022 14:17:56 - Request finished HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - - - 204 - - 0.4123ms
+03/24/2022 14:17:56 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 43
+03/24/2022 14:17:56 - CORS policy execution successful.
+03/24/2022 14:17:56 - Executing endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 14:17:56 - Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[API_Project.Dtos.User.LoginResponseDto]]] Login(API_Project.Dtos.User.UserLoginDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 14:17:56 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 14:17:56 - Executed DbCommand ("9"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Username]) = @__ToLower_0"
+03/24/2022 14:17:56 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[API_Project.Dtos.User.LoginResponseDto, API Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+03/24/2022 14:17:56 - Executed action "API_Project.Controllers.AuthController.Login (API Project)" in 132.941ms
+03/24/2022 14:17:56 - Executed endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 14:17:56 - HTTP "POST" "/Auth/Login" responded 200 in 133.4519 ms
+03/24/2022 14:17:56 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 43 - 200 - application/json;+charset=utf-8 133.7920ms
+03/24/2022 14:28:35 - REST API App Starting Up...
+03/24/2022 14:28:36 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 14:28:37 - Now listening on: "http://127.0.0.1:20109"
+03/24/2022 14:28:37 - Application started. Press Ctrl+C to shut down.
+03/24/2022 14:28:37 - Hosting environment: "Development"
+03/24/2022 14:28:37 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\API Project"
+03/24/2022 14:28:37 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/index.html - -
+03/24/2022 14:28:37 - Request starting HTTP/1.1 DEBUG http://localhost:44331/ - 0
+03/24/2022 14:28:37 - Request finished HTTP/1.1 DEBUG http://localhost:44331/ - 0 - 200 0 - 23.1169ms
+03/24/2022 14:28:37 - HTTP "GET" "/swagger/index.html" responded 404 in 166.7651 ms
+03/24/2022 14:28:37 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/index.html - - - 404 0 - 389.3851ms
+03/24/2022 14:29:34 - Request starting HTTP/1.1 OPTIONS http://localhost:44331/Auth/Register - -
+03/24/2022 14:29:34 - CORS policy execution successful.
+03/24/2022 14:29:34 - HTTP "OPTIONS" "/Auth/Register" responded 204 in 13.2065 ms
+03/24/2022 14:29:34 - Request finished HTTP/1.1 OPTIONS http://localhost:44331/Auth/Register - - - 204 - - 15.0362ms
+03/24/2022 14:29:34 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Register application/json 97
+03/24/2022 14:29:34 - CORS policy execution successful.
+03/24/2022 14:29:34 - Executing endpoint '"API_Project.Controllers.AuthController.Register (API Project)"'
+03/24/2022 14:29:34 - Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[System.Int32]]] Register(API_Project.Dtos.User.UserRegisterDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 14:29:35 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 14:29:36 - Executed DbCommand ("43"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Username]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 14:29:36 - Executed DbCommand ("3"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Email]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 14:29:36 - Executed DbCommand ("2"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Username]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 14:29:36 - Executed DbCommand ("36"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Email]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 14:29:36 - 03/24/2022 06:29:36 - Error - Password not strong enough. ID: 0 USER: "fmanage"
+03/24/2022 14:29:36 - Executing "BadRequestObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+03/24/2022 14:29:36 - Executed action "API_Project.Controllers.AuthController.Register (API Project)" in 2208.1045ms
+03/24/2022 14:29:36 - Executed endpoint '"API_Project.Controllers.AuthController.Register (API Project)"'
+03/24/2022 14:29:36 - HTTP "POST" "/Auth/Register" responded 400 in 2242.7665 ms
+03/24/2022 14:29:36 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Register application/json 97 - 400 - application/json;+charset=utf-8 2247.3445ms
+03/24/2022 14:39:14 - REST API App Starting Up...
+03/24/2022 14:39:14 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 14:39:15 - Now listening on: "http://127.0.0.1:15187"
+03/24/2022 14:39:15 - Application started. Press Ctrl+C to shut down.
+03/24/2022 14:39:15 - Hosting environment: "Development"
+03/24/2022 14:39:15 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\API Project"
+03/24/2022 14:39:15 - Request starting HTTP/1.1 DEBUG http://localhost:44331/ - 0
+03/24/2022 14:39:15 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/index.html - -
+03/24/2022 14:39:15 - Request finished HTTP/1.1 DEBUG http://localhost:44331/ - 0 - 200 0 - 27.7190ms
+03/24/2022 14:39:15 - HTTP "GET" "/swagger/index.html" responded 404 in 226.3886 ms
+03/24/2022 14:39:15 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/index.html - - - 404 0 - 308.0028ms
+03/24/2022 14:39:58 - Request starting HTTP/1.1 OPTIONS http://localhost:44331/Auth/Register - -
+03/24/2022 14:39:58 - CORS policy execution successful.
+03/24/2022 14:39:58 - HTTP "OPTIONS" "/Auth/Register" responded 204 in 13.5824 ms
+03/24/2022 14:39:58 - Request finished HTTP/1.1 OPTIONS http://localhost:44331/Auth/Register - - - 204 - - 15.5619ms
+03/24/2022 14:39:58 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Register application/json 97
+03/24/2022 14:39:58 - CORS policy execution successful.
+03/24/2022 14:39:58 - Executing endpoint '"API_Project.Controllers.AuthController.Register (API Project)"'
+03/24/2022 14:39:58 - Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[System.Int32]]] Register(API_Project.Dtos.User.UserRegisterDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 14:39:58 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 14:40:00 - Executed DbCommand ("46"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Username]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 14:40:00 - Executed DbCommand ("2"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Email]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 14:40:00 - Executed DbCommand ("1"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Username]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 14:40:00 - Executed DbCommand ("2"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Email]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 14:40:00 - 03/24/2022 06:40:00 - Error - AuthRepository.cs - StrongPassword.cs - Password not strong enough. ID: 0 USER: "fmanage"
+03/24/2022 14:40:00 - Executing "BadRequestObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+03/24/2022 14:40:00 - Executed action "API_Project.Controllers.AuthController.Register (API Project)" in 2100.4721ms
+03/24/2022 14:40:00 - Executed endpoint '"API_Project.Controllers.AuthController.Register (API Project)"'
+03/24/2022 14:40:00 - HTTP "POST" "/Auth/Register" responded 400 in 2134.0765 ms
+03/24/2022 14:40:00 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Register application/json 97 - 400 - application/json;+charset=utf-8 2138.3440ms
+03/24/2022 14:56:00 - REST API App Starting Up...
+03/24/2022 14:56:01 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 14:56:01 - Now listening on: "http://127.0.0.1:38051"
+03/24/2022 14:56:01 - Application started. Press Ctrl+C to shut down.
+03/24/2022 14:56:01 - Hosting environment: "Development"
+03/24/2022 14:56:01 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\API Project"
+03/24/2022 14:56:01 - Request starting HTTP/1.1 DEBUG http://localhost:44331/ - 0
+03/24/2022 14:56:01 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/index.html - -
+03/24/2022 14:56:01 - Request finished HTTP/1.1 DEBUG http://localhost:44331/ - 0 - 200 0 - 19.5973ms
+03/24/2022 14:56:02 - HTTP "GET" "/swagger/index.html" responded 404 in 332.1832 ms
+03/24/2022 14:56:02 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/index.html - - - 404 0 - 428.1747ms
+03/24/2022 14:58:34 - REST API App Starting Up...
+03/24/2022 14:58:35 - User profile is available. Using '"C:\Users\tarta\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+03/24/2022 14:58:35 - Now listening on: "http://127.0.0.1:6974"
+03/24/2022 14:58:35 - Application started. Press Ctrl+C to shut down.
+03/24/2022 14:58:35 - Hosting environment: "Development"
+03/24/2022 14:58:35 - Content root path: "C:\CSharpProjects\1 - dotnet5\API Project (Entity, SQL, Auth) 17\API Project"
+03/24/2022 14:58:36 - Request starting HTTP/1.1 DEBUG http://localhost:44331/ - 0
+03/24/2022 14:58:36 - Request starting HTTP/1.1 GET http://localhost:44331/swagger/index.html - -
+03/24/2022 14:58:36 - Request finished HTTP/1.1 DEBUG http://localhost:44331/ - 0 - 200 0 - 43.4589ms
+03/24/2022 14:58:36 - HTTP "GET" "/swagger/index.html" responded 404 in 79.7625 ms
+03/24/2022 14:58:36 - Request finished HTTP/1.1 GET http://localhost:44331/swagger/index.html - - - 404 0 - 184.9365ms
+03/24/2022 15:00:24 - Request starting HTTP/1.1 OPTIONS http://localhost:44331/Auth/Register - -
+03/24/2022 15:00:24 - CORS policy execution successful.
+03/24/2022 15:00:24 - HTTP "OPTIONS" "/Auth/Register" responded 204 in 12.5002 ms
+03/24/2022 15:00:24 - Request finished HTTP/1.1 OPTIONS http://localhost:44331/Auth/Register - - - 204 - - 13.1902ms
+03/24/2022 15:00:24 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Register application/json 96
+03/24/2022 15:00:24 - CORS policy execution successful.
+03/24/2022 15:00:24 - Executing endpoint '"API_Project.Controllers.AuthController.Register (API Project)"'
+03/24/2022 15:00:24 - Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[System.Int32]]] Register(API_Project.Dtos.User.UserRegisterDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 15:00:24 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 15:00:26 - Executed DbCommand ("44"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Username]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 15:00:26 - Executed DbCommand ("2"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Email]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 15:00:26 - Executed DbCommand ("2"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Username]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 15:00:26 - Executed DbCommand ("0"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Email]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+03/24/2022 15:00:26 - Executed DbCommand ("11"ms) [Parameters=["@p0='?' (DbType = Boolean), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (DbType = Boolean), @p8='?' (DbType = Int32), @p9='?' (DbType = Boolean), @p10='?' (Size = 8000) (DbType = Binary), @p11='?' (Size = 8000) (DbType = Binary), @p12='?' (Size = 4000), @p13='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([AccountLocked], [DateEmailVerifySent], [DateLocked], [DatePassResetEmailSent], [Email], [EmailVerified], [EmailVerifyToken], [ForgotPass], [LoginTries], [Newsletter], [PasswordHash], [PasswordSalt], [ResetToken], [Username])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+SELECT [Id], [Role]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+03/24/2022 15:00:26 - Executed DbCommand ("1"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [DateEmailVerifySent] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;"
+03/24/2022 15:00:32 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+03/24/2022 15:00:32 - Executed action "API_Project.Controllers.AuthController.Register (API Project)" in 8318.3834ms
+03/24/2022 15:00:32 - Executed endpoint '"API_Project.Controllers.AuthController.Register (API Project)"'
+03/24/2022 15:00:32 - HTTP "POST" "/Auth/Register" responded 200 in 8353.3943 ms
+03/24/2022 15:00:32 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Register application/json 96 - 200 - application/json;+charset=utf-8 8357.3992ms
+03/24/2022 15:01:08 - Request starting HTTP/1.1 POST http://localhost:44331/User/VerifyEmail/ application/json;+charset=utf-8 256
+03/24/2022 15:01:08 - Successfully validated the token.
+03/24/2022 15:01:08 - Executing endpoint '"API_Project.Controllers.UserController.VerifyEmail (API Project)"'
+03/24/2022 15:01:08 - Route matched with "{action = \"VerifyEmail\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[System.String]]] VerifyEmail(API_Project.Dtos.User.VerifyEmailDto)" on controller "API_Project.Controllers.UserController" ("API Project").
+03/24/2022 15:01:08 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 15:01:08 - Executed DbCommand ("8"ms) [Parameters=["@__details_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__details_Id_0"
+03/24/2022 15:01:08 - Executed DbCommand ("2"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = Boolean)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [EmailVerified] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;"
+03/24/2022 15:01:08 - Executed DbCommand ("2"ms) [Parameters=["@__details_Id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__details_Id_0"
+03/24/2022 15:01:08 - 03/24/2022 07:01:08 - User doesn't want to subscribe to newsletter. Newsletter.Subscribe - ID: 11
+03/24/2022 15:01:08 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+03/24/2022 15:01:08 - Executed action "API_Project.Controllers.UserController.VerifyEmail (API Project)" in 186.1787ms
+03/24/2022 15:01:08 - Executed endpoint '"API_Project.Controllers.UserController.VerifyEmail (API Project)"'
+03/24/2022 15:01:08 - HTTP "POST" "/User/VerifyEmail/" responded 200 in 238.6712 ms
+03/24/2022 15:01:08 - Request finished HTTP/1.1 POST http://localhost:44331/User/VerifyEmail/ application/json;+charset=utf-8 256 - 200 - application/json;+charset=utf-8 241.7739ms
+03/24/2022 15:01:24 - Request starting HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - -
+03/24/2022 15:01:24 - CORS policy execution successful.
+03/24/2022 15:01:24 - HTTP "OPTIONS" "/Auth/Login" responded 204 in 0.3375 ms
+03/24/2022 15:01:24 - Request finished HTTP/1.1 OPTIONS http://localhost:44331/Auth/Login - - - 204 - - 3.8466ms
+03/24/2022 15:01:24 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 59
+03/24/2022 15:01:24 - CORS policy execution successful.
+03/24/2022 15:01:24 - Executing endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 15:01:24 - Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[API_Project.Dtos.User.LoginResponseDto]]] Login(API_Project.Dtos.User.UserLoginDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 15:01:24 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 15:01:24 - Executed DbCommand ("9"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Username]) = @__ToLower_0"
+03/24/2022 15:01:24 - Executed DbCommand ("2"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Email]) = @__ToLower_0"
+03/24/2022 15:01:24 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[API_Project.Dtos.User.LoginResponseDto, API Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+03/24/2022 15:01:24 - Executed action "API_Project.Controllers.AuthController.Login (API Project)" in 111.04ms
+03/24/2022 15:01:24 - Executed endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 15:01:24 - HTTP "POST" "/Auth/Login" responded 200 in 114.1644 ms
+03/24/2022 15:01:24 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Login application/json 59 - 200 - application/json;+charset=utf-8 114.4654ms
+03/24/2022 15:01:50 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Login application/json;+charset=utf-8 44
+03/24/2022 15:01:50 - Executing endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 15:01:50 - Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[API_Project.Dtos.User.LoginResponseDto]]] Login(API_Project.Dtos.User.UserLoginDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 15:01:50 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 15:01:50 - Executed DbCommand ("9"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Username]) = @__ToLower_0"
+03/24/2022 15:01:50 - Executed DbCommand ("2"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [LoginTries] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;"
+03/24/2022 15:01:50 - 03/24/2022 07:01:50 - Wrong Password - Login.AuthRepository.cs - password "1likeBeer#" does not match "admin" username
+03/24/2022 15:01:50 - Executing "BadRequestObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[API_Project.Dtos.User.LoginResponseDto, API Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+03/24/2022 15:01:50 - Executed action "API_Project.Controllers.AuthController.Login (API Project)" in 73.9013ms
+03/24/2022 15:01:50 - Executed endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 15:01:50 - HTTP "POST" "/Auth/Login" responded 400 in 75.1802 ms
+03/24/2022 15:01:50 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Login application/json;+charset=utf-8 44 - 400 - application/json;+charset=utf-8 75.5975ms
+03/24/2022 15:02:01 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Login application/json;+charset=utf-8 45
+03/24/2022 15:02:01 - Executing endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 15:02:01 - Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[API_Project.Dtos.User.LoginResponseDto]]] Login(API_Project.Dtos.User.UserLoginDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 15:02:01 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 15:02:01 - Executed DbCommand ("9"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Username]) = @__ToLower_0"
+03/24/2022 15:02:01 - Executed DbCommand ("1"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [LoginTries] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;"
+03/24/2022 15:02:01 - 03/24/2022 07:02:01 - Wrong Password - Login.AuthRepository.cs - password "idrinkBeer#" does not match "admin" username
+03/24/2022 15:02:01 - Executing "BadRequestObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[API_Project.Dtos.User.LoginResponseDto, API Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+03/24/2022 15:02:01 - Executed action "API_Project.Controllers.AuthController.Login (API Project)" in 78.1078ms
+03/24/2022 15:02:01 - Executed endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 15:02:01 - HTTP "POST" "/Auth/Login" responded 400 in 78.6063 ms
+03/24/2022 15:02:01 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Login application/json;+charset=utf-8 45 - 400 - application/json;+charset=utf-8 81.8031ms
+03/24/2022 15:02:15 - Request starting HTTP/1.1 POST http://localhost:44331/Auth/Login application/json;+charset=utf-8 45
+03/24/2022 15:02:15 - Executing endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 15:02:15 - Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServiceResponse`1[API_Project.Dtos.User.LoginResponseDto]]] Login(API_Project.Dtos.User.UserLoginDto)" on controller "API_Project.Controllers.AuthController" ("API Project").
+03/24/2022 15:02:15 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 15:02:15 - Executed DbCommand ("9"ms) [Parameters=["@__ToLower_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE LOWER([u].[Username]) = @__ToLower_0"
+03/24/2022 15:02:15 - Executed DbCommand ("2"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Users] SET [LoginTries] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;"
+03/24/2022 15:02:15 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServiceResponse`1[[API_Project.Dtos.User.LoginResponseDto, API Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+03/24/2022 15:02:15 - Executed action "API_Project.Controllers.AuthController.Login (API Project)" in 79.3874ms
+03/24/2022 15:02:15 - Executed endpoint '"API_Project.Controllers.AuthController.Login (API Project)"'
+03/24/2022 15:02:15 - HTTP "POST" "/Auth/Login" responded 200 in 80.1671 ms
+03/24/2022 15:02:15 - Request finished HTTP/1.1 POST http://localhost:44331/Auth/Login application/json;+charset=utf-8 45 - 200 - application/json;+charset=utf-8 80.7218ms
+03/24/2022 15:02:16 - Request starting HTTP/1.1 GET http://localhost:44331/User/GetPagedUsers/1 - -
+03/24/2022 15:02:16 - Successfully validated the token.
+03/24/2022 15:02:16 - Authorization was successful.
+03/24/2022 15:02:16 - Executing endpoint '"API_Project.Controllers.UserController.GetPagedUsers (API Project)"'
+03/24/2022 15:02:16 - Route matched with "{action = \"GetPagedUsers\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[API_Project.Models.ServicePaged`1[API_Project.Dtos.User.GetPagedUserDto]]] GetPagedUsers(Int32)" on controller "API_Project.Controllers.UserController" ("API Project").
+03/24/2022 15:02:16 - Entity Framework Core "5.0.10" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+03/24/2022 15:02:16 - Executed DbCommand ("9"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[AccountLocked], [u].[DateEmailVerifySent], [u].[DateLocked], [u].[DatePassResetEmailSent], [u].[Email], [u].[EmailVerified], [u].[EmailVerifyToken], [u].[ForgotPass], [u].[LoginTries], [u].[Newsletter], [u].[PasswordHash], [u].[PasswordSalt], [u].[ResetToken], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+ORDER BY [u].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY"
+03/24/2022 15:02:16 - Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Users] AS [u]"
+03/24/2022 15:02:16 - Executing "OkObjectResult", writing value of type '"API_Project.Models.ServicePaged`1[[API_Project.Dtos.User.GetPagedUserDto, API Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+03/24/2022 15:02:16 - Executed action "API_Project.Controllers.UserController.GetPagedUsers (API Project)" in 116.3364ms
+03/24/2022 15:02:16 - Executed endpoint '"API_Project.Controllers.UserController.GetPagedUsers (API Project)"'
+03/24/2022 15:02:16 - HTTP "GET" "/User/GetPagedUsers/1" responded 200 in 124.4916 ms
+03/24/2022 15:02:16 - Request finished HTTP/1.1 GET http://localhost:44331/User/GetPagedUsers/1 - - - 200 - application/json;+charset=utf-8 125.1251ms

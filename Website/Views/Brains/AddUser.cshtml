@@ -1,0 +1,31 @@
+﻿@model Website.Models.AddFormModel
+
+<div class="text-center">
+    <h1 class="main-h1">Add New User</h1>
+</div>
+
+<div id="addform" class="form" runat="server">
+    <form asp-controller="Brains" asp-action="AddButton" method="post">
+        @Html.AntiForgeryToken()
+        <ul>
+            <li>Email: <input asp-for="Email" type="text" required /></li>
+            <li>Email verified: @Html.CheckBoxFor(model => model.EmailVerified)</li>
+            <li>Username: <input asp-for="Username" type="text" required /></li>
+            <li>Password: <input asp-for="Password" type="text" required /></li>
+            <li>Current Role: @ViewData["Role"]</li>
+            <li>
+                New Role: <select class="form-dropdown" name="Role" asp-for="Role" type="text" required>
+                    <option value="basic" selected>basic</option>
+                    <option value="premium">premium</option>
+                </select>
+            </li>
+        </ul>
+        <button class="btn" type="submit">Create</button>
+    </form>
+    <br />
+    <a href='@Url.Action("Index","Brains" )' class="btn btn-css"> < Back </a>
+</div>
+
+<div class="errormsg">
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+</div>

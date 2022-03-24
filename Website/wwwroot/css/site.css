@@ -1,0 +1,318 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+body {
+    background: black;
+    font-family: 'Ariel', sans-serif;
+    color: #646464;
+    justify-content: normal;
+    align-items: center;
+    min-height: 80vh;
+    margin: 0;
+    padding: 0;
+}
+
+.main-h1 {
+    color: #17B169;
+    font-size: 60px;
+    margin-bottom: 2px;
+	align-items: center;
+    text-align: center;
+}
+.main-p {
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* Forms */
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+
+/* Drop down menu */
+.form-dropdown {
+    font-size: 20px;
+    width: 150px;
+    background-color: #17B169;
+    color: white;
+}
+
+ul {
+    list-style-type: none;         /* remove ul list dots */
+    margin-left: -30px;            /* The li dots uncentre it, they're invisible but not "gone" */
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+li {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+
+input {
+    font-family: inherit;
+    width: 100%;
+    outline: none;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    display: block;
+    padding: 0.8rem 0.6rem;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    font-size: 17px;
+    color: #17B169;
+    text-indent: 10px;
+}
+
+
+.errormsg {
+    text-align: center;
+    color: #E51400;
+    font-family: 'Courier New';
+    font-size: 18px;
+}
+
+
+/* Buttons */
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 0.9rem 2.5rem;
+    text-align: center;
+    background-image: linear-gradient(to right, #17B169, #4FFFB0);      /* light green to green */
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    font-size: 17px;
+}
+
+    .btn:hover {
+        background-image: linear-gradient(to right, #ff4d4d, #cc0000);  /* light red to red */
+    }
+
+.btn-css {
+    text-decoration: none;  /* No underline on url links */
+}
+
+.btn-getall {
+    width: 150px;
+}
+
+
+/* Index Page Grid */
+
+.MainGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Green-item {
+    flex-direction: row;
+    border-radius: 25px;
+    background: #3cb371;
+    margin-top: 2%;
+    text-align: center;
+    font-family: Consolas;
+    font-size: 18px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.Red-item {
+    flex-direction: row;
+    border-radius: 25px;
+    background: #E32636;      
+    color: #FBCEB1;
+    margin-top: 2%;
+    text-align: center;
+    font-family: Consolas;
+    font-size: 18px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+    /* CSS Table */
+
+.table-wrapper {
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-weight: normal;
+    border: none;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+    font-size: 18px;
+    font-family: 'Ariel', sans-serif;
+}
+
+    .fl-table td, .fl-table th {
+        text-align: center;
+        padding: 7px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        overflow-x: hidden;         /* Table scroll. Hidden = the content is clipped, no scroll bar.*/
+        overflow-y: auto;           /* Table scroll. Auto - Scrolling bar allowed on the x axis.*/
+        font-size: 20px;
+        text-overflow: ellipsis;
+    }
+
+    .fl-table td {
+        border-right: 1px solid #f8f8f8;
+    }
+
+    .fl-table thead th {
+        color: #ffffff;
+        background: #17B169;
+    }
+
+
+        .fl-table thead th:nth-child(odd) {
+            color: #ffffff;
+            background: #008900;
+        }
+
+    .fl-table tr:nth-child(even) {
+        background: #F8F8F8;
+    }
+
+.table-pages {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.searchbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.searchbox-item {
+    margin: 10px;
+}
+
+/* Phones and iPads */
+@media (max-width: 1200px) {
+
+    .table-wrapper {
+        margin: 0;              /* allow table to fill width of screen */
+    }
+
+    .main-h1 {
+        font-size: 20px;
+    }
+
+    .main-p {
+        font-size: 12px;
+    }
+
+    .fl-table {
+        display: block;
+        font-size: 8px;
+        overflow-x: auto;
+    }
+
+    .table-wrapper:before {
+        display: block;
+        text-align: right;
+        font-size: 11px;
+        color: white;
+        padding: 0 0 10px;
+    }
+
+    .fl-table thead {
+        
+    }
+
+    .fl-table thead, .fl-table tbody, .fl-table thead th {
+        display: block;
+    }
+
+        .fl-table thead th:last-child {
+            border-bottom: none;
+        }
+
+    .fl-table thead {
+        float: left;
+    }
+
+    .fl-table tbody {
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+    }
+
+    .fl-table td, .fl-table th {
+        padding: 20px .625em .625em .625em;
+        height: 60px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        overflow-x: hidden;                     /* Table scroll. Hidden = the content is clipped, no scroll bar.*/
+        overflow-y: auto;                       /* Table scroll. Auto - Scrolling bar allowed on the x axis.*/
+        font-size: 13px;
+        text-overflow: ellipsis;
+    }
+
+    .fl-table thead th {
+        text-align: left;
+        border-bottom: 1px solid #f7f7f9;
+    }
+
+    .fl-table tbody tr {
+        display: table-cell;
+    }
+
+        .fl-table tbody tr:nth-child(odd) {
+            background: none;
+        }
+
+    .fl-table tr:nth-child(even) {
+        background: transparent;
+    }
+
+    .fl-table tr td:nth-child(odd) {
+        background: #F8F8F8;
+        border-right: 1px solid #E6E4E4;
+    }
+
+    .fl-table tr td:nth-child(even) {
+        border-right: 1px solid #E6E4E4;
+    }
+
+    .fl-table tbody td {
+        display: block;
+        text-align: center;
+    }
+
+    /* Verify Email Page */
+    .text-center {
+        align-items: center;
+        text-align: center;
+    }
+}

@@ -1,0 +1,27 @@
+﻿@model Website.Dtos.Users.GetUserDto
+
+@{
+    ViewData["Title"] = "Delete User";
+}
+
+
+<div id="deleteform" class="form" runat="server">
+    <div class="text-center">
+        <h1 class="main-h1">Delete User?</h1>
+    </div>
+    <form asp-controller="Brains" asp-action="DeleteButton" method="post">
+        @Html.AntiForgeryToken()
+        <ul>
+            <li>ID: <input asp-for="Id" type="number" placeholder="Id" required value='@ViewData["Id"]' readonly="readonly" /></li>
+            <li>Email: <input type="text" placeholder="Email" required value='@ViewData["Email"]' readonly="readonly" /></li>
+            <li>Username: <input type="text" placeholder="Username" required value='@ViewData["Username"]' readonly="readonly" /></li>
+            <li>Role: <input type="text" placeholder="Role" required value='@ViewData["Role"]' readonly="readonly" /></li>
+        </ul>
+        <button class="btn" type="submit">Delete</button>
+    </form>
+    <br />
+    <a href='@Url.Action("GetAllPaged","Brains" )' class="btn btn-css"> < Back </a>
+</div>
+<div class="errormsg">
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+</div>
