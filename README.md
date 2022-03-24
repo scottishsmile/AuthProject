@@ -31,4 +31,4 @@ Verification email success triggers adding user to the newsletter.
 
 Logging (MailKit) (text and json files) used for both the API and admin website.
 
-
+User roles are basic or premium. Only allow access to premium section once user has paid (add in paypal) and been upgraded.
